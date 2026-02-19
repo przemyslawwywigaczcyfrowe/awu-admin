@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import Card from 'primevue/card'
 import InputText from 'primevue/inputtext'
@@ -11,8 +11,14 @@ import { AppraisalStatus } from '@/types/enums'
 import { STATUS_CONFIG } from '@/utils/statusConfig'
 import { formatDateNumeric } from '@/utils/dateFormatter'
 import { formatPrice } from '@/utils/priceFormatter'
+import { useAppraisalsStore } from '@/stores/appraisals.store'
 
 const router = useRouter()
+const appraisalsStore = useAppraisalsStore()
+
+onMounted(() => {
+  appraisalsStore.loadAppraisals()
+})
 
 // --- Scan section ---
 const scanInput = ref('')
@@ -30,21 +36,34 @@ interface ScannedItem {
 
 const recentScans = ref<ScannedItem[]>([])
 
-const mockAppraisals: ScannedItem[] = [
-  { id: 1, appraisalNumber: 'AWU-20260210-001', trackingNumber: 'DPD123456789', clientName: 'Jan Kowalski', productCount: 2, status: AppraisalStatus.NOWA, scannedAt: '' },
-  { id: 2, appraisalNumber: 'AWU-20260211-002', trackingNumber: 'DPD987654321', clientName: 'Anna Nowak', productCount: 1, status: AppraisalStatus.NOWA, scannedAt: '' },
-  { id: 3, appraisalNumber: 'AWU-20260212-003', trackingNumber: 'INPOST00112233', clientName: 'Marek Wisniak', productCount: 3, status: AppraisalStatus.NOWA, scannedAt: '' },
-]
-
 function handleScan() {
   const value = scanInput.value.trim()
   if (!value) return
 
-  const found = mockAppraisals.find(a => a.trackingNumber === value)
+  // Search in real appraisals data by tracking number
+  const found = appraisalsStore.findByTrackingNumber(value)
   if (found) {
-    found.status = AppraisalStatus.W_TRAKCIE_WERYFIKACJI
-    found.scannedAt = new Date().toISOString()
-    recentScans.value.unshift({ ...found })
+    // Check if already scanned
+    const alreadyScanned = recentScans.value.some(s => s.trackingNumber === found.trackingNumber)
+    if (alreadyScanned) {
+      scanMessage.value = {
+        type: 'error',
+        text: `Paczka ${found.trackingNumber} została już zeskanowana (wycena ${found.appraisalNumber}).`
+      }
+      scanInput.value = ''
+      return
+    }
+
+    const scannedItem: ScannedItem = {
+      id: found.id,
+      appraisalNumber: found.appraisalNumber,
+      trackingNumber: found.trackingNumber!,
+      clientName: found.clientName,
+      productCount: found.productCount,
+      status: AppraisalStatus.W_TRAKCIE_WERYFIKACJI,
+      scannedAt: new Date().toISOString()
+    }
+    recentScans.value.unshift(scannedItem)
     scanMessage.value = {
       type: 'success',
       text: `Paczka ${found.trackingNumber} zarejestrowana. Wycena ${found.appraisalNumber} - status zmieniony na "W trakcie weryfikacji".`
@@ -52,7 +71,7 @@ function handleScan() {
   } else {
     scanMessage.value = {
       type: 'error',
-      text: `Nie znaleziono wyceny dla numeru przesylki: ${value}`
+      text: `Nie znaleziono wyceny dla numeru przesyłki: ${value}`
     }
   }
   scanInput.value = ''
@@ -148,11 +167,11 @@ function getStatusSeverity(status: AppraisalStatus) {
         </div>
       </template>
       <template #content>
-        <p class="section-desc">Zeskanuj kod kreskowy przesylki, aby zarejestrowac jej przyjecie i zmienic status na "W trakcie weryfikacji".</p>
+        <p class="section-desc">Zeskanuj kod kreskowy przesyłki, aby zarejestrować jej przyjęcie i zmienić status na "W trakcie weryfikacji".</p>
         <div class="scan-bar">
           <InputText
             v-model="scanInput"
-            placeholder="Zeskanuj lub wpisz numer przesylki..."
+            placeholder="Zeskanuj lub wpisz numer przesyłki..."
             class="scan-bar__input"
             @keydown.enter="handleScan"
           />
@@ -177,7 +196,7 @@ function getStatusSeverity(status: AppraisalStatus) {
               <strong>{{ data.appraisalNumber }}</strong>
             </template>
           </Column>
-          <Column field="trackingNumber" header="Nr przesylki" style="width: 180px" />
+          <Column field="trackingNumber" header="Nr przesyłki" style="width: 180px" />
           <Column field="clientName" header="Klient" />
           <Column field="productCount" header="Produkty" style="width: 100px" />
           <Column field="status" header="Status" style="width: 220px">
@@ -208,11 +227,11 @@ function getStatusSeverity(status: AppraisalStatus) {
         </div>
       </template>
       <template #content>
-        <p class="section-desc">Zeskanuj paczke, aby przekazac ja do centrali w celu dalszej weryfikacji.</p>
+        <p class="section-desc">Zeskanuj paczkę, aby przekazać ją do centrali w celu dalszej weryfikacji.</p>
         <div class="scan-bar">
           <InputText
             v-model="forwardScanInput"
-            placeholder="Zeskanuj numer przesylki do przekazania..."
+            placeholder="Zeskanuj numer przesyłki do przekazania..."
             class="scan-bar__input"
             @keydown.enter="handleForwardScan"
           />
@@ -227,14 +246,14 @@ function getStatusSeverity(status: AppraisalStatus) {
         <div v-if="forwardFoundItem" class="forward-preview">
           <div class="forward-preview__info">
             <div><strong>Wycena:</strong> {{ forwardFoundItem.appraisalNumber }}</div>
-            <div><strong>Nr przesylki:</strong> {{ forwardFoundItem.trackingNumber }}</div>
+            <div><strong>Nr przesyłki:</strong> {{ forwardFoundItem.trackingNumber }}</div>
             <div><strong>Klient:</strong> {{ forwardFoundItem.clientName }}</div>
             <div><strong>Produkty:</strong> {{ forwardFoundItem.productCount }}</div>
           </div>
           <Button icon="pi pi-send" label="Przekaz do centrali" severity="warn" @click="forwardToHQ" />
         </div>
 
-        <h3 v-if="pendingForwardItems.length" class="sub-heading">Oczekujace na przekazanie</h3>
+        <h3 v-if="pendingForwardItems.length" class="sub-heading">Oczekujące na przekazanie</h3>
         <DataTable
           v-if="pendingForwardItems.length"
           :value="pendingForwardItems"
@@ -244,7 +263,7 @@ function getStatusSeverity(status: AppraisalStatus) {
           class="store-ops__table"
         >
           <Column field="appraisalNumber" header="Nr wyceny" style="width: 160px" />
-          <Column field="trackingNumber" header="Nr przesylki" style="width: 180px" />
+          <Column field="trackingNumber" header="Nr przesyłki" style="width: 180px" />
           <Column field="clientName" header="Klient" />
           <Column field="productCount" header="Produkty" style="width: 100px" />
           <Column field="status" header="Status" style="width: 220px">
@@ -264,7 +283,7 @@ function getStatusSeverity(status: AppraisalStatus) {
           class="store-ops__table"
         >
           <Column field="appraisalNumber" header="Nr wyceny" style="width: 160px" />
-          <Column field="trackingNumber" header="Nr przesylki" style="width: 180px" />
+          <Column field="trackingNumber" header="Nr przesyłki" style="width: 180px" />
           <Column field="clientName" header="Klient" />
           <Column field="forwardedAt" header="Przekazano" style="width: 160px">
             <template #body="{ data }">
@@ -282,11 +301,11 @@ function getStatusSeverity(status: AppraisalStatus) {
           <div class="action-row__info">
             <i class="pi pi-pencil" />
             <div>
-              <h3>Reczna wycena</h3>
-              <p>Przyjmij sprzet od klienta osobiscie i stworz wycene recznie.</p>
+              <h3>Ręczna wycena</h3>
+              <p>Przyjmij sprzęt od klienta osobiście i stwórz wycenę ręcznie.</p>
             </div>
           </div>
-          <Button icon="pi pi-arrow-right" label="Przejdz do recznej wyceny" @click="goToManualAppraisal" />
+          <Button icon="pi pi-arrow-right" label="Przejdź do ręcznej wyceny" @click="goToManualAppraisal" />
         </div>
       </template>
     </Card>
@@ -341,6 +360,7 @@ function getStatusSeverity(status: AppraisalStatus) {
 
   &__input {
     flex: 1;
+    min-width: 0;
     font-size: 1.1rem;
   }
 }
@@ -355,15 +375,17 @@ function getStatusSeverity(status: AppraisalStatus) {
   font-size: 0.875rem;
 
   &--success {
-    background: #ecfdf5;
+    background: rgba(1, 181, 116, 0.08);
     color: #065f46;
-    border: 1px solid #a7f3d0;
+    border: none;
+    box-shadow: var(--awu-shadow-sm);
   }
 
   &--error {
-    background: #fef2f2;
+    background: rgba(238, 93, 80, 0.08);
     color: #991b1b;
-    border: 1px solid #fecaca;
+    border: none;
+    box-shadow: var(--awu-shadow-sm);
   }
 
   i { font-size: 1.1rem; }
@@ -376,9 +398,10 @@ function getStatusSeverity(status: AppraisalStatus) {
   gap: 1rem;
   margin-top: 1rem;
   padding: 1rem;
-  background: #f8fafc;
-  border: 1px solid var(--awu-gray-200);
+  background: var(--awu-gray-50);
+  border: none;
   border-radius: var(--awu-border-radius);
+  box-shadow: var(--awu-shadow-sm);
 
   &__info {
     display: flex;

@@ -103,7 +103,7 @@ const locationFormOptions = computed(() =>
   locations.map(l => ({ label: l.shortName, value: l.id }))
 )
 
-const dialogTitle = computed(() => dialogMode.value === 'add' ? 'Dodaj uzytkownika' : 'Edytuj uzytkownika')
+const dialogTitle = computed(() => dialogMode.value === 'add' ? 'Dodaj użytkownika' : 'Edytuj użytkownika')
 
 const isFormValid = computed(() => {
   return (
@@ -185,8 +185,8 @@ function deleteUser(user: AdminUser & { active: boolean }) {
 <template>
   <div class="user-mgmt">
     <div class="user-mgmt__header">
-      <h1>Zarzadzanie uzytkownikami</h1>
-      <Button icon="pi pi-plus" label="Dodaj uzytkownika" @click="openAddDialog" />
+      <h1>Zarządzanie użytkownikami</h1>
+      <Button icon="pi pi-plus" label="Dodaj użytkownika" @click="openAddDialog" />
     </div>
 
     <div class="user-mgmt__filters">
@@ -229,11 +229,11 @@ function deleteUser(user: AdminUser & { active: boolean }) {
       <template #empty>
         <div class="empty-state">
           <i class="pi pi-users" />
-          <p>Nie znaleziono uzytkownikow</p>
+          <p>Nie znaleziono użytkowników</p>
         </div>
       </template>
 
-      <Column field="name" header="Imie i nazwisko" sortable>
+      <Column field="name" header="Imię i nazwisko" sortable>
         <template #body="{ data }">
           <div>
             <strong>{{ data.name }}</strong>
@@ -284,7 +284,7 @@ function deleteUser(user: AdminUser & { active: boolean }) {
     >
       <div class="dialog-form">
         <div class="form-field">
-          <label>Imie i nazwisko *</label>
+          <label>Imię i nazwisko *</label>
           <InputText v-model="formData.name" placeholder="Jan Kowalski" />
         </div>
         <div class="form-field">
@@ -298,7 +298,7 @@ function deleteUser(user: AdminUser & { active: boolean }) {
             :options="roleFormOptions"
             optionLabel="label"
             optionValue="value"
-            placeholder="Wybierz role"
+            placeholder="Wybierz rolę"
           />
         </div>
         <div class="form-field">
@@ -308,7 +308,7 @@ function deleteUser(user: AdminUser & { active: boolean }) {
             :options="locationFormOptions"
             optionLabel="label"
             optionValue="value"
-            placeholder="Wybierz lokalizacje"
+            placeholder="Wybierz lokalizację"
           />
         </div>
         <div class="form-switch">
@@ -342,8 +342,8 @@ function deleteUser(user: AdminUser & { active: boolean }) {
   &__filters {
     background: #fff;
     border-radius: var(--awu-border-radius);
-    padding: 1rem;
-    border: 1px solid var(--awu-gray-200);
+    padding: 1.25rem;
+    box-shadow: var(--awu-card-shadow);
   }
 }
 

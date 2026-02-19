@@ -4,6 +4,8 @@ import type { AppraisalListItem } from '@/types/appraisal.types'
 import type { AppraisalFilters } from '@/types/filters.types'
 import type { AppraisalStatus } from '@/types/enums'
 
+const STORAGE_PREFIX = 'awu_appraisal_'
+
 export const useAppraisalsStore = defineStore('appraisals', () => {
   // --- State ---
   const appraisals = ref<AppraisalListItem[]>([])
@@ -133,6 +135,22 @@ export const useAppraisalsStore = defineStore('appraisals', () => {
       } catch {
         // If no mock data file exists yet, start with empty array
         appraisals.value = []
+      }
+
+      // Overlay localStorage changes onto list items
+      // (detail store persists full appraisal; we sync key fields back to the list)
+      for (const item of appraisals.value) {
+        try {
+          const cached = localStorage.getItem(`${STORAGE_PREFIX}${item.id}`)
+          if (cached) {
+            const detail = JSON.parse(cached)
+            if (detail.status !== undefined) item.status = detail.status
+            if (detail.assignedOperatorName !== undefined) item.assignedOperatorName = detail.assignedOperatorName
+            if (detail.assignedOperatorId !== undefined) item.assignedOperatorId = detail.assignedOperatorId
+          }
+        } catch {
+          // Corrupted entry — skip
+        }
       }
     } finally {
       loading.value = false

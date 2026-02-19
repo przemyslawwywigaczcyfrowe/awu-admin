@@ -44,129 +44,165 @@ async function logout() {
 </script>
 
 <template>
-  <div class="topbar">
-    <div class="topbar-left">
-      <Button
-        icon="pi pi-bars"
-        text
-        rounded
-        severity="secondary"
-        @click="toggleSidebar"
-        aria-label="Toggle menu"
-      />
-    </div>
-
-    <div class="topbar-center">
-      <span class="p-input-icon-left scan-input-wrapper">
-        <i class="pi pi-search" />
-        <InputText
-          placeholder="Skanuj kod kreskowy lub wpisz nr wyceny..."
-          class="scan-input"
-          @keydown="handleScan"
+  <div class="topbar-wrapper">
+    <div class="topbar">
+      <div class="topbar-left">
+        <Button
+          icon="pi pi-bars"
+          text
+          rounded
+          severity="secondary"
+          @click="toggleSidebar"
+          aria-label="Toggle menu"
+          class="topbar-burger"
         />
-      </span>
-    </div>
-
-    <div class="topbar-right">
-      <div class="location-badge">
-        <i class="pi pi-map-marker" />
-        <span class="location-name">{{ currentLocation }}</span>
       </div>
 
-      <div class="user-info">
-        <div class="user-avatar">{{ userInitials }}</div>
-        <span class="user-name">{{ userName }}</span>
+      <div class="topbar-center">
+        <div class="topbar-search">
+          <i class="pi pi-search topbar-search__icon" />
+          <InputText
+            placeholder="Szukaj..."
+            class="topbar-search__input"
+            @keydown="handleScan"
+          />
+        </div>
       </div>
 
-      <Button
-        icon="pi pi-sign-out"
-        text
-        rounded
-        severity="danger"
-        @click="logout"
-        aria-label="Wyloguj"
-        v-tooltip.bottom="'Wyloguj'"
-      />
+      <div class="topbar-right">
+        <div class="location-badge">
+          <i class="pi pi-map-marker" />
+          <span class="location-name">{{ currentLocation }}</span>
+        </div>
+
+        <Button
+          icon="pi pi-bell"
+          text
+          rounded
+          severity="secondary"
+          aria-label="Powiadomienia"
+          class="topbar-icon-btn"
+        />
+
+        <div class="user-avatar" @click="logout" v-tooltip.bottom="'Wyloguj'">
+          {{ userInitials }}
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
+.topbar-wrapper {
+  padding: 12px 20px 0;
+}
+
 .topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
-  height: var(--awu-topbar-height);
+  padding: 8px 10px;
   background: #fff;
-  border-bottom: 1px solid var(--awu-gray-200);
-  gap: 1rem;
+  border-radius: 30px;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.18);
+  gap: 8px;
 }
 
 .topbar-left {
   flex-shrink: 0;
 }
 
+.topbar-burger {
+  width: 36px;
+  height: 36px;
+}
+
 .topbar-center {
   flex: 1;
-  max-width: 500px;
+  max-width: 320px;
 }
 
-.scan-input-wrapper {
+.topbar-search {
+  position: relative;
   width: 100%;
-}
 
-.scan-input {
-  width: 100%;
+  &__icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--awu-gray-400);
+    font-size: 0.8rem;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 8px 12px 8px 34px !important;
+    background: var(--awu-gray-50) !important;
+    border: none !important;
+    border-radius: 30px !important;
+    font-size: 13px;
+    color: var(--awu-gray-800);
+
+    &::placeholder {
+      color: var(--awu-gray-400);
+    }
+
+    &:focus {
+      background: var(--awu-gray-100) !important;
+      box-shadow: none !important;
+    }
+  }
 }
 
 .topbar-right {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 8px;
   flex-shrink: 0;
+}
+
+.topbar-icon-btn {
+  width: 36px;
+  height: 36px;
+  color: var(--awu-gray-400) !important;
 }
 
 .location-badge {
   display: flex;
   align-items: center;
-  gap: 0.375rem;
-  padding: 0.375rem 0.75rem;
-  background: var(--awu-blue-bg);
+  gap: 4px;
+  padding: 6px 12px;
+  background: var(--awu-gray-50);
   color: var(--awu-blue);
-  border-radius: var(--awu-border-radius);
-  font-size: 0.875rem;
-  font-weight: 500;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .location-name {
   white-space: nowrap;
 }
 
-.user-info {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .user-avatar {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background: var(--awu-blue);
+  background: #11047A;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.75rem;
+  font-size: 13px;
   font-weight: 700;
-}
+  cursor: pointer;
+  transition: opacity 0.15s;
 
-.user-name {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--awu-gray-700);
-  white-space: nowrap;
+  &:hover {
+    opacity: 0.85;
+  }
 }
 
 @media (max-width: 768px) {
@@ -174,8 +210,7 @@ async function logout() {
     display: none;
   }
 
-  .location-name,
-  .user-name {
+  .location-name {
     display: none;
   }
 }

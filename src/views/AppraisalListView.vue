@@ -175,8 +175,8 @@ function exportCSV() {
   &__filters {
     background: #fff;
     border-radius: var(--awu-border-radius);
-    padding: 1rem;
-    border: 1px solid var(--awu-gray-200);
+    padding: 1.25rem;
+    box-shadow: var(--awu-card-shadow);
   }
 }
 
@@ -188,11 +188,14 @@ function exportCSV() {
 }
 
 .filter-input {
-  min-width: 180px;
+  min-width: 0;
+  width: 180px;
+  flex-shrink: 1;
 
   &--wide {
     flex: 1;
-    min-width: 250px;
+    min-width: 200px;
+    width: auto;
   }
 }
 

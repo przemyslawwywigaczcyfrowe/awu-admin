@@ -4,11 +4,25 @@ import type { Appraisal, AppraisalVersion } from '@/types/appraisal.types'
 import { AppraisalStatus } from '@/types/enums'
 import { useAuthStore } from '@/stores/auth.store'
 
+const STORAGE_PREFIX = 'awu_appraisal_'
+
 export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
   // --- State ---
   const appraisal = ref<Appraisal | null>(null)
   const loading = ref(false)
   const saving = ref(false)
+
+  // --- localStorage persistence helper ---
+  function persistAppraisal(): void {
+    if (appraisal.value) {
+      const key = `${STORAGE_PREFIX}${appraisal.value.id}`
+      try {
+        localStorage.setItem(key, JSON.stringify(appraisal.value))
+      } catch {
+        // localStorage full or unavailable — silently ignore
+      }
+    }
+  }
 
   // --- Getters ---
   const currentVersion = computed((): AppraisalVersion | null => {
@@ -44,6 +58,19 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
       // Simulate network delay
       await new Promise((resolve) => setTimeout(resolve, 400))
 
+      // 1. Check localStorage first (persisted changes take priority)
+      const cachedKey = `${STORAGE_PREFIX}${id}`
+      try {
+        const cached = localStorage.getItem(cachedKey)
+        if (cached) {
+          appraisal.value = JSON.parse(cached) as Appraisal
+          return
+        }
+      } catch {
+        // Corrupted localStorage entry — fall through to mock data
+      }
+
+      // 2. Fallback to mock JSON data
       try {
         const module = await import('@/mock/data/appraisals-detail.json')
         const allAppraisals = module.default as Appraisal[]
@@ -80,6 +107,7 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
         details: 'Weryfikacja produktów została zapisana'
       })
 
+      persistAppraisal()
       return true
     } finally {
       saving.value = false
@@ -123,6 +151,7 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
         details: `Wersja ${newVersionNumber}: ${reason}`
       })
 
+      persistAppraisal()
       return true
     } finally {
       saving.value = false
@@ -153,6 +182,7 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
         newValue: String(newStatus)
       })
 
+      persistAppraisal()
       return true
     } finally {
       saving.value = false
@@ -184,10 +214,40 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
         newValue: operatorName
       })
 
+      persistAppraisal()
       return true
     } finally {
       saving.value = false
     }
+  }
+
+  function addCommunication(msg: { type: string; subject: string | null; body: string; to: string }): void {
+    if (!appraisal.value) return
+    const authStore = useAuthStore()
+    const newMsg = {
+      id: Date.now(),
+      appraisalId: appraisal.value.id,
+      type: msg.type as any,
+      from: msg.type.includes('email') ? (authStore.user?.email ?? 'system@cyfrowe.pl') : 'AWU',
+      to: msg.to,
+      subject: msg.subject,
+      body: msg.body,
+      timestamp: new Date().toISOString(),
+      status: 'sent' as const
+    }
+    appraisal.value.communications.push(newMsg)
+
+    appraisal.value.auditLog.push({
+      id: Date.now() + 1,
+      timestamp: new Date().toISOString(),
+      operatorId: authStore.user?.id ?? 0,
+      operatorName: authStore.user?.name ?? 'System',
+      locationName: authStore.user?.locationName ?? '',
+      action: msg.type.includes('email') ? 'Wysłano email' : 'Wysłano SMS',
+      details: msg.subject ? `Temat: ${msg.subject}` : msg.body.substring(0, 100)
+    })
+
+    persistAppraisal()
   }
 
   return {
@@ -204,6 +264,7 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
     saveVerification,
     createCorrectedVersion,
     changeStatus,
-    assignOperator
+    assignOperator,
+    addCommunication
   }
 })

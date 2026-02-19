@@ -3,7 +3,7 @@
     "id": 1,
     "appraisalNumber": "2331",
     "createdAt": "2024-09-17",
-    "expiryDate": null,
+    "expiryDate": "2024-09-24",
     "status": 2,
     "trackingNumber": "DPD8136687604",
     "client": {
@@ -306,7 +306,7 @@
     "id": 2,
     "appraisalNumber": "5019",
     "createdAt": "2024-10-15",
-    "expiryDate": null,
+    "expiryDate": "2024-10-22",
     "status": 3,
     "trackingNumber": "DPD8217715092",
     "client": {
@@ -745,7 +745,7 @@
     "id": 3,
     "appraisalNumber": "5644",
     "createdAt": "2024-10-21",
-    "expiryDate": null,
+    "expiryDate": "2024-10-28",
     "status": 4,
     "trackingNumber": "DPD9571130922",
     "client": {
@@ -1240,7 +1240,7 @@
     "id": 4,
     "appraisalNumber": "5681",
     "createdAt": "2024-10-21",
-    "expiryDate": null,
+    "expiryDate": "2024-10-28",
     "status": 5,
     "trackingNumber": "DPD9994531667",
     "client": {
@@ -1479,7 +1479,7 @@
     "id": 5,
     "appraisalNumber": "5683",
     "createdAt": "2024-10-21",
-    "expiryDate": null,
+    "expiryDate": "2024-10-28",
     "status": 6,
     "trackingNumber": "DPD4991875633",
     "client": {
@@ -1739,7 +1739,7 @@
     "id": 6,
     "appraisalNumber": "5688",
     "createdAt": "2024-10-21",
-    "expiryDate": null,
+    "expiryDate": "2024-10-28",
     "status": 8,
     "trackingNumber": "DPD5542937110",
     "client": {
@@ -2248,7 +2248,7 @@
     "id": 7,
     "appraisalNumber": "6018",
     "createdAt": "2024-10-22",
-    "expiryDate": null,
+    "expiryDate": "2024-10-29",
     "status": 9,
     "trackingNumber": "DPD1521692609",
     "client": {
@@ -2572,7 +2572,7 @@
     "id": 8,
     "appraisalNumber": "6236",
     "createdAt": "2024-10-24",
-    "expiryDate": null,
+    "expiryDate": "2024-10-31",
     "status": 10,
     "trackingNumber": "DPD0727401138",
     "client": {
@@ -4123,7 +4123,7 @@
     "id": 9,
     "appraisalNumber": "6326",
     "createdAt": "2024-10-24",
-    "expiryDate": null,
+    "expiryDate": "2024-10-31",
     "status": 11,
     "trackingNumber": "DPD7127350562",
     "client": {
@@ -4383,7 +4383,7 @@
     "id": 10,
     "appraisalNumber": "6430",
     "createdAt": "2024-10-25",
-    "expiryDate": null,
+    "expiryDate": "2024-11-01",
     "status": 11,
     "trackingNumber": "DPD4131706755",
     "client": {
@@ -5526,7 +5526,7 @@
     "id": 11,
     "appraisalNumber": "6433",
     "createdAt": "2024-10-25",
-    "expiryDate": null,
+    "expiryDate": "2024-11-01",
     "status": 11,
     "trackingNumber": "DPD2993082899",
     "client": {
@@ -5786,7 +5786,7 @@
     "id": 12,
     "appraisalNumber": "6468",
     "createdAt": "2024-10-25",
-    "expiryDate": null,
+    "expiryDate": "2024-11-01",
     "status": 13,
     "trackingNumber": "DPD7080498330",
     "client": {
@@ -6182,7 +6182,7 @@
     "id": 13,
     "appraisalNumber": "6700",
     "createdAt": "2024-10-28",
-    "expiryDate": null,
+    "expiryDate": "2024-11-04",
     "status": 12,
     "trackingNumber": "DPD0516350375",
     "client": {
@@ -6741,7 +6741,7 @@
     "id": 14,
     "appraisalNumber": "6787",
     "createdAt": "2024-10-29",
-    "expiryDate": null,
+    "expiryDate": "2024-11-05",
     "status": 1,
     "trackingNumber": "DPD7589200293",
     "client": {
@@ -7380,7 +7380,7 @@
     "id": 15,
     "appraisalNumber": "6851",
     "createdAt": "2024-10-29",
-    "expiryDate": null,
+    "expiryDate": "2024-11-05",
     "status": 2,
     "trackingNumber": "DPD1110763301",
     "client": {
@@ -8283,7 +8283,7 @@
     "id": 16,
     "appraisalNumber": "6874",
     "createdAt": "2024-10-30",
-    "expiryDate": null,
+    "expiryDate": "2024-11-06",
     "status": 3,
     "trackingNumber": "DPD2192956351",
     "client": {
@@ -8880,7 +8880,7 @@
     "id": 17,
     "appraisalNumber": "6881",
     "createdAt": "2024-10-30",
-    "expiryDate": null,
+    "expiryDate": "2024-11-06",
     "status": 4,
     "trackingNumber": "DPD5180121558",
     "client": {
@@ -9151,7 +9151,7 @@
     "id": 18,
     "appraisalNumber": "6888",
     "createdAt": "2024-10-30",
-    "expiryDate": null,
+    "expiryDate": "2024-11-06",
     "status": 5,
     "trackingNumber": "DPD4241827336",
     "client": {
@@ -9646,7 +9646,7 @@
     "id": 19,
     "appraisalNumber": "6895",
     "createdAt": "2024-10-30",
-    "expiryDate": null,
+    "expiryDate": "2024-11-06",
     "status": 6,
     "trackingNumber": "DPD3140834289",
     "client": {
@@ -10002,7 +10002,7 @@
     "id": 20,
     "appraisalNumber": "6951",
     "createdAt": "2024-10-31",
-    "expiryDate": null,
+    "expiryDate": "2024-11-07",
     "status": 8,
     "trackingNumber": "DPD1298929673",
     "client": {
@@ -10422,7 +10422,7 @@
     "id": 21,
     "appraisalNumber": "6955",
     "createdAt": "2024-10-31",
-    "expiryDate": null,
+    "expiryDate": "2024-11-07",
     "status": 9,
     "trackingNumber": "DPD0103903261",
     "client": {
@@ -11146,7 +11146,7 @@
     "id": 22,
     "appraisalNumber": "6960",
     "createdAt": "2024-10-31",
-    "expiryDate": null,
+    "expiryDate": "2024-11-07",
     "status": 10,
     "trackingNumber": "DPD8649113594",
     "client": {
@@ -11449,7 +11449,7 @@
     "id": 23,
     "appraisalNumber": "6962",
     "createdAt": "2024-10-31",
-    "expiryDate": null,
+    "expiryDate": "2024-11-07",
     "status": 11,
     "trackingNumber": "DPD4182837246",
     "client": {
@@ -11784,7 +11784,7 @@
     "id": 24,
     "appraisalNumber": "6995",
     "createdAt": "2024-10-31",
-    "expiryDate": null,
+    "expiryDate": "2024-11-07",
     "status": 11,
     "trackingNumber": "DPD7541527315",
     "client": {
@@ -12319,7 +12319,7 @@
     "id": 25,
     "appraisalNumber": "6997",
     "createdAt": "2024-10-31",
-    "expiryDate": null,
+    "expiryDate": "2024-11-07",
     "status": 11,
     "trackingNumber": "DPD2493242696",
     "client": {
@@ -12822,7 +12822,7 @@
     "id": 26,
     "appraisalNumber": "7016",
     "createdAt": "2024-10-31",
-    "expiryDate": null,
+    "expiryDate": "2024-11-07",
     "status": 12,
     "trackingNumber": "DPD2736604789",
     "client": {
@@ -13146,7 +13146,7 @@
     "id": 27,
     "appraisalNumber": "7041",
     "createdAt": "2024-11-01",
-    "expiryDate": null,
+    "expiryDate": "2024-11-08",
     "status": 1,
     "trackingNumber": "DPD0412914235",
     "client": {
@@ -13545,7 +13545,7 @@
     "id": 28,
     "appraisalNumber": "7116",
     "createdAt": "2024-11-02",
-    "expiryDate": null,
+    "expiryDate": "2024-11-09",
     "status": 2,
     "trackingNumber": "DPD8470860570",
     "client": {
@@ -13963,7 +13963,7 @@
     "id": 29,
     "appraisalNumber": "7134",
     "createdAt": "2024-11-03",
-    "expiryDate": null,
+    "expiryDate": "2024-11-10",
     "status": 3,
     "trackingNumber": "DPD7125368470",
     "client": {
@@ -15682,7 +15682,7 @@
     "id": 30,
     "appraisalNumber": "7135",
     "createdAt": "2024-11-03",
-    "expiryDate": null,
+    "expiryDate": "2024-11-10",
     "status": 1,
     "trackingNumber": "DPD5454193593",
     "client": {
@@ -15950,7 +15950,7 @@
     "id": 31,
     "appraisalNumber": "7136",
     "createdAt": "2024-11-03",
-    "expiryDate": null,
+    "expiryDate": "2024-11-10",
     "status": 1,
     "trackingNumber": "DPD4290150943",
     "client": {
@@ -16207,7 +16207,7 @@
     "id": 32,
     "appraisalNumber": "7166",
     "createdAt": "2024-11-03",
-    "expiryDate": null,
+    "expiryDate": "2024-11-10",
     "status": 4,
     "trackingNumber": "DPD1135860106",
     "client": {
@@ -16606,7 +16606,7 @@
     "id": 33,
     "appraisalNumber": "7177",
     "createdAt": "2024-11-04",
-    "expiryDate": null,
+    "expiryDate": "2024-11-11",
     "status": 5,
     "trackingNumber": "DPD8255849689",
     "client": {
@@ -17128,7 +17128,7 @@
     "id": 34,
     "appraisalNumber": "7186",
     "createdAt": "2024-11-04",
-    "expiryDate": null,
+    "expiryDate": "2024-11-11",
     "status": 6,
     "trackingNumber": "DPD3389300641",
     "client": {
@@ -17559,7 +17559,7 @@
     "id": 35,
     "appraisalNumber": "7195",
     "createdAt": "2024-11-04",
-    "expiryDate": null,
+    "expiryDate": "2024-11-11",
     "status": 8,
     "trackingNumber": "DPD5096568736",
     "client": {
@@ -18222,7 +18222,7 @@
     "id": 36,
     "appraisalNumber": "7200",
     "createdAt": "2024-11-04",
-    "expiryDate": null,
+    "expiryDate": "2024-11-11",
     "status": 9,
     "trackingNumber": "DPD4173248681",
     "client": {
@@ -19285,7 +19285,7 @@
     "id": 37,
     "appraisalNumber": "7202",
     "createdAt": "2024-11-04",
-    "expiryDate": null,
+    "expiryDate": "2024-11-11",
     "status": 10,
     "trackingNumber": "DPD5008124763",
     "client": {
@@ -19807,7 +19807,7 @@
     "id": 38,
     "appraisalNumber": "7203",
     "createdAt": "2024-11-04",
-    "expiryDate": null,
+    "expiryDate": "2024-11-11",
     "status": 11,
     "trackingNumber": "DPD3527577892",
     "client": {
@@ -20550,7 +20550,7 @@
     "id": 39,
     "appraisalNumber": "7211",
     "createdAt": "2024-11-04",
-    "expiryDate": null,
+    "expiryDate": "2024-11-11",
     "status": 11,
     "trackingNumber": "DPD8899266371",
     "client": {
@@ -20885,7 +20885,7 @@
     "id": 40,
     "appraisalNumber": "7267",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 11,
     "trackingNumber": "DPD4830195095",
     "client": {
@@ -21780,7 +21780,7 @@
     "id": 41,
     "appraisalNumber": "7280",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 12,
     "trackingNumber": "DPD9961105332",
     "client": {
@@ -23195,7 +23195,7 @@
     "id": 42,
     "appraisalNumber": "7292",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 1,
     "trackingNumber": "DPD4769344514",
     "client": {
@@ -23583,7 +23583,7 @@
     "id": 43,
     "appraisalNumber": "7296",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 2,
     "trackingNumber": "DPD8380857043",
     "client": {
@@ -24022,7 +24022,7 @@
     "id": 44,
     "appraisalNumber": "7297",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 3,
     "trackingNumber": "DPD8060502455",
     "client": {
@@ -24653,7 +24653,7 @@
     "id": 45,
     "appraisalNumber": "7298",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 4,
     "trackingNumber": "DPD5007797309",
     "client": {
@@ -24956,7 +24956,7 @@
     "id": 46,
     "appraisalNumber": "7306",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 5,
     "trackingNumber": "DPD6389951017",
     "client": {
@@ -25259,7 +25259,7 @@
     "id": 47,
     "appraisalNumber": "7321",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 6,
     "trackingNumber": "DPD3021552150",
     "client": {
@@ -26375,7 +26375,7 @@
     "id": 48,
     "appraisalNumber": "7325",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 8,
     "trackingNumber": "DPD3517272894",
     "client": {
@@ -26678,7 +26678,7 @@
     "id": 49,
     "appraisalNumber": "7333",
     "createdAt": "2024-11-05",
-    "expiryDate": null,
+    "expiryDate": "2024-11-12",
     "status": 9,
     "trackingNumber": "DPD3011433547",
     "client": {
@@ -28002,7 +28002,7 @@
     "id": 50,
     "appraisalNumber": "7354",
     "createdAt": "2024-11-06",
-    "expiryDate": null,
+    "expiryDate": "2024-11-13",
     "status": 10,
     "trackingNumber": "DPD8614123394",
     "client": {
@@ -28958,7 +28958,7 @@
     "id": 51,
     "appraisalNumber": "7361",
     "createdAt": "2024-11-06",
-    "expiryDate": null,
+    "expiryDate": "2024-11-13",
     "status": 11,
     "trackingNumber": "DPD9004400827",
     "client": {
@@ -29674,7 +29674,7 @@
     "id": 52,
     "appraisalNumber": "7369",
     "createdAt": "2024-11-06",
-    "expiryDate": null,
+    "expiryDate": "2024-11-13",
     "status": 11,
     "trackingNumber": "DPD6753221464",
     "client": {
@@ -30079,7 +30079,7 @@
     "id": 53,
     "appraisalNumber": "7370",
     "createdAt": "2024-11-06",
-    "expiryDate": null,
+    "expiryDate": "2024-11-13",
     "status": 11,
     "trackingNumber": "DPD8732596026",
     "client": {
@@ -30742,7 +30742,7 @@
     "id": 54,
     "appraisalNumber": "7374",
     "createdAt": "2024-11-06",
-    "expiryDate": null,
+    "expiryDate": "2024-11-13",
     "status": 12,
     "trackingNumber": "DPD6634922825",
     "client": {
@@ -31443,7 +31443,7 @@
     "id": 55,
     "appraisalNumber": "7375",
     "createdAt": "2024-11-06",
-    "expiryDate": null,
+    "expiryDate": "2024-11-13",
     "status": 1,
     "trackingNumber": "DPD2330063857",
     "client": {
@@ -31778,7 +31778,7 @@
     "id": 56,
     "appraisalNumber": "7405",
     "createdAt": "2024-11-06",
-    "expiryDate": null,
+    "expiryDate": "2024-11-13",
     "status": 2,
     "trackingNumber": "DPD4014404042",
     "client": {
@@ -32134,7 +32134,7 @@
     "id": 57,
     "appraisalNumber": "7421",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 3,
     "trackingNumber": "DPD5481569990",
     "client": {
@@ -32565,7 +32565,7 @@
     "id": 58,
     "appraisalNumber": "7425",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 4,
     "trackingNumber": "DPD8540452744",
     "client": {
@@ -33057,7 +33057,7 @@
     "id": 59,
     "appraisalNumber": "7434",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 5,
     "trackingNumber": "DPD3557162759",
     "client": {
@@ -34237,7 +34237,7 @@
     "id": 60,
     "appraisalNumber": "7435",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 6,
     "trackingNumber": "DPD2940528184",
     "client": {
@@ -34834,7 +34834,7 @@
     "id": 61,
     "appraisalNumber": "7443",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 8,
     "trackingNumber": "DPD1376983340",
     "client": {
@@ -35169,7 +35169,7 @@
     "id": 62,
     "appraisalNumber": "7444",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 9,
     "trackingNumber": "DPD6399267229",
     "client": {
@@ -36541,7 +36541,7 @@
     "id": 63,
     "appraisalNumber": "7449",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 10,
     "trackingNumber": "DPD7020303475",
     "client": {
@@ -37001,7 +37001,7 @@
     "id": 64,
     "appraisalNumber": "7461",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 11,
     "trackingNumber": "DPD4650085151",
     "client": {
@@ -37389,7 +37389,7 @@
     "id": 65,
     "appraisalNumber": "7477",
     "createdAt": "2024-11-07",
-    "expiryDate": null,
+    "expiryDate": "2024-11-14",
     "status": 13,
     "trackingNumber": "DPD0346479970",
     "client": {
@@ -37796,7 +37796,7 @@
     "id": 66,
     "appraisalNumber": "7518",
     "createdAt": "2024-11-08",
-    "expiryDate": null,
+    "expiryDate": "2024-11-15",
     "status": 11,
     "trackingNumber": "DPD4718442460",
     "client": {
@@ -39840,7 +39840,7 @@
     "id": 67,
     "appraisalNumber": "7523",
     "createdAt": "2024-11-08",
-    "expiryDate": null,
+    "expiryDate": "2024-11-15",
     "status": 11,
     "trackingNumber": "DPD3845161127",
     "client": {
@@ -41956,7 +41956,7 @@
     "id": 68,
     "appraisalNumber": "7525",
     "createdAt": "2024-11-08",
-    "expiryDate": null,
+    "expiryDate": "2024-11-15",
     "status": 12,
     "trackingNumber": "DPD7716906756",
     "client": {
@@ -42259,7 +42259,7 @@
     "id": 69,
     "appraisalNumber": "7573",
     "createdAt": "2024-11-08",
-    "expiryDate": null,
+    "expiryDate": "2024-11-15",
     "status": 1,
     "trackingNumber": "DPD6665652302",
     "client": {
@@ -42711,7 +42711,7 @@
     "id": 70,
     "appraisalNumber": "7619",
     "createdAt": "2024-11-08",
-    "expiryDate": null,
+    "expiryDate": "2024-11-15",
     "status": 2,
     "trackingNumber": "DPD9908404213",
     "client": {
@@ -43035,7 +43035,7 @@
     "id": 71,
     "appraisalNumber": "7651",
     "createdAt": "2024-11-09",
-    "expiryDate": null,
+    "expiryDate": "2024-11-16",
     "status": 3,
     "trackingNumber": "DPD9299783714",
     "client": {
@@ -43778,7 +43778,7 @@
     "id": 72,
     "appraisalNumber": "7735",
     "createdAt": "2024-11-11",
-    "expiryDate": null,
+    "expiryDate": "2024-11-18",
     "status": 4,
     "trackingNumber": "DPD7607163103",
     "client": {
@@ -44230,7 +44230,7 @@
     "id": 73,
     "appraisalNumber": "7763",
     "createdAt": "2024-11-11",
-    "expiryDate": null,
+    "expiryDate": "2024-11-18",
     "status": 5,
     "trackingNumber": "DPD1381106971",
     "client": {
@@ -44661,7 +44661,7 @@
     "id": 74,
     "appraisalNumber": "7764",
     "createdAt": "2024-11-11",
-    "expiryDate": null,
+    "expiryDate": "2024-11-18",
     "status": 6,
     "trackingNumber": "DPD5234901720",
     "client": {
@@ -45857,7 +45857,7 @@
     "id": 75,
     "appraisalNumber": "7809",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 8,
     "trackingNumber": "DPD4340130994",
     "client": {
@@ -46549,7 +46549,7 @@
     "id": 76,
     "appraisalNumber": "7817",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 9,
     "trackingNumber": "DPD1268231621",
     "client": {
@@ -47324,7 +47324,7 @@
     "id": 77,
     "appraisalNumber": "7829",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 10,
     "trackingNumber": "DPD0894804169",
     "client": {
@@ -47680,7 +47680,7 @@
     "id": 78,
     "appraisalNumber": "7831",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 11,
     "trackingNumber": "DPD4516216749",
     "client": {
@@ -48215,7 +48215,7 @@
     "id": 79,
     "appraisalNumber": "7840",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 11,
     "trackingNumber": "DPD4444200709",
     "client": {
@@ -49363,7 +49363,7 @@
     "id": 80,
     "appraisalNumber": "7845",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 11,
     "trackingNumber": "DPD0318601625",
     "client": {
@@ -49655,7 +49655,7 @@
     "id": 81,
     "appraisalNumber": "7847",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 12,
     "trackingNumber": "DPD7104614023",
     "client": {
@@ -50211,7 +50211,7 @@
     "id": 82,
     "appraisalNumber": "7857",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 1,
     "trackingNumber": "DPD5182712120",
     "client": {
@@ -51007,7 +51007,7 @@
     "id": 83,
     "appraisalNumber": "7859",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 2,
     "trackingNumber": "DPD4447575440",
     "client": {
@@ -51502,7 +51502,7 @@
     "id": 84,
     "appraisalNumber": "7881",
     "createdAt": "2024-11-12",
-    "expiryDate": null,
+    "expiryDate": "2024-11-19",
     "status": 3,
     "trackingNumber": "DPD7769299043",
     "client": {
@@ -51890,7 +51890,7 @@
     "id": 85,
     "appraisalNumber": "7900",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 4,
     "trackingNumber": "DPD9882183419",
     "client": {
@@ -52774,7 +52774,7 @@
     "id": 86,
     "appraisalNumber": "7905",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 5,
     "trackingNumber": "DPD5405257450",
     "client": {
@@ -53309,7 +53309,7 @@
     "id": 87,
     "appraisalNumber": "7910",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 6,
     "trackingNumber": "DPD3067270372",
     "client": {
@@ -53633,7 +53633,7 @@
     "id": 88,
     "appraisalNumber": "7913",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 8,
     "trackingNumber": "DPD9552947910",
     "client": {
@@ -54360,7 +54360,7 @@
     "id": 89,
     "appraisalNumber": "7916",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 9,
     "trackingNumber": "DPD2673314705",
     "client": {
@@ -54695,7 +54695,7 @@
     "id": 90,
     "appraisalNumber": "7921",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 10,
     "trackingNumber": "DPD2992871858",
     "client": {
@@ -55326,7 +55326,7 @@
     "id": 91,
     "appraisalNumber": "7922",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 11,
     "trackingNumber": "DPD3726115898",
     "client": {
@@ -55629,7 +55629,7 @@
     "id": 92,
     "appraisalNumber": "7923",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 11,
     "trackingNumber": "DPD9344398921",
     "client": {
@@ -55985,7 +55985,7 @@
     "id": 93,
     "appraisalNumber": "7924",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 11,
     "trackingNumber": "DPD9998626750",
     "client": {
@@ -56648,7 +56648,7 @@
     "id": 94,
     "appraisalNumber": "7930",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 12,
     "trackingNumber": "DPD0139295042",
     "client": {
@@ -57351,7 +57351,7 @@
     "id": 95,
     "appraisalNumber": "7931",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 1,
     "trackingNumber": "DPD5877187875",
     "client": {
@@ -57739,7 +57739,7 @@
     "id": 96,
     "appraisalNumber": "7935",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 2,
     "trackingNumber": "DPD5431353941",
     "client": {
@@ -58399,7 +58399,7 @@
     "id": 97,
     "appraisalNumber": "7942",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 3,
     "trackingNumber": "DPD7222206923",
     "client": {
@@ -58755,7 +58755,7 @@
     "id": 98,
     "appraisalNumber": "7947",
     "createdAt": "2024-11-13",
-    "expiryDate": null,
+    "expiryDate": "2024-11-20",
     "status": 4,
     "trackingNumber": "DPD5726406582",
     "client": {
@@ -59122,7 +59122,7 @@
     "id": 99,
     "appraisalNumber": "8001",
     "createdAt": "2024-11-14",
-    "expiryDate": null,
+    "expiryDate": "2024-11-21",
     "status": 5,
     "trackingNumber": "DPD5599194470",
     "client": {
@@ -59425,7 +59425,7 @@
     "id": 100,
     "appraisalNumber": "8005",
     "createdAt": "2024-11-14",
-    "expiryDate": null,
+    "expiryDate": "2024-11-21",
     "status": 6,
     "trackingNumber": "DPD5982055578",
     "client": {
@@ -60528,7 +60528,7 @@
     "id": 101,
     "appraisalNumber": "8006",
     "createdAt": "2024-11-14",
-    "expiryDate": null,
+    "expiryDate": "2024-11-21",
     "status": 8,
     "trackingNumber": "DPD8991807233",
     "client": {
@@ -60884,7 +60884,7 @@
     "id": 102,
     "appraisalNumber": "8024",
     "createdAt": "2024-11-14",
-    "expiryDate": null,
+    "expiryDate": "2024-11-21",
     "status": 9,
     "trackingNumber": "DPD4277285236",
     "client": {
@@ -61379,7 +61379,7 @@
     "id": 103,
     "appraisalNumber": "8025",
     "createdAt": "2024-11-14",
-    "expiryDate": null,
+    "expiryDate": "2024-11-21",
     "status": 10,
     "trackingNumber": "DPD0808691755",
     "client": {
@@ -61903,7 +61903,7 @@
     "id": 104,
     "appraisalNumber": "8028",
     "createdAt": "2024-11-14",
-    "expiryDate": null,
+    "expiryDate": "2024-11-21",
     "status": 11,
     "trackingNumber": "DPD3011203231",
     "client": {
@@ -62323,7 +62323,7 @@
     "id": 105,
     "appraisalNumber": "8031",
     "createdAt": "2024-11-14",
-    "expiryDate": null,
+    "expiryDate": "2024-11-21",
     "status": 11,
     "trackingNumber": "DPD9335225694",
     "client": {
@@ -62658,7 +62658,7 @@
     "id": 106,
     "appraisalNumber": "8080",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 11,
     "trackingNumber": "DPD8804168077",
     "client": {
@@ -63342,7 +63342,7 @@
     "id": 107,
     "appraisalNumber": "8094",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 12,
     "trackingNumber": "DPD5167600579",
     "client": {
@@ -63962,7 +63962,7 @@
     "id": 108,
     "appraisalNumber": "8097",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 1,
     "trackingNumber": "DPD1102958203",
     "client": {
@@ -64590,7 +64590,7 @@
     "id": 109,
     "appraisalNumber": "8101",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 2,
     "trackingNumber": "DPD5741533101",
     "client": {
@@ -65010,7 +65010,7 @@
     "id": 110,
     "appraisalNumber": "8102",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 3,
     "trackingNumber": "DPD5908050032",
     "client": {
@@ -65737,7 +65737,7 @@
     "id": 111,
     "appraisalNumber": "8104",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 4,
     "trackingNumber": "DPD3517415259",
     "client": {
@@ -66189,7 +66189,7 @@
     "id": 112,
     "appraisalNumber": "8113",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 5,
     "trackingNumber": "DPD2552557890",
     "client": {
@@ -66681,7 +66681,7 @@
     "id": 113,
     "appraisalNumber": "8117",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 1,
     "trackingNumber": "DPD2974233619",
     "client": {
@@ -67027,7 +67027,7 @@
     "id": 114,
     "appraisalNumber": "8122",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 6,
     "trackingNumber": "DPD3987032732",
     "client": {
@@ -67487,7 +67487,7 @@
     "id": 115,
     "appraisalNumber": "8129",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 8,
     "trackingNumber": "DPD3450763278",
     "client": {
@@ -67890,7 +67890,7 @@
     "id": 116,
     "appraisalNumber": "8187",
     "createdAt": "2024-11-16",
-    "expiryDate": null,
+    "expiryDate": "2024-11-23",
     "status": 13,
     "trackingNumber": "DPD3823691825",
     "client": {
@@ -68497,7 +68497,7 @@
     "id": 117,
     "appraisalNumber": "8264",
     "createdAt": "2024-11-17",
-    "expiryDate": null,
+    "expiryDate": "2024-11-24",
     "status": 9,
     "trackingNumber": "DPD0337686503",
     "client": {
@@ -68853,7 +68853,7 @@
     "id": 118,
     "appraisalNumber": "8268",
     "createdAt": "2024-11-17",
-    "expiryDate": null,
+    "expiryDate": "2024-11-24",
     "status": 10,
     "trackingNumber": "DPD2876551665",
     "client": {
@@ -69156,7 +69156,7 @@
     "id": 119,
     "appraisalNumber": "8269",
     "createdAt": "2024-11-17",
-    "expiryDate": null,
+    "expiryDate": "2024-11-24",
     "status": 11,
     "trackingNumber": "DPD2144221734",
     "client": {
@@ -69523,7 +69523,7 @@
     "id": 120,
     "appraisalNumber": "8287",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 11,
     "trackingNumber": "DPD8552195286",
     "client": {
@@ -70343,7 +70343,7 @@
     "id": 121,
     "appraisalNumber": "8297",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 11,
     "trackingNumber": "DPD4830679768",
     "client": {
@@ -70646,7 +70646,7 @@
     "id": 122,
     "appraisalNumber": "8311",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 12,
     "trackingNumber": "DPD5660913256",
     "client": {
@@ -71002,7 +71002,7 @@
     "id": 123,
     "appraisalNumber": "8314",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 1,
     "trackingNumber": "DPD8535028898",
     "client": {
@@ -71262,7 +71262,7 @@
     "id": 124,
     "appraisalNumber": "8320",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 2,
     "trackingNumber": "DPD1750191586",
     "client": {
@@ -71765,7 +71765,7 @@
     "id": 125,
     "appraisalNumber": "8322",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 3,
     "trackingNumber": "DPD8106365766",
     "client": {
@@ -72681,7 +72681,7 @@
     "id": 126,
     "appraisalNumber": "8327",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 4,
     "trackingNumber": "DPD5919169989",
     "client": {
@@ -74496,7 +74496,7 @@
     "id": 127,
     "appraisalNumber": "8331",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 5,
     "trackingNumber": "DPD8024082929",
     "client": {
@@ -75567,7 +75567,7 @@
     "id": 128,
     "appraisalNumber": "8347",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 6,
     "trackingNumber": "DPD3670581120",
     "client": {
@@ -75963,7 +75963,7 @@
     "id": 129,
     "appraisalNumber": "8362",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 8,
     "trackingNumber": "DPD1398725222",
     "client": {
@@ -76487,7 +76487,7 @@
     "id": 130,
     "appraisalNumber": "8391",
     "createdAt": "2024-11-19",
-    "expiryDate": null,
+    "expiryDate": "2024-11-26",
     "status": 9,
     "trackingNumber": "DPD6999361366",
     "client": {
@@ -77043,7 +77043,7 @@
     "id": 131,
     "appraisalNumber": "8393",
     "createdAt": "2024-11-19",
-    "expiryDate": null,
+    "expiryDate": "2024-11-26",
     "status": 10,
     "trackingNumber": "DPD8490189684",
     "client": {
@@ -77431,7 +77431,7 @@
     "id": 132,
     "appraisalNumber": "8394",
     "createdAt": "2024-11-19",
-    "expiryDate": null,
+    "expiryDate": "2024-11-26",
     "status": 11,
     "trackingNumber": "DPD0552845103",
     "client": {
@@ -78987,7 +78987,7 @@
     "id": 133,
     "appraisalNumber": "8395",
     "createdAt": "2024-11-19",
-    "expiryDate": null,
+    "expiryDate": "2024-11-26",
     "status": 11,
     "trackingNumber": "DPD4698091664",
     "client": {
@@ -79479,7 +79479,7 @@
     "id": 134,
     "appraisalNumber": "8398",
     "createdAt": "2024-11-19",
-    "expiryDate": null,
+    "expiryDate": "2024-11-26",
     "status": 11,
     "trackingNumber": "DPD8444635088",
     "client": {
@@ -80435,7 +80435,7 @@
     "id": 135,
     "appraisalNumber": "8405",
     "createdAt": "2024-11-19",
-    "expiryDate": null,
+    "expiryDate": "2024-11-26",
     "status": 12,
     "trackingNumber": "DPD0015119587",
     "client": {
@@ -83018,7 +83018,7 @@
     "id": 136,
     "appraisalNumber": "8464",
     "createdAt": "2024-11-19",
-    "expiryDate": null,
+    "expiryDate": "2024-11-26",
     "status": 1,
     "trackingNumber": "DPD4781094727",
     "client": {
@@ -83342,7 +83342,7 @@
     "id": 137,
     "appraisalNumber": "8508",
     "createdAt": "2024-11-20",
-    "expiryDate": null,
+    "expiryDate": "2024-11-27",
     "status": 2,
     "trackingNumber": "DPD8830258270",
     "client": {
@@ -83634,7 +83634,7 @@
     "id": 138,
     "appraisalNumber": "8514",
     "createdAt": "2024-11-20",
-    "expiryDate": null,
+    "expiryDate": "2024-11-27",
     "status": 3,
     "trackingNumber": "DPD2378736847",
     "client": {
@@ -84118,7 +84118,7 @@
     "id": 139,
     "appraisalNumber": "8519",
     "createdAt": "2024-11-20",
-    "expiryDate": null,
+    "expiryDate": "2024-11-27",
     "status": 4,
     "trackingNumber": "DPD9934343580",
     "client": {
@@ -84451,7 +84451,7 @@
     "id": 140,
     "appraisalNumber": "8524",
     "createdAt": "2024-11-20",
-    "expiryDate": null,
+    "expiryDate": "2024-11-27",
     "status": 5,
     "trackingNumber": "DPD0397260037",
     "client": {
@@ -85082,7 +85082,7 @@
     "id": 141,
     "appraisalNumber": "8536",
     "createdAt": "2024-11-20",
-    "expiryDate": null,
+    "expiryDate": "2024-11-27",
     "status": 6,
     "trackingNumber": "DPD9151923128",
     "client": {
@@ -85438,7 +85438,7 @@
     "id": 142,
     "appraisalNumber": "8540",
     "createdAt": "2024-11-20",
-    "expiryDate": null,
+    "expiryDate": "2024-11-27",
     "status": 8,
     "trackingNumber": "DPD8392421135",
     "client": {
@@ -85805,7 +85805,7 @@
     "id": 143,
     "appraisalNumber": "8543",
     "createdAt": "2024-11-20",
-    "expiryDate": null,
+    "expiryDate": "2024-11-27",
     "status": 9,
     "trackingNumber": "DPD7791614796",
     "client": {
@@ -86161,7 +86161,7 @@
     "id": 144,
     "appraisalNumber": "8595",
     "createdAt": "2024-11-21",
-    "expiryDate": null,
+    "expiryDate": "2024-11-28",
     "status": 10,
     "trackingNumber": "DPD5155756387",
     "client": {
@@ -86664,7 +86664,7 @@
     "id": 145,
     "appraisalNumber": "8612",
     "createdAt": "2024-11-21",
-    "expiryDate": null,
+    "expiryDate": "2024-11-28",
     "status": 11,
     "trackingNumber": "DPD9510113318",
     "client": {
@@ -86967,7 +86967,7 @@
     "id": 146,
     "appraisalNumber": "8626",
     "createdAt": "2024-11-21",
-    "expiryDate": null,
+    "expiryDate": "2024-11-28",
     "status": 11,
     "trackingNumber": "DPD7115901834",
     "client": {
@@ -87419,7 +87419,7 @@
     "id": 147,
     "appraisalNumber": "8632",
     "createdAt": "2024-11-21",
-    "expiryDate": null,
+    "expiryDate": "2024-11-28",
     "status": 11,
     "trackingNumber": "DPD4843828343",
     "client": {
@@ -87911,7 +87911,7 @@
     "id": 148,
     "appraisalNumber": "8670",
     "createdAt": "2024-11-22",
-    "expiryDate": null,
+    "expiryDate": "2024-11-29",
     "status": 12,
     "trackingNumber": "DPD0035784005",
     "client": {
@@ -88833,7 +88833,7 @@
     "id": 149,
     "appraisalNumber": "8685",
     "createdAt": "2024-11-22",
-    "expiryDate": null,
+    "expiryDate": "2024-11-29",
     "status": 1,
     "trackingNumber": "DPD8791949844",
     "client": {
@@ -89104,7 +89104,7 @@
     "id": 150,
     "appraisalNumber": "8694",
     "createdAt": "2024-11-22",
-    "expiryDate": null,
+    "expiryDate": "2024-11-29",
     "status": 2,
     "trackingNumber": "DPD8959629513",
     "client": {
@@ -89471,7 +89471,7 @@
     "id": 151,
     "appraisalNumber": "8700",
     "createdAt": "2024-11-22",
-    "expiryDate": null,
+    "expiryDate": "2024-11-29",
     "status": 3,
     "trackingNumber": "DPD7363142785",
     "client": {
@@ -89795,7 +89795,7 @@
     "id": 152,
     "appraisalNumber": "8717",
     "createdAt": "2024-11-22",
-    "expiryDate": null,
+    "expiryDate": "2024-11-29",
     "status": 4,
     "trackingNumber": "DPD6600384547",
     "client": {
@@ -90258,7 +90258,7 @@
     "id": 153,
     "appraisalNumber": "8729",
     "createdAt": "2024-11-22",
-    "expiryDate": null,
+    "expiryDate": "2024-11-29",
     "status": 5,
     "trackingNumber": "DPD9060422821",
     "client": {
@@ -90721,7 +90721,7 @@
     "id": 154,
     "appraisalNumber": "8768",
     "createdAt": "2024-11-23",
-    "expiryDate": null,
+    "expiryDate": "2024-11-30",
     "status": 6,
     "trackingNumber": "DPD7035007236",
     "client": {
@@ -91192,7 +91192,7 @@
     "id": 155,
     "appraisalNumber": "8842",
     "createdAt": "2024-11-25",
-    "expiryDate": null,
+    "expiryDate": "2024-12-02",
     "status": 8,
     "trackingNumber": "DPD0130219319",
     "client": {
@@ -93285,7 +93285,7 @@
     "id": 156,
     "appraisalNumber": "8844",
     "createdAt": "2024-11-25",
-    "expiryDate": null,
+    "expiryDate": "2024-12-02",
     "status": 13,
     "trackingNumber": "DPD3615687310",
     "client": {
@@ -95480,7 +95480,7 @@
     "id": 157,
     "appraisalNumber": "8849",
     "createdAt": "2024-11-25",
-    "expiryDate": null,
+    "expiryDate": "2024-12-02",
     "status": 9,
     "trackingNumber": "DPD7942437384",
     "client": {
@@ -96343,7 +96343,7 @@
     "id": 158,
     "appraisalNumber": "8851",
     "createdAt": "2024-11-25",
-    "expiryDate": null,
+    "expiryDate": "2024-12-02",
     "status": 10,
     "trackingNumber": "DPD3816716599",
     "client": {
@@ -96867,7 +96867,7 @@
     "id": 159,
     "appraisalNumber": "8855",
     "createdAt": "2024-11-25",
-    "expiryDate": null,
+    "expiryDate": "2024-12-02",
     "status": 11,
     "trackingNumber": "DPD8254115179",
     "client": {
@@ -98325,7 +98325,7 @@
     "id": 160,
     "appraisalNumber": "8859",
     "createdAt": "2024-11-25",
-    "expiryDate": null,
+    "expiryDate": "2024-12-02",
     "status": 11,
     "trackingNumber": "DPD4699169886",
     "client": {
@@ -98849,7 +98849,7 @@
     "id": 161,
     "appraisalNumber": "8908",
     "createdAt": "2024-11-25",
-    "expiryDate": null,
+    "expiryDate": "2024-12-02",
     "status": 11,
     "trackingNumber": "DPD7937712669",
     "client": {
@@ -99373,7 +99373,7 @@
     "id": 162,
     "appraisalNumber": "8942",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 13,
     "trackingNumber": "DPD2634166206",
     "client": {
@@ -102177,7 +102177,7 @@
     "id": 163,
     "appraisalNumber": "9020",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 12,
     "trackingNumber": "DPD3600588086",
     "client": {
@@ -102901,7 +102901,7 @@
     "id": 164,
     "appraisalNumber": "9045",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 1,
     "trackingNumber": "DPD7021596751",
     "client": {
@@ -103140,7 +103140,7 @@
     "id": 165,
     "appraisalNumber": "9050",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 2,
     "trackingNumber": "DPD5433516486",
     "client": {
@@ -103707,7 +103707,7 @@
     "id": 166,
     "appraisalNumber": "9068",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 3,
     "trackingNumber": "DPD0510116502",
     "client": {
@@ -104450,7 +104450,7 @@
     "id": 167,
     "appraisalNumber": "9085",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 4,
     "trackingNumber": "DPD3102353625",
     "client": {
@@ -104710,7 +104710,7 @@
     "id": 168,
     "appraisalNumber": "9125",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 5,
     "trackingNumber": "DPD9537485271",
     "client": {
@@ -105141,7 +105141,7 @@
     "id": 169,
     "appraisalNumber": "9126",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 6,
     "trackingNumber": "DPD6610020506",
     "client": {
@@ -107401,7 +107401,7 @@
     "id": 170,
     "appraisalNumber": "9156",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 8,
     "trackingNumber": "DPD2026508902",
     "client": {
@@ -108336,7 +108336,7 @@
     "id": 171,
     "appraisalNumber": "9159",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 9,
     "trackingNumber": "DPD9274535680",
     "client": {
@@ -108671,7 +108671,7 @@
     "id": 172,
     "appraisalNumber": "9182",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 10,
     "trackingNumber": "DPD2343703719",
     "client": {
@@ -109398,7 +109398,7 @@
     "id": 173,
     "appraisalNumber": "9232",
     "createdAt": "2024-11-29",
-    "expiryDate": null,
+    "expiryDate": "2024-12-06",
     "status": 11,
     "trackingNumber": "DPD9613188165",
     "client": {
@@ -109786,7 +109786,7 @@
     "id": 174,
     "appraisalNumber": "9247",
     "createdAt": "2024-11-29",
-    "expiryDate": null,
+    "expiryDate": "2024-12-06",
     "status": 11,
     "trackingNumber": "DPD3875354038",
     "client": {
@@ -110046,7 +110046,7 @@
     "id": 175,
     "appraisalNumber": "9019",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 11,
     "trackingNumber": "DPD2367099753",
     "client": {
@@ -110402,7 +110402,7 @@
     "id": 176,
     "appraisalNumber": "8934",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 12,
     "trackingNumber": "DPD0949377605",
     "client": {
@@ -110692,7 +110692,7 @@
     "id": 177,
     "appraisalNumber": "8939",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 1,
     "trackingNumber": "DPD8510481858",
     "client": {
@@ -111048,7 +111048,7 @@
     "id": 178,
     "appraisalNumber": "9421",
     "createdAt": "2024-12-02",
-    "expiryDate": null,
+    "expiryDate": "2024-12-09",
     "status": 2,
     "trackingNumber": "DPD7995356272",
     "client": {
@@ -111436,7 +111436,7 @@
     "id": 179,
     "appraisalNumber": "8715",
     "createdAt": "2024-11-22",
-    "expiryDate": null,
+    "expiryDate": "2024-11-29",
     "status": 3,
     "trackingNumber": "DPD0871813635",
     "client": {
@@ -111771,7 +111771,7 @@
     "id": 180,
     "appraisalNumber": "9026",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 4,
     "trackingNumber": "DPD1204617717",
     "client": {
@@ -112565,7 +112565,7 @@
     "id": 181,
     "appraisalNumber": "8272",
     "createdAt": "2024-11-18",
-    "expiryDate": null,
+    "expiryDate": "2024-11-25",
     "status": 1,
     "trackingNumber": "DPD3736525404",
     "client": {
@@ -112822,7 +112822,7 @@
     "id": 182,
     "appraisalNumber": "9093",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 5,
     "trackingNumber": "DPD2794562997",
     "client": {
@@ -113306,7 +113306,7 @@
     "id": 183,
     "appraisalNumber": "9060",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 6,
     "trackingNumber": "DPD8398385748",
     "client": {
@@ -114009,7 +114009,7 @@
     "id": 184,
     "appraisalNumber": "9468",
     "createdAt": "2024-12-02",
-    "expiryDate": null,
+    "expiryDate": "2024-12-09",
     "status": 8,
     "trackingNumber": "DPD9304608924",
     "client": {
@@ -114472,7 +114472,7 @@
     "id": 185,
     "appraisalNumber": "9150",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 9,
     "trackingNumber": "DPD0008830295",
     "client": {
@@ -114860,7 +114860,7 @@
     "id": 186,
     "appraisalNumber": "8971",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 10,
     "trackingNumber": "DPD2261533098",
     "client": {
@@ -115448,7 +115448,7 @@
     "id": 187,
     "appraisalNumber": "8988",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 11,
     "trackingNumber": "DPD0156800054",
     "client": {
@@ -115740,7 +115740,7 @@
     "id": 188,
     "appraisalNumber": "8528",
     "createdAt": "2024-11-20",
-    "expiryDate": null,
+    "expiryDate": "2024-11-27",
     "status": 11,
     "trackingNumber": "DPD4553411018",
     "client": {
@@ -116192,7 +116192,7 @@
     "id": 189,
     "appraisalNumber": "8810",
     "createdAt": "2024-11-24",
-    "expiryDate": null,
+    "expiryDate": "2024-12-01",
     "status": 11,
     "trackingNumber": "DPD2893449801",
     "client": {
@@ -116493,7 +116493,7 @@
     "id": 190,
     "appraisalNumber": "9221",
     "createdAt": "2024-11-29",
-    "expiryDate": null,
+    "expiryDate": "2024-12-06",
     "status": 12,
     "trackingNumber": "DPD4650813445",
     "client": {
@@ -116817,7 +116817,7 @@
     "id": 191,
     "appraisalNumber": "9286",
     "createdAt": "2024-11-29",
-    "expiryDate": null,
+    "expiryDate": "2024-12-06",
     "status": 1,
     "trackingNumber": "DPD8480687888",
     "client": {
@@ -117141,7 +117141,7 @@
     "id": 192,
     "appraisalNumber": "8950",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 2,
     "trackingNumber": "DPD0424971123",
     "client": {
@@ -117593,7 +117593,7 @@
     "id": 193,
     "appraisalNumber": "9039",
     "createdAt": "2024-11-27",
-    "expiryDate": null,
+    "expiryDate": "2024-12-04",
     "status": 3,
     "trackingNumber": "DPD6765251277",
     "client": {
@@ -118032,7 +118032,7 @@
     "id": 194,
     "appraisalNumber": "8058",
     "createdAt": "2024-11-14",
-    "expiryDate": null,
+    "expiryDate": "2024-11-21",
     "status": 4,
     "trackingNumber": "DPD7879284747",
     "client": {
@@ -118356,7 +118356,7 @@
     "id": 195,
     "appraisalNumber": "8134",
     "createdAt": "2024-11-15",
-    "expiryDate": null,
+    "expiryDate": "2024-11-22",
     "status": 5,
     "trackingNumber": "DPD2036714285",
     "client": {
@@ -118857,7 +118857,7 @@
     "id": 196,
     "appraisalNumber": "9151",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 6,
     "trackingNumber": "DPD0598497338",
     "client": {
@@ -119741,7 +119741,7 @@
     "id": 197,
     "appraisalNumber": "8977",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 8,
     "trackingNumber": "DPD1065696096",
     "client": {
@@ -120372,7 +120372,7 @@
     "id": 198,
     "appraisalNumber": "9586",
     "createdAt": "2024-12-04",
-    "expiryDate": null,
+    "expiryDate": "2024-12-11",
     "status": 9,
     "trackingNumber": "DPD0339069737",
     "client": {
@@ -121067,7 +121067,7 @@
     "id": 199,
     "appraisalNumber": "9583",
     "createdAt": "2024-12-04",
-    "expiryDate": null,
+    "expiryDate": "2024-12-11",
     "status": 10,
     "trackingNumber": "DPD5392007853",
     "client": {
@@ -122330,7 +122330,7 @@
     "id": 200,
     "appraisalNumber": "9588",
     "createdAt": "2024-12-04",
-    "expiryDate": null,
+    "expiryDate": "2024-12-11",
     "status": 11,
     "trackingNumber": "DPD1058171275",
     "client": {
@@ -124401,7 +124401,7 @@
     "id": 201,
     "appraisalNumber": "9121",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 11,
     "trackingNumber": "DPD8504145818",
     "client": {
@@ -124900,7 +124900,7 @@
     "id": 202,
     "appraisalNumber": "9564",
     "createdAt": "2024-12-03",
-    "expiryDate": null,
+    "expiryDate": "2024-12-10",
     "status": 11,
     "trackingNumber": "DPD0458682434",
     "client": {
@@ -125563,7 +125563,7 @@
     "id": 203,
     "appraisalNumber": "9618",
     "createdAt": "2024-12-04",
-    "expiryDate": null,
+    "expiryDate": "2024-12-11",
     "status": 12,
     "trackingNumber": "DPD2453880399",
     "client": {
@@ -125962,7 +125962,7 @@
     "id": 204,
     "appraisalNumber": "8922",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 1,
     "trackingNumber": "DPD1584248880",
     "client": {
@@ -126350,7 +126350,7 @@
     "id": 205,
     "appraisalNumber": "9646",
     "createdAt": "2024-12-05",
-    "expiryDate": null,
+    "expiryDate": "2024-12-12",
     "status": 2,
     "trackingNumber": "DPD2090745946",
     "client": {
@@ -127053,7 +127053,7 @@
     "id": 206,
     "appraisalNumber": "9216",
     "createdAt": "2024-11-29",
-    "expiryDate": null,
+    "expiryDate": "2024-12-06",
     "status": 3,
     "trackingNumber": "DPD0508158666",
     "client": {
@@ -127975,7 +127975,7 @@
     "id": 207,
     "appraisalNumber": "9549",
     "createdAt": "2024-12-03",
-    "expiryDate": null,
+    "expiryDate": "2024-12-10",
     "status": 4,
     "trackingNumber": "DPD7196740757",
     "client": {
@@ -128899,7 +128899,7 @@
     "id": 208,
     "appraisalNumber": "8861",
     "createdAt": "2024-11-25",
-    "expiryDate": null,
+    "expiryDate": "2024-12-02",
     "status": 5,
     "trackingNumber": "DPD3485002834",
     "client": {
@@ -129334,7 +129334,7 @@
     "id": 209,
     "appraisalNumber": "9329",
     "createdAt": "2024-11-30",
-    "expiryDate": null,
+    "expiryDate": "2024-12-07",
     "status": 6,
     "trackingNumber": "DPD5167805598",
     "client": {
@@ -129701,7 +129701,7 @@
     "id": 210,
     "appraisalNumber": "8802",
     "createdAt": "2024-11-24",
-    "expiryDate": null,
+    "expiryDate": "2024-12-01",
     "status": 8,
     "trackingNumber": "DPD3608413988",
     "client": {
@@ -130796,7 +130796,7 @@
     "id": 211,
     "appraisalNumber": "9559",
     "createdAt": "2024-12-03",
-    "expiryDate": null,
+    "expiryDate": "2024-12-10",
     "status": 9,
     "trackingNumber": "DPD8816690069",
     "client": {
@@ -131192,7 +131192,7 @@
     "id": 212,
     "appraisalNumber": "9476",
     "createdAt": "2024-12-02",
-    "expiryDate": null,
+    "expiryDate": "2024-12-09",
     "status": 10,
     "trackingNumber": "DPD0464332353",
     "client": {
@@ -131855,7 +131855,7 @@
     "id": 213,
     "appraisalNumber": "4815",
     "createdAt": "2024-10-11",
-    "expiryDate": null,
+    "expiryDate": "2024-10-18",
     "status": 11,
     "trackingNumber": "DPD1692103919",
     "client": {
@@ -132145,7 +132145,7 @@
     "id": 214,
     "appraisalNumber": "9689",
     "createdAt": "2024-12-06",
-    "expiryDate": null,
+    "expiryDate": "2024-12-13",
     "status": 11,
     "trackingNumber": "DPD7486761092",
     "client": {
@@ -132597,7 +132597,7 @@
     "id": 215,
     "appraisalNumber": "8945",
     "createdAt": "2024-11-26",
-    "expiryDate": null,
+    "expiryDate": "2024-12-03",
     "status": 11,
     "trackingNumber": "DPD4185900554",
     "client": {
@@ -132964,7 +132964,7 @@
     "id": 216,
     "appraisalNumber": "9700",
     "createdAt": "2024-12-06",
-    "expiryDate": null,
+    "expiryDate": "2024-12-13",
     "status": 12,
     "trackingNumber": "DPD2193837357",
     "client": {
@@ -133320,7 +133320,7 @@
     "id": 217,
     "appraisalNumber": "9579",
     "createdAt": "2024-12-04",
-    "expiryDate": null,
+    "expiryDate": "2024-12-11",
     "status": 1,
     "trackingNumber": "DPD7041492931",
     "client": {
@@ -134387,7 +134387,7 @@
     "id": 218,
     "appraisalNumber": "8617",
     "createdAt": "2024-11-21",
-    "expiryDate": null,
+    "expiryDate": "2024-11-28",
     "status": 2,
     "trackingNumber": "DPD1727407420",
     "client": {
@@ -134839,7 +134839,7 @@
     "id": 219,
     "appraisalNumber": "9720",
     "createdAt": "2024-12-06",
-    "expiryDate": null,
+    "expiryDate": "2024-12-13",
     "status": 3,
     "trackingNumber": "DPD3983488679",
     "client": {
@@ -135278,7 +135278,7 @@
     "id": 220,
     "appraisalNumber": "9527",
     "createdAt": "2024-12-03",
-    "expiryDate": null,
+    "expiryDate": "2024-12-10",
     "status": 4,
     "trackingNumber": "DPD8424704634",
     "client": {
@@ -135570,7 +135570,7 @@
     "id": 221,
     "appraisalNumber": "9731",
     "createdAt": "2024-12-06",
-    "expiryDate": null,
+    "expiryDate": "2024-12-13",
     "status": 5,
     "trackingNumber": "DPD7882543506",
     "client": {
@@ -136001,7 +136001,7 @@
     "id": 222,
     "appraisalNumber": "9219",
     "createdAt": "2024-11-29",
-    "expiryDate": null,
+    "expiryDate": "2024-12-06",
     "status": 6,
     "trackingNumber": "DPD6766219598",
     "client": {
@@ -136357,7 +136357,7 @@
     "id": 223,
     "appraisalNumber": "9712",
     "createdAt": "2024-12-06",
-    "expiryDate": null,
+    "expiryDate": "2024-12-13",
     "status": 8,
     "trackingNumber": "DPD3113985937",
     "client": {
@@ -137188,7 +137188,7 @@
     "id": 224,
     "appraisalNumber": "9536",
     "createdAt": "2024-12-03",
-    "expiryDate": null,
+    "expiryDate": "2024-12-10",
     "status": 9,
     "trackingNumber": "DPD9621228574",
     "client": {
@@ -137723,7 +137723,7 @@
     "id": 225,
     "appraisalNumber": "9843",
     "createdAt": "2024-12-09",
-    "expiryDate": null,
+    "expiryDate": "2024-12-16",
     "status": 1,
     "trackingNumber": "DPD1035686984",
     "client": {
@@ -137991,7 +137991,7 @@
     "id": 226,
     "appraisalNumber": "9838",
     "createdAt": "2024-12-09",
-    "expiryDate": null,
+    "expiryDate": "2024-12-16",
     "status": 10,
     "trackingNumber": "DPD5718034602",
     "client": {
@@ -138562,7 +138562,7 @@
     "id": 227,
     "appraisalNumber": "9474",
     "createdAt": "2024-12-02",
-    "expiryDate": null,
+    "expiryDate": "2024-12-09",
     "status": 11,
     "trackingNumber": "DPD9373015674",
     "client": {
@@ -138961,7 +138961,7 @@
     "id": 228,
     "appraisalNumber": "9876",
     "createdAt": "2024-12-09",
-    "expiryDate": null,
+    "expiryDate": "2024-12-16",
     "status": 11,
     "trackingNumber": "DPD0295387543",
     "client": {
@@ -139389,7 +139389,7 @@
     "id": 229,
     "appraisalNumber": "9922",
     "createdAt": "2024-12-10",
-    "expiryDate": null,
+    "expiryDate": "2024-12-17",
     "status": 11,
     "trackingNumber": "DPD8851208002",
     "client": {
@@ -139724,7 +139724,7 @@
     "id": 230,
     "appraisalNumber": "8644",
     "createdAt": "2024-11-21",
-    "expiryDate": null,
+    "expiryDate": "2024-11-28",
     "status": 12,
     "trackingNumber": "DPD4734510630",
     "client": {
@@ -140227,7 +140227,7 @@
     "id": 231,
     "appraisalNumber": "9951",
     "createdAt": "2024-12-10",
-    "expiryDate": null,
+    "expiryDate": "2024-12-17",
     "status": 1,
     "trackingNumber": "DPD2280324805",
     "client": {
@@ -140519,7 +140519,7 @@
     "id": 232,
     "appraisalNumber": "9976",
     "createdAt": "2024-12-11",
-    "expiryDate": null,
+    "expiryDate": "2024-12-18",
     "status": 2,
     "trackingNumber": "DPD2916784729",
     "client": {
@@ -140886,7 +140886,7 @@
     "id": 233,
     "appraisalNumber": "9977",
     "createdAt": "2024-12-11",
-    "expiryDate": null,
+    "expiryDate": "2024-12-18",
     "status": 3,
     "trackingNumber": "DPD8577811998",
     "client": {
@@ -141642,7 +141642,7 @@
     "id": 234,
     "appraisalNumber": "9989",
     "createdAt": "2024-12-11",
-    "expiryDate": null,
+    "expiryDate": "2024-12-18",
     "status": 4,
     "trackingNumber": "DPD6924296183",
     "client": {
@@ -142230,7 +142230,7 @@
     "id": 235,
     "appraisalNumber": "9933",
     "createdAt": "2024-12-10",
-    "expiryDate": null,
+    "expiryDate": "2024-12-17",
     "status": 5,
     "trackingNumber": "DPD8317990496",
     "client": {
@@ -142522,7 +142522,7 @@
     "id": 236,
     "appraisalNumber": "9940",
     "createdAt": "2024-12-10",
-    "expiryDate": null,
+    "expiryDate": "2024-12-17",
     "status": 6,
     "trackingNumber": "DPD0820218083",
     "client": {
@@ -142889,7 +142889,7 @@
     "id": 237,
     "appraisalNumber": "9208",
     "createdAt": "2024-11-28",
-    "expiryDate": null,
+    "expiryDate": "2024-12-05",
     "status": 8,
     "trackingNumber": "DPD6663270944",
     "client": {
@@ -143158,7 +143158,7 @@
     "id": 238,
     "appraisalNumber": "9722",
     "createdAt": "2024-12-06",
-    "expiryDate": null,
+    "expiryDate": "2024-12-13",
     "status": 9,
     "trackingNumber": "DPD5612176170",
     "client": {
@@ -143493,7 +143493,7 @@
     "id": 239,
     "appraisalNumber": "10060",
     "createdAt": "2024-12-12",
-    "expiryDate": null,
+    "expiryDate": "2024-12-19",
     "status": 10,
     "trackingNumber": "DPD6614255535",
     "client": {
@@ -143817,7 +143817,7 @@
     "id": 240,
     "appraisalNumber": "9554",
     "createdAt": "2024-12-03",
-    "expiryDate": null,
+    "expiryDate": "2024-12-10",
     "status": 11,
     "trackingNumber": "DPD8109204005",
     "client": {
@@ -144184,7 +144184,7 @@
     "id": 241,
     "appraisalNumber": "9805",
     "createdAt": "2024-12-08",
-    "expiryDate": null,
+    "expiryDate": "2024-12-15",
     "status": 11,
     "trackingNumber": "DPD7834533554",
     "client": {
@@ -144487,7 +144487,7 @@
     "id": 242,
     "appraisalNumber": "9914",
     "createdAt": "2024-12-10",
-    "expiryDate": null,
+    "expiryDate": "2024-12-17",
     "status": 11,
     "trackingNumber": "DPD7258256433",
     "client": {
@@ -145429,7 +145429,7 @@
     "id": 243,
     "appraisalNumber": "9924",
     "createdAt": "2024-12-10",
-    "expiryDate": null,
+    "expiryDate": "2024-12-17",
     "status": 12,
     "trackingNumber": "DPD8612013982",
     "client": {
@@ -145860,7 +145860,7 @@
     "id": 244,
     "appraisalNumber": "9970",
     "createdAt": "2024-12-10",
-    "expiryDate": null,
+    "expiryDate": "2024-12-17",
     "status": 1,
     "trackingNumber": "DPD1526992980",
     "client": {
@@ -146227,7 +146227,7 @@
     "id": 245,
     "appraisalNumber": "9696",
     "createdAt": "2024-12-06",
-    "expiryDate": null,
+    "expiryDate": "2024-12-13",
     "status": 2,
     "trackingNumber": "DPD2059141345",
     "client": {
@@ -146594,7 +146594,7 @@
     "id": 246,
     "appraisalNumber": "9853",
     "createdAt": "2024-12-09",
-    "expiryDate": null,
+    "expiryDate": "2024-12-16",
     "status": 3,
     "trackingNumber": "DPD1814140898",
     "client": {
@@ -147382,7 +147382,7 @@
     "id": 247,
     "appraisalNumber": "9849",
     "createdAt": "2024-12-09",
-    "expiryDate": null,
+    "expiryDate": "2024-12-16",
     "status": 4,
     "trackingNumber": "DPD9727126496",
     "client": {
@@ -148973,7 +148973,7 @@
     "id": 248,
     "appraisalNumber": "10046",
     "createdAt": "2024-12-12",
-    "expiryDate": null,
+    "expiryDate": "2024-12-19",
     "status": 5,
     "trackingNumber": "DPD1501252542",
     "client": {
@@ -149265,7 +149265,7 @@
     "id": 249,
     "appraisalNumber": "10244",
     "createdAt": "2024-12-16",
-    "expiryDate": null,
+    "expiryDate": "2024-12-23",
     "status": 6,
     "trackingNumber": "DPD4440343610",
     "client": {
@@ -150461,7 +150461,7 @@
     "id": 250,
     "appraisalNumber": "9937",
     "createdAt": "2024-12-10",
-    "expiryDate": null,
+    "expiryDate": "2024-12-17",
     "status": 8,
     "trackingNumber": "DPD3986149059",
     "client": {

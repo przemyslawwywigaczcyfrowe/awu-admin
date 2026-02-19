@@ -19,7 +19,7 @@ import { formatPrice } from '@/utils/priceFormatter'
 
 const router = useRouter()
 
-const activeStep = ref<string | number>('1')
+const activeStep = ref<number>(1)
 
 // --- Step 1: Client data ---
 const clientData = ref({
@@ -38,7 +38,7 @@ const clientData = ref({
 })
 
 const documentTypeOptions = [
-  { label: 'Dowod osobisty', value: 'dowod' },
+  { label: 'Dowód osobisty', value: 'dowod' },
   { label: 'Paszport', value: 'paszport' }
 ]
 
@@ -76,15 +76,15 @@ const ratingOptions = [
   { label: '8 - Dobry', value: 8 },
   { label: '7 - Dobry minus', value: 7 },
   { label: '6 - Dostateczny', value: 6 },
-  { label: '5 - Slaby', value: 5 }
+  { label: '5 - Słaby', value: 5 }
 ]
 
 const accessoryOptions = [
-  { label: 'Ladowarka', value: 'ladowarka' },
+  { label: 'Ładowarka', value: 'ladowarka' },
   { label: 'Kabel USB', value: 'kabel_usb' },
-  { label: 'Sluchawki', value: 'sluchawki' },
+  { label: 'Słuchawki', value: 'sluchawki' },
   { label: 'Etui / Pokrowiec', value: 'etui' },
-  { label: 'Oryginalne pudelko', value: 'pudelko' },
+  { label: 'Oryginalne pudełko', value: 'pudełko' },
   { label: 'Instrukcja', value: 'instrukcja' },
   { label: 'Karta gwarancyjna', value: 'gwarancja' },
   { label: 'Pasek', value: 'pasek' },
@@ -184,7 +184,7 @@ function newAppraisal() {
   products.value = []
   appraisalCompleted.value = false
   generatedNumber.value = ''
-  activeStep.value = '1'
+  activeStep.value = 1
 }
 
 function goToStoreOps() {
@@ -196,32 +196,32 @@ function goToStoreOps() {
   <div class="manual-appraisal">
     <div class="manual-appraisal__header">
       <div>
-        <h1>Reczna wycena</h1>
-        <p class="manual-appraisal__subtitle">Przyjecie sprzetu od klienta w salonie</p>
+        <h1>Ręczna wycena</h1>
+        <p class="manual-appraisal__subtitle">Przyjęcie sprzętu od klienta w salonie</p>
       </div>
-      <Button icon="pi pi-arrow-left" label="Powrot do operacji" severity="secondary" text @click="goToStoreOps" />
+      <Button icon="pi pi-arrow-left" label="Powrót do operacji" severity="secondary" text @click="goToStoreOps" />
     </div>
 
     <Card class="manual-appraisal__stepper-card">
       <template #content>
-        <Stepper v-model:value="activeStep" linear>
+        <Stepper v-model:value="activeStep">
           <StepList>
-            <Step value="1">Dane klienta</Step>
-            <Step value="2">Produkty</Step>
-            <Step value="3">Podsumowanie</Step>
-            <Step value="4">Zakonczenie</Step>
+            <Step :value="1">Dane klienta</Step>
+            <Step :value="2">Produkty</Step>
+            <Step :value="3">Podsumowanie</Step>
+            <Step :value="4">Zakończenie</Step>
           </StepList>
 
           <StepPanels>
             <!-- Step 1: Client data -->
-            <StepPanel v-slot="{ activateCallback }" value="1">
+            <StepPanel v-slot="{ activateCallback }" :value="1">
               <div class="step-content">
                 <h2 class="step-content__title">Dane klienta</h2>
 
                 <div class="form-grid">
                   <div class="form-field">
-                    <label>Imie *</label>
-                    <InputText v-model="clientData.firstName" placeholder="Imie" />
+                    <label>Imię *</label>
+                    <InputText v-model="clientData.firstName" placeholder="Imię" />
                   </div>
                   <div class="form-field">
                     <label>Nazwisko *</label>
@@ -271,7 +271,7 @@ function goToStoreOps() {
                 <div class="form-grid">
                   <div class="form-field form-field--wide">
                     <label>Ulica i numer *</label>
-                    <InputText v-model="clientData.street" placeholder="ul. Przykladowa 12/3" />
+                    <InputText v-model="clientData.street" placeholder="ul. Przykładowa 12/3" />
                   </div>
                   <div class="form-field">
                     <label>Kod pocztowy *</label>
@@ -285,13 +285,13 @@ function goToStoreOps() {
 
                 <div class="step-actions">
                   <span />
-                  <Button label="Dalej" icon="pi pi-arrow-right" iconPos="right" :disabled="!isStep1Valid" @click="activateCallback('2')" />
+                  <Button label="Dalej" icon="pi pi-arrow-right" iconPos="right" :disabled="!isStep1Valid" @click="activateCallback(2)" />
                 </div>
               </div>
             </StepPanel>
 
             <!-- Step 2: Products -->
-            <StepPanel v-slot="{ activateCallback }" value="2">
+            <StepPanel v-slot="{ activateCallback }" :value="2">
               <div class="step-content">
                 <h2 class="step-content__title">Produkty</h2>
 
@@ -312,7 +312,7 @@ function goToStoreOps() {
                         :options="ratingOptions"
                         optionLabel="label"
                         optionValue="value"
-                        placeholder="Wybierz ocene"
+                        placeholder="Wybierz ocenę"
                       />
                     </div>
                     <div class="form-field form-field--wide">
@@ -327,7 +327,7 @@ function goToStoreOps() {
                       />
                     </div>
                     <div class="form-field">
-                      <label>Cena (zl) *</label>
+                      <label>Cena (zł) *</label>
                       <InputNumber
                         v-model="newProduct.price"
                         mode="currency"
@@ -385,14 +385,14 @@ function goToStoreOps() {
                 </div>
 
                 <div class="step-actions">
-                  <Button label="Wstecz" icon="pi pi-arrow-left" severity="secondary" text @click="activateCallback('1')" />
-                  <Button label="Dalej" icon="pi pi-arrow-right" iconPos="right" :disabled="!isStep2Valid" @click="activateCallback('3')" />
+                  <Button label="Wstecz" icon="pi pi-arrow-left" severity="secondary" text @click="activateCallback(1)" />
+                  <Button label="Dalej" icon="pi pi-arrow-right" iconPos="right" :disabled="!isStep2Valid" @click="activateCallback(3)" />
                 </div>
               </div>
             </StepPanel>
 
             <!-- Step 3: Summary -->
-            <StepPanel v-slot="{ activateCallback }" value="3">
+            <StepPanel v-slot="{ activateCallback }" :value="3">
               <div class="step-content">
                 <h2 class="step-content__title">Podsumowanie</h2>
 
@@ -400,7 +400,7 @@ function goToStoreOps() {
                   <h3>Dane klienta</h3>
                   <div class="summary-grid">
                     <div class="summary-item">
-                      <span class="summary-item__label">Imie i nazwisko</span>
+                      <span class="summary-item__label">Imię i nazwisko</span>
                       <span class="summary-item__value">{{ clientFullName }}</span>
                     </div>
                     <div class="summary-item">
@@ -414,7 +414,7 @@ function goToStoreOps() {
                     <div class="summary-item">
                       <span class="summary-item__label">Dokument</span>
                       <span class="summary-item__value">
-                        {{ clientData.documentType === 'dowod' ? 'Dowod osobisty' : 'Paszport' }} - {{ clientData.documentNumber }}
+                        {{ clientData.documentType === 'dowod' ? 'Dowód osobisty' : 'Paszport' }} - {{ clientData.documentNumber }}
                       </span>
                     </div>
                     <div v-if="clientData.isCompany" class="summary-item">
@@ -453,32 +453,32 @@ function goToStoreOps() {
                     </Column>
                   </DataTable>
                   <div class="total-row total-row--large">
-                    <strong>Laczna kwota: {{ formatPrice(totalPrice) }}</strong>
+                    <strong>Łączna kwota: {{ formatPrice(totalPrice) }}</strong>
                   </div>
                 </div>
 
                 <div class="step-actions">
-                  <Button label="Wstecz" icon="pi pi-arrow-left" severity="secondary" text @click="activateCallback('2')" />
-                  <Button label="Zatwierdz wycene" icon="pi pi-check" severity="success" @click="completeAppraisal(); activateCallback('4')" />
+                  <Button label="Wstecz" icon="pi pi-arrow-left" severity="secondary" text @click="activateCallback(2)" />
+                  <Button label="Zatwierdź wycenę" icon="pi pi-check" severity="success" @click="completeAppraisal(); activateCallback(4)" />
                 </div>
               </div>
             </StepPanel>
 
             <!-- Step 4: Completion -->
-            <StepPanel value="4">
+            <StepPanel :value="4">
               <div class="step-content step-content--center">
                 <div class="completion">
                   <div class="completion__icon">
                     <i class="pi pi-check-circle" />
                   </div>
-                  <h2>Wycena zostala utworzona</h2>
+                  <h2>Wycena została utworzona</h2>
                   <p class="completion__number">Nr wyceny: <strong>{{ generatedNumber }}</strong></p>
-                  <p class="completion__info">Wycena zostala zapisana w systemie. Mozesz teraz wydrukowac umowe lub rozpoczac nowa wycene.</p>
+                  <p class="completion__info">Wycena została zapisana w systemie. Możesz teraz wydrukować umowę lub rozpocząć nową wycenę.</p>
 
                   <div class="completion__actions">
-                    <Button icon="pi pi-print" label="Drukuj umowe" severity="secondary" outlined @click="printContract" />
+                    <Button icon="pi pi-print" label="Drukuj umowę" severity="secondary" outlined @click="printContract" />
                     <Button icon="pi pi-plus" label="Nowa wycena" @click="newAppraisal" />
-                    <Button icon="pi pi-arrow-left" label="Wroc do operacji salonowych" severity="secondary" text @click="goToStoreOps" />
+                    <Button icon="pi pi-arrow-left" label="Wróć do operacji salonowych" severity="secondary" text @click="goToStoreOps" />
                   </div>
                 </div>
               </div>
@@ -571,10 +571,11 @@ function goToStoreOps() {
 }
 
 .product-form {
-  background: #f8fafc;
-  border: 1px solid var(--awu-gray-200);
+  background: var(--awu-gray-50);
+  border: none;
   border-radius: var(--awu-border-radius);
   padding: 1.25rem;
+  box-shadow: var(--awu-shadow-sm);
   margin-bottom: 1rem;
 
   .form-grid {
@@ -664,7 +665,7 @@ function goToStoreOps() {
 
   &__icon {
     font-size: 4rem;
-    color: #10B981;
+    color: var(--awu-accent-emerald);
     margin-bottom: 1rem;
   }
 

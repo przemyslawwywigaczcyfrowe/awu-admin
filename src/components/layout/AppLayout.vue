@@ -42,7 +42,8 @@ const sidebarClass = computed(() => ({
     left: var(--awu-sidebar-width);
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(23, 25, 35, 0.3);
+    backdrop-filter: blur(2px);
     z-index: 999;
   }
 }

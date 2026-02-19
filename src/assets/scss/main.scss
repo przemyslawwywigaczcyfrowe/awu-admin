@@ -1,44 +1,98 @@
 // ==============================================
-// AWU Admin - Global Styles
+// AWU Admin — Horizon-inspired Design System
 // ==============================================
 
 // ---------------------------------------------
-// CSS Custom Properties (Brand Colors)
+// 1. CSS Custom Properties
 // ---------------------------------------------
 :root {
-  --awu-blue: #0066cc;
-  --awu-blue-light: #3399ff;
-  --awu-blue-dark: #004c99;
-  --awu-blue-bg: #e6f0ff;
+  // ---- Brand / Primary (Horizon brand.500 = #422AFB) ----
+  --awu-blue: #422AFB;
+  --awu-blue-light: #7551FF;
+  --awu-blue-dark: #3311DB;
+  --awu-blue-bg: #F4F7FE;
 
-  --awu-gray-50: #f8f9fa;
-  --awu-gray-100: #f1f3f5;
-  --awu-gray-200: #e9ecef;
-  --awu-gray-300: #dee2e6;
-  --awu-gray-400: #ced4da;
-  --awu-gray-500: #adb5bd;
-  --awu-gray-600: #868e96;
-  --awu-gray-700: #495057;
-  --awu-gray-800: #343a40;
-  --awu-gray-900: #212529;
+  // ---- Horizon secondaryGray scale ----
+  --awu-gray-50: #F4F7FE;
+  --awu-gray-100: #E9EDF7;
+  --awu-gray-200: #E1E9F8;
+  --awu-gray-300: #E0E5F2;
+  --awu-gray-400: #A3AED0;
+  --awu-gray-500: #8F9BBA;
+  --awu-gray-600: #A3AED0;
+  --awu-gray-700: #707EAE;
+  --awu-gray-800: #1B2559;
+  --awu-gray-900: #1B2559;
 
-  --awu-success: #2e7d32;
-  --awu-warning: #f57c00;
-  --awu-danger: #c62828;
-  --awu-info: #0277bd;
+  // ---- Accent palette (Horizon exact) ----
+  --awu-success: #01B574;
+  --awu-warning: #FFB547;
+  --awu-danger: #EE5D50;
+  --awu-info: #422AFB;
 
-  --awu-sidebar-width: 260px;
+  // ---- Semantic accents ----
+  --awu-accent-blue: #3965FF;
+  --awu-accent-amber: #FFB547;
+  --awu-accent-emerald: #01B574;
+  --awu-accent-violet: #7551FF;
+  --awu-accent-red: #EE5D50;
+
+  // ---- Layout ----
+  --awu-sidebar-width: 290px;
   --awu-sidebar-collapsed-width: 0px;
-  --awu-topbar-height: 56px;
+  --awu-topbar-height: 0px;
 
-  --awu-font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-    'Noto Sans', sans-serif;
-  --awu-border-radius: 8px;
+  // ---- Typography ----
+  --awu-font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+
+  // ---- Border Radius (Horizon card = 20px) ----
+  --awu-border-radius: 20px;
+  --awu-border-radius-sm: 12px;
+  --awu-border-radius-xs: 8px;
+
+  // ---- Shadows (Horizon 3xl = 14px 17px 40px 4px) ----
+  --awu-shadow-sm: 0 2px 8px rgba(112, 144, 176, 0.06);
+  --awu-shadow-md: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+  --awu-shadow-lg: 14px 17px 40px 4px rgba(112, 144, 176, 0.12);
+  --awu-shadow-hover: 14px 17px 40px 4px rgba(112, 144, 176, 0.18);
+
+  // ---- Card (Horizon exact) ----
+  --awu-card-padding: 20px;
+  --awu-card-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+
+  // ---- Transition ----
   --awu-transition-speed: 0.2s;
+
+  // ---- PrimeVue CSS Variable Overrides ----
+  --p-primary-color: #422AFB;
+  --p-primary-contrast-color: #ffffff;
+  --p-primary-50: #E9E3FF;
+  --p-primary-100: #E9E3FF;
+  --p-primary-200: #B8A3FF;
+  --p-primary-300: #7551FF;
+  --p-primary-400: #7551FF;
+  --p-primary-500: #422AFB;
+  --p-primary-600: #3311DB;
+  --p-primary-700: #02044A;
+  --p-primary-800: #190793;
+  --p-primary-900: #11047A;
+
+  --p-surface-0: #ffffff;
+  --p-surface-50: #FAFCFE;
+  --p-surface-100: #F4F7FE;
+  --p-surface-200: #E9EDF7;
+  --p-surface-300: #E0E5F2;
+  --p-surface-400: #A3AED0;
+  --p-surface-500: #8F9BBA;
+  --p-surface-600: #A3AED0;
+  --p-surface-700: #707EAE;
+  --p-surface-800: #1B2559;
+  --p-surface-900: #1B2559;
 }
 
 // ---------------------------------------------
-// Reset & Base
+// 2. Reset & Base
 // ---------------------------------------------
 *,
 *::before,
@@ -55,9 +109,10 @@ html {
 
 body {
   font-family: var(--awu-font-family);
-  color: var(--awu-gray-800);
-  background-color: var(--awu-gray-50);
-  line-height: 1.5;
+  color: var(--awu-gray-700);
+  background-color: var(--awu-blue-bg);
+  line-height: 1.6;
+  letter-spacing: -0.5px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -73,7 +128,7 @@ a {
 }
 
 // ---------------------------------------------
-// Layout Helpers
+// 3. Layout Helpers
 // ---------------------------------------------
 .layout-wrapper {
   display: flex;
@@ -84,11 +139,12 @@ a {
   width: var(--awu-sidebar-width);
   min-height: 100vh;
   transition: width var(--awu-transition-speed) ease;
-  overflow: hidden;
+  overflow: visible;
   flex-shrink: 0;
 
   &.collapsed {
     width: var(--awu-sidebar-collapsed-width);
+    overflow: hidden;
   }
 }
 
@@ -100,7 +156,6 @@ a {
 }
 
 .layout-topbar {
-  height: var(--awu-topbar-height);
   flex-shrink: 0;
 }
 
@@ -111,90 +166,188 @@ a {
 }
 
 // ---------------------------------------------
-// Utility Classes
+// 4. Utility Classes
 // ---------------------------------------------
-.flex {
-  display: flex;
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+
+.gap-1 { gap: 0.25rem; }
+.gap-2 { gap: 0.5rem; }
+.gap-3 { gap: 1rem; }
+.gap-4 { gap: 1.5rem; }
+
+.w-full { width: 100%; }
+.text-center { text-align: center; }
+.font-bold { font-weight: 700; }
+.text-sm { font-size: 0.875rem; }
+.text-muted { color: var(--awu-gray-500); }
+
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1.5rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1.5rem; }
+.p-2 { padding: 0.5rem; }
+.p-4 { padding: 1.5rem; }
+
+// ---------------------------------------------
+// 5. PrimeVue Global Overrides — Cards
+// ---------------------------------------------
+.p-card {
+  border-radius: var(--awu-border-radius) !important;
+  box-shadow: var(--awu-card-shadow) !important;
+  border: none !important;
+  background: #fff;
+  overflow: hidden;
+  transition: box-shadow var(--awu-transition-speed) ease;
+
+  .p-card-body {
+    padding: var(--awu-card-padding);
+    border: none !important;
+  }
+
+  .p-card-content {
+    padding: 0;
+  }
+
+  .p-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--awu-gray-800);
+    margin-bottom: 0.5rem;
+  }
 }
 
-.flex-col {
-  flex-direction: column;
+// ---------------------------------------------
+// 6. PrimeVue Global Overrides — DataTable
+// ---------------------------------------------
+.p-datatable {
+  max-width: 100%;
+  overflow-x: auto;
+
+  .p-datatable-thead > tr > th {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--awu-gray-400);
+    background: transparent;
+    border-bottom: 1px solid var(--awu-gray-100);
+    padding: 0.75rem 1rem;
+  }
+
+  .p-datatable-tbody > tr {
+    transition: background var(--awu-transition-speed) ease;
+
+    > td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--awu-gray-100);
+      font-size: 0.875rem;
+    }
+
+    &:hover {
+      background: var(--awu-gray-50) !important;
+    }
+  }
+
+  // Zebra rows
+  .p-datatable-tbody > tr:nth-child(even) {
+    background: rgba(244, 247, 254, 0.4);
+  }
 }
 
-.items-center {
-  align-items: center;
+// ---------------------------------------------
+// 7. PrimeVue Global Overrides — Tags / Badges
+// ---------------------------------------------
+.p-tag {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.625rem;
 }
 
-.justify-center {
-  justify-content: center;
+// ---------------------------------------------
+// 8. PrimeVue Global Overrides — Inputs & Selects
+// ---------------------------------------------
+.p-inputtext,
+.p-select,
+.p-multiselect,
+.p-datepicker {
+  max-width: 100%;
+  min-width: 0;
+  border-radius: var(--awu-border-radius-sm) !important;
+
+  &:focus,
+  &.p-focus {
+    box-shadow: 0 0 0 2px rgba(67, 24, 255, 0.15) !important;
+    border-color: var(--awu-blue) !important;
+  }
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-3 {
-  gap: 1rem;
-}
-
-.gap-4 {
-  gap: 1.5rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.text-sm {
+.p-inputtext {
+  padding: 0.625rem 0.875rem;
   font-size: 0.875rem;
 }
 
-.text-muted {
-  color: var(--awu-gray-500);
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1.5rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-4 {
-  margin-bottom: 1.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-4 {
-  padding: 1.5rem;
+// Textarea
+.p-textarea {
+  border-radius: var(--awu-border-radius-sm) !important;
 }
 
 // ---------------------------------------------
-// Responsive
+// 9. PrimeVue Global Overrides — Buttons
+// ---------------------------------------------
+.p-button {
+  border-radius: var(--awu-border-radius-sm) !important;
+  font-weight: 600;
+  transition: all var(--awu-transition-speed) ease;
+}
+
+// ---------------------------------------------
+// 10. PrimeVue Global Overrides — Dialog
+// ---------------------------------------------
+.p-dialog {
+  border-radius: var(--awu-border-radius) !important;
+  box-shadow: var(--awu-shadow-lg) !important;
+  overflow: hidden;
+
+  .p-dialog-header {
+    border-bottom: 1px solid var(--awu-gray-100);
+  }
+
+  .p-dialog-footer {
+    border-top: 1px solid var(--awu-gray-100);
+  }
+}
+
+// ---------------------------------------------
+// 11. PrimeVue Global Overrides — Tabs / TabView
+// ---------------------------------------------
+.p-tabview {
+  .p-tabview-panels {
+    padding: 1rem 0;
+  }
+}
+
+// ---------------------------------------------
+// 12. PrimeVue Global Overrides — Menu
+// ---------------------------------------------
+.p-menu {
+  border: none;
+  border-radius: 0;
+}
+
+// ---------------------------------------------
+// 13. Ensure layout content doesn't overflow
+// ---------------------------------------------
+.layout-content {
+  overflow-x: hidden;
+}
+
+// ---------------------------------------------
+// 14. Responsive
 // ---------------------------------------------
 @media (max-width: 768px) {
   .layout-sidebar {

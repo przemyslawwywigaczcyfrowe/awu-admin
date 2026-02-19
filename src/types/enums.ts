@@ -64,5 +64,20 @@ export enum ShipmentStatus {
 export enum PaymentMethod {
   TRANSFER = 'transfer',
   CASH = 'cash',
-  GIFT_CARD = 'gift_card'
+  GIFT_CARD = 'gift_card',
+  REVERSE_TRANSFER = 'reverse_transfer',
+  GIFT_CARD_FULL_CARE = 'gift_card_full_care'
+}
+
+export enum KanbanStage {
+  NOWY = 'NOWY',
+  REGAL = 'REGAŁ',
+  INDEKS = 'INDEKS',
+  KG_EAN_WYDRUK = 'KG+EAN WYDRUK',
+  KG_EAN_ROZLOZENIE = 'KG+EAN ROZŁOŻENIE',
+  SESJA_PAKOWANIE = 'SESJA+PAKOWANIE',
+  KARTA_PRODUKTU = 'KARTA PRODUKTU',
+  PZ = 'PZ',
+  FRONT = 'FRONT',
+  ALLEGRO = 'Allegro'
 }

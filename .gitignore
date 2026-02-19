@@ -5,3 +5,7 @@ dist
 .vscode
 .idea
 nul
+*.d.ts
+!src/**/*.d.ts
+vite.config.js
+scripts/*.js
