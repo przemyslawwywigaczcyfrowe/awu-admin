@@ -1,0 +1,215 @@
+// ==============================================
+// AWU Admin - Global Styles
+// ==============================================
+
+// ---------------------------------------------
+// CSS Custom Properties (Brand Colors)
+// ---------------------------------------------
+:root {
+  --awu-blue: #0066cc;
+  --awu-blue-light: #3399ff;
+  --awu-blue-dark: #004c99;
+  --awu-blue-bg: #e6f0ff;
+
+  --awu-gray-50: #f8f9fa;
+  --awu-gray-100: #f1f3f5;
+  --awu-gray-200: #e9ecef;
+  --awu-gray-300: #dee2e6;
+  --awu-gray-400: #ced4da;
+  --awu-gray-500: #adb5bd;
+  --awu-gray-600: #868e96;
+  --awu-gray-700: #495057;
+  --awu-gray-800: #343a40;
+  --awu-gray-900: #212529;
+
+  --awu-success: #2e7d32;
+  --awu-warning: #f57c00;
+  --awu-danger: #c62828;
+  --awu-info: #0277bd;
+
+  --awu-sidebar-width: 260px;
+  --awu-sidebar-collapsed-width: 0px;
+  --awu-topbar-height: 56px;
+
+  --awu-font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif;
+  --awu-border-radius: 8px;
+  --awu-transition-speed: 0.2s;
+}
+
+// ---------------------------------------------
+// Reset & Base
+// ---------------------------------------------
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--awu-font-family);
+  color: var(--awu-gray-800);
+  background-color: var(--awu-gray-50);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--awu-blue);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--awu-blue-dark);
+    text-decoration: underline;
+  }
+}
+
+// ---------------------------------------------
+// Layout Helpers
+// ---------------------------------------------
+.layout-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.layout-sidebar {
+  width: var(--awu-sidebar-width);
+  min-height: 100vh;
+  transition: width var(--awu-transition-speed) ease;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  &.collapsed {
+    width: var(--awu-sidebar-collapsed-width);
+  }
+}
+
+.layout-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.layout-topbar {
+  height: var(--awu-topbar-height);
+  flex-shrink: 0;
+}
+
+.layout-content {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+// ---------------------------------------------
+// Utility Classes
+// ---------------------------------------------
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+.gap-4 {
+  gap: 1.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-muted {
+  color: var(--awu-gray-500);
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+// ---------------------------------------------
+// Responsive
+// ---------------------------------------------
+@media (max-width: 768px) {
+  .layout-sidebar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100vh;
+
+    &.collapsed {
+      width: 0;
+    }
+  }
+
+  .layout-content {
+    padding: 1rem;
+  }
+}
