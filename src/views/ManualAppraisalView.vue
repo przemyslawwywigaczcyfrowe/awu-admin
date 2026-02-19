@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import Card from 'primevue/card'
 import Stepper from 'primevue/stepper'
@@ -12,12 +12,21 @@ import InputNumber from 'primevue/inputnumber'
 import Select from 'primevue/select'
 import Checkbox from 'primevue/checkbox'
 import MultiSelect from 'primevue/multiselect'
+import AutoComplete from 'primevue/autocomplete'
+import Chip from 'primevue/chip'
 import Button from 'primevue/button'
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import { formatPrice } from '@/utils/priceFormatter'
+import { useProductCatalogStore, UNIVERSAL_ACCESSORIES } from '@/stores/productCatalog.store'
+import type { CatalogProduct } from '@/stores/productCatalog.store'
 
 const router = useRouter()
+const catalogStore = useProductCatalogStore()
+
+onMounted(() => {
+  catalogStore.loadCatalog()
+})
 
 const activeStep = ref<number>(1)
 
@@ -79,17 +88,70 @@ const ratingOptions = [
   { label: '5 - Słaby', value: 5 }
 ]
 
-const accessoryOptions = [
-  { label: 'Ładowarka', value: 'ladowarka' },
-  { label: 'Kabel USB', value: 'kabel_usb' },
-  { label: 'Słuchawki', value: 'sluchawki' },
-  { label: 'Etui / Pokrowiec', value: 'etui' },
-  { label: 'Oryginalne pudełko', value: 'pudełko' },
-  { label: 'Instrukcja', value: 'instrukcja' },
-  { label: 'Karta gwarancyjna', value: 'gwarancja' },
-  { label: 'Pasek', value: 'pasek' },
-  { label: 'Rysik', value: 'rysik' }
-]
+// --- Product suggester ---
+const productSuggestions = ref<CatalogProduct[]>([])
+const selectedCatalogProduct = ref<CatalogProduct | null>(null)
+const productAccessoryOptions = ref<{ label: string; value: string }[]>([])
+const isProductFromCatalog = ref(false)
+const customAccessory = ref('')
+
+function searchProductSuggestions(event: { query: string }) {
+  const results = catalogStore.searchProducts(event.query)
+  productSuggestions.value = results
+}
+
+function onProductSelect(event: { value: CatalogProduct }) {
+  const product = event.value
+  selectedCatalogProduct.value = product
+  newProduct.value.name = product.name
+  updateAccessoryOptions(product.name)
+}
+
+function onProductClear() {
+  selectedCatalogProduct.value = null
+  isProductFromCatalog.value = false
+  productAccessoryOptions.value = UNIVERSAL_ACCESSORIES.map((a) => ({ label: a, value: a }))
+  newProduct.value.accessories = []
+}
+
+function updateAccessoryOptions(productName: string) {
+  const { accessories, isFromCatalog } = catalogStore.getAccessoriesForProduct(productName)
+  isProductFromCatalog.value = isFromCatalog
+  productAccessoryOptions.value = accessories.map((a) => ({ label: a, value: a }))
+  // Pre-select none — operator picks what customer brought
+  newProduct.value.accessories = []
+}
+
+// Watch for manual text input (typing a name not in the catalog)
+watch(
+  () => newProduct.value.name,
+  (name) => {
+    if (!name || name.length < 2) {
+      productAccessoryOptions.value = UNIVERSAL_ACCESSORIES.map((a) => ({ label: a, value: a }))
+      isProductFromCatalog.value = false
+      return
+    }
+    // Only update if not already set by selection
+    if (!selectedCatalogProduct.value || selectedCatalogProduct.value.name !== name) {
+      updateAccessoryOptions(name)
+    }
+  }
+)
+
+function addCustomAccessory() {
+  const trimmed = customAccessory.value.trim()
+  if (!trimmed) return
+  // Add to options if not already there
+  const exists = productAccessoryOptions.value.some((o) => o.value === trimmed)
+  if (!exists) {
+    productAccessoryOptions.value.push({ label: trimmed, value: trimmed })
+  }
+  // Auto-select it
+  if (!newProduct.value.accessories.includes(trimmed)) {
+    newProduct.value.accessories.push(trimmed)
+  }
+  customAccessory.value = ''
+}
 
 const newProduct = ref<ManualProduct>({
   id: 0,
@@ -99,6 +161,9 @@ const newProduct = ref<ManualProduct>({
   accessories: [],
   price: null
 })
+
+// Initialize default accessory options
+productAccessoryOptions.value = UNIVERSAL_ACCESSORIES.map((a) => ({ label: a, value: a }))
 
 const products = ref<ManualProduct[]>([])
 let productIdCounter = 1
@@ -111,6 +176,7 @@ function addProduct() {
     id: productIdCounter++
   })
 
+  // Reset product form and suggester state
   newProduct.value = {
     id: 0,
     name: '',
@@ -119,6 +185,10 @@ function addProduct() {
     accessories: [],
     price: null
   }
+  selectedCatalogProduct.value = null
+  isProductFromCatalog.value = false
+  productAccessoryOptions.value = UNIVERSAL_ACCESSORIES.map((a) => ({ label: a, value: a }))
+  customAccessory.value = ''
 }
 
 function removeProduct(id: number) {
@@ -139,9 +209,7 @@ function getRatingLabel(rating: number | null): string {
 
 function getAccessoriesLabel(accessories: string[]): string {
   if (!accessories.length) return '-'
-  return accessories
-    .map(a => accessoryOptions.find(o => o.value === a)?.label || a)
-    .join(', ')
+  return accessories.join(', ')
 }
 
 // --- Step 4: Completion ---
@@ -185,6 +253,9 @@ function newAppraisal() {
   appraisalCompleted.value = false
   generatedNumber.value = ''
   activeStep.value = 1
+  selectedCatalogProduct.value = null
+  isProductFromCatalog.value = false
+  productAccessoryOptions.value = UNIVERSAL_ACCESSORIES.map((a) => ({ label: a, value: a }))
 }
 
 function goToStoreOps() {
@@ -299,7 +370,39 @@ function goToStoreOps() {
                   <div class="form-grid">
                     <div class="form-field form-field--wide">
                       <label>Nazwa produktu *</label>
-                      <InputText v-model="newProduct.name" placeholder="np. Canon EOS R5" />
+                      <AutoComplete
+                        v-model="newProduct.name"
+                        :suggestions="productSuggestions"
+                        optionLabel="name"
+                        :minLength="2"
+                        placeholder="Zacznij pisać nazwę produktu..."
+                        forceSelection= false
+                        @complete="searchProductSuggestions"
+                        @item-select="onProductSelect"
+                        @clear="onProductClear"
+                        class="product-autocomplete"
+                      >
+                        <template #option="{ option }">
+                          <div class="product-suggestion">
+                            <span class="product-suggestion__name">{{ option.name }}</span>
+                            <span class="product-suggestion__accessories">
+                              {{ option.accessories.length }} akcesoriów
+                            </span>
+                          </div>
+                        </template>
+                        <template #empty>
+                          <div class="product-suggestion-empty">
+                            <i class="pi pi-info-circle" />
+                            <span>Brak w bazie — wpisz nazwę ręcznie</span>
+                          </div>
+                        </template>
+                      </AutoComplete>
+                      <small v-if="isProductFromCatalog" class="product-catalog-hint product-catalog-hint--found">
+                        <i class="pi pi-check-circle" /> Produkt z bazy danych — wyświetlam dedykowane akcesoria
+                      </small>
+                      <small v-else-if="newProduct.name.length >= 2" class="product-catalog-hint product-catalog-hint--manual">
+                        <i class="pi pi-info-circle" /> Produkt spoza bazy — wyświetlam uniwersalny zestaw akcesoriów
+                      </small>
                     </div>
                     <div class="form-field">
                       <label>Numer seryjny</label>
@@ -316,15 +419,33 @@ function goToStoreOps() {
                       />
                     </div>
                     <div class="form-field form-field--wide">
-                      <label>Akcesoria</label>
+                      <label>Akcesoria {{ isProductFromCatalog ? '(z bazy)' : '(uniwersalne)' }}</label>
                       <MultiSelect
                         v-model="newProduct.accessories"
-                        :options="accessoryOptions"
+                        :options="productAccessoryOptions"
                         optionLabel="label"
                         optionValue="value"
-                        placeholder="Wybierz akcesoria"
+                        placeholder="Wybierz akcesoria dołączone do produktu"
                         display="chip"
+                        :filter="true"
+                        filterPlaceholder="Szukaj akcesorium..."
                       />
+                      <div class="custom-accessory-row">
+                        <InputText
+                          v-model="customAccessory"
+                          placeholder="Dodaj własne akcesorium..."
+                          size="small"
+                          @keydown.enter="addCustomAccessory"
+                        />
+                        <Button
+                          icon="pi pi-plus"
+                          size="small"
+                          severity="secondary"
+                          text
+                          @click="addCustomAccessory"
+                          :disabled="!customAccessory.trim()"
+                        />
+                      </div>
                     </div>
                     <div class="form-field">
                       <label>Cena (zł) *</label>
@@ -580,6 +701,77 @@ function goToStoreOps() {
 
   .form-grid {
     margin-bottom: 1rem;
+  }
+}
+
+.product-autocomplete {
+  width: 100%;
+
+  :deep(.p-autocomplete-input) {
+    width: 100%;
+  }
+}
+
+.product-suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+
+  &__name {
+    font-weight: 500;
+  }
+
+  &__accessories {
+    font-size: 0.75rem;
+    color: var(--awu-gray-400);
+    white-space: nowrap;
+  }
+}
+
+.product-suggestion-empty {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  color: var(--awu-gray-500);
+  font-size: 0.875rem;
+
+  i {
+    color: var(--awu-gray-400);
+  }
+}
+
+.product-catalog-hint {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+
+  i {
+    font-size: 0.75rem;
+  }
+
+  &--found {
+    color: var(--awu-accent-emerald);
+  }
+
+  &--manual {
+    color: var(--awu-gray-400);
+  }
+}
+
+.custom-accessory-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+
+  :deep(.p-inputtext) {
+    flex: 1;
+    font-size: 0.8rem;
   }
 }
 
