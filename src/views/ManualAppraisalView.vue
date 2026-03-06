@@ -867,7 +867,7 @@ function goToStoreOps() {
 
   &__number {
     font-size: 1.25rem;
-    color: var(--awu-blue);
+    color: var(--awu-blue-text);
     margin: 0 0 0.5rem;
   }
 

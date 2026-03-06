@@ -75,12 +75,9 @@ function goBack() {
 // ---------------------------------------------------------------------------
 
 interface VerificationChecklist {
-  exteriorOk: boolean
-  screenLensOk: boolean
-  portsOk: boolean
-  buttonsOk: boolean
+  visualCondition: string
+  mechanicalCondition: string
   shutterCount: number | null
-  autofocusOk: boolean
   verifiedSerialNumber: string
   firmwareVersion: string
 }
@@ -96,18 +93,37 @@ interface ExternalServiceData {
 }
 const externalServiceData = reactive<Record<number, ExternalServiceData>>({})
 
-// Initialise checklists when appraisal loads
+// --- localStorage persistence for verification checklists ---
+const CHECKLIST_STORAGE_PREFIX = 'awu_checklist_'
+
+function persistChecklists(): void {
+  if (!appraisal.value) return
+  const key = `${CHECKLIST_STORAGE_PREFIX}${appraisal.value.id}`
+  try {
+    localStorage.setItem(key, JSON.stringify(verificationChecklists))
+  } catch { /* ignore */ }
+}
+
+function loadPersistedChecklists(appraisalId: number): Record<number, VerificationChecklist> | null {
+  try {
+    const raw = localStorage.getItem(`${CHECKLIST_STORAGE_PREFIX}${appraisalId}`)
+    if (raw) return JSON.parse(raw)
+  } catch { /* ignore */ }
+  return null
+}
+
+// Initialise checklists when appraisal loads (restore from localStorage first)
 watch(appraisal, (val) => {
   if (!val) return
+  const persisted = loadPersistedChecklists(val.id)
   for (const product of val.products) {
-    if (!verificationChecklists[product.id]) {
+    if (persisted && persisted[product.id]) {
+      verificationChecklists[product.id] = persisted[product.id]
+    } else if (!verificationChecklists[product.id]) {
       verificationChecklists[product.id] = {
-        exteriorOk: false,
-        screenLensOk: false,
-        portsOk: false,
-        buttonsOk: false,
+        visualCondition: '',
+        mechanicalCondition: '',
         shutterCount: null,
-        autofocusOk: false,
         verifiedSerialNumber: product.serialNumber ?? '',
         firmwareVersion: ''
       }
@@ -122,19 +138,21 @@ watch(appraisal, (val) => {
   }
 }, { immediate: true })
 
+// Auto-save checklists on any change (deep watch)
+watch(verificationChecklists, () => {
+  persistChecklists()
+}, { deep: true })
+
 const CHECKLIST_REQUIRED_FIELDS: (keyof VerificationChecklist)[] = [
-  'exteriorOk', 'screenLensOk', 'portsOk', 'buttonsOk', 'autofocusOk', 'verifiedSerialNumber'
+  'visualCondition', 'mechanicalCondition', 'verifiedSerialNumber'
 ]
 
 function getChecklistFilledCount(productId: number): number {
   const cl = verificationChecklists[productId]
   if (!cl) return 0
   let filled = 0
-  if (cl.exteriorOk) filled++
-  if (cl.screenLensOk) filled++
-  if (cl.portsOk) filled++
-  if (cl.buttonsOk) filled++
-  if (cl.autofocusOk) filled++
+  if (cl.visualCondition.trim().length > 0) filled++
+  if (cl.mechanicalCondition.trim().length > 0) filled++
   if (cl.verifiedSerialNumber.trim().length > 0) filled++
   return filled
 }
@@ -262,7 +280,7 @@ const contractTimelineEvents = computed(() => {
     date: appraisal.value.createdAt,
     icon: 'pi pi-check',
     color: 'var(--awu-green)',
-    active: [AppraisalStatus.ZWERYFIKOWANA, AppraisalStatus.ZAAKCEPTOWANA, AppraisalStatus.UMOWA_W_PRZYGOTOWANIU, AppraisalStatus.UMOWA_PODPISANA, AppraisalStatus.REALIZACJA_FINANSOWA, AppraisalStatus.ZAKONCZONA].includes(appraisal.value.status)
+    active: [AppraisalStatus.ZWERYFIKOWANA, AppraisalStatus.ZAAKCEPTOWANA, AppraisalStatus.OCZEKUJE_NA_DECYZJE, AppraisalStatus.UMOWA_W_PRZYGOTOWANIU, AppraisalStatus.UMOWA_PODPISANA, AppraisalStatus.REALIZACJA_FINANSOWA, AppraisalStatus.ZAKONCZONA].includes(appraisal.value.status)
   })
   events.push({
     label: 'Decyzja klienta',
@@ -272,7 +290,7 @@ const contractTimelineEvents = computed(() => {
     active: [AppraisalStatus.ZAAKCEPTOWANA, AppraisalStatus.UMOWA_W_PRZYGOTOWANIU, AppraisalStatus.UMOWA_PODPISANA, AppraisalStatus.REALIZACJA_FINANSOWA, AppraisalStatus.ZAKONCZONA].includes(appraisal.value.status)
   })
   events.push({
-    label: 'Umowa wygenerowana',
+    label: 'Umowa',
     date: '',
     icon: 'pi pi-file',
     color: 'var(--awu-blue)',
@@ -704,6 +722,12 @@ const expiryUrgency = computed(() => {
                       :severity="isProductVerified(product) ? (hasMismatch(product) ? 'warn' : 'success') : 'secondary'"
                     />
                     <span class="product-accordion-header__name">{{ product.data.name }}</span>
+                    <span v-if="verificationChecklists[product.id]?.verifiedSerialNumber?.trim()" class="product-accordion-header__sn">
+                      S/N: {{ verificationChecklists[product.id].verifiedSerialNumber }}
+                    </span>
+                    <span v-else-if="product.serialNumber" class="product-accordion-header__sn product-accordion-header__sn--declared">
+                      S/N: {{ product.serialNumber }}
+                    </span>
                     <Tag v-if="product.data.erpIndex" :value="product.data.erpIndex" severity="secondary" class="product-accordion-header__erp" />
                   </div>
                   <div class="product-accordion-header__right">
@@ -847,36 +871,36 @@ const expiryUrgency = computed(() => {
                     <i class="pi pi-list-check" /> Lista kontrolna weryfikacji
                   </h4>
                   <div class="verification-checklist__grid">
-                    <!-- Visual inspection -->
+                    <!-- Visual condition notes -->
                     <div class="checklist-group">
-                      <div class="checklist-group__title">Oględziny wizualne</div>
-                      <div class="checklist-item" :class="{ 'checklist-item--incomplete': !verificationChecklists[product.id].exteriorOk }">
-                        <Checkbox v-model="verificationChecklists[product.id].exteriorOk" :binary="true" :inputId="'ext_' + product.id" />
-                        <label :for="'ext_' + product.id">Obudowa / exterior <span class="checklist-item__required">*</span></label>
-                      </div>
-                      <div class="checklist-item" :class="{ 'checklist-item--incomplete': !verificationChecklists[product.id].screenLensOk }">
-                        <Checkbox v-model="verificationChecklists[product.id].screenLensOk" :binary="true" :inputId="'scr_' + product.id" />
-                        <label :for="'scr_' + product.id">Ekran / obiektyw <span class="checklist-item__required">*</span></label>
-                      </div>
-                      <div class="checklist-item" :class="{ 'checklist-item--incomplete': !verificationChecklists[product.id].portsOk }">
-                        <Checkbox v-model="verificationChecklists[product.id].portsOk" :binary="true" :inputId="'port_' + product.id" />
-                        <label :for="'port_' + product.id">Porty / złącza <span class="checklist-item__required">*</span></label>
+                      <div class="checklist-group__title">Stan wizualny</div>
+                      <div class="checklist-item" :class="{ 'checklist-item--incomplete': !verificationChecklists[product.id].visualCondition.trim() }">
+                        <label :for="'vis_' + product.id">Opis stanu wizualnego <span class="checklist-item__required">*</span></label>
+                        <Textarea
+                          v-model="verificationChecklists[product.id].visualCondition"
+                          :id="'vis_' + product.id"
+                          rows="3"
+                          class="w-full"
+                          placeholder="Opisz stan wizualny: obudowa, ekran/obiektyw, porty, zarysowania, uszkodzenia..."
+                        />
                       </div>
                     </div>
-                    <!-- Mechanical check -->
+                    <!-- Mechanical condition notes -->
                     <div class="checklist-group">
-                      <div class="checklist-group__title">Kontrola mechaniczna</div>
-                      <div class="checklist-item" :class="{ 'checklist-item--incomplete': !verificationChecklists[product.id].buttonsOk }">
-                        <Checkbox v-model="verificationChecklists[product.id].buttonsOk" :binary="true" :inputId="'btn_' + product.id" />
-                        <label :for="'btn_' + product.id">Przyciski / pokrętła <span class="checklist-item__required">*</span></label>
+                      <div class="checklist-group__title">Stan mechaniczny</div>
+                      <div class="checklist-item" :class="{ 'checklist-item--incomplete': !verificationChecklists[product.id].mechanicalCondition.trim() }">
+                        <label :for="'mech_' + product.id">Opis stanu mechanicznego <span class="checklist-item__required">*</span></label>
+                        <Textarea
+                          v-model="verificationChecklists[product.id].mechanicalCondition"
+                          :id="'mech_' + product.id"
+                          rows="3"
+                          class="w-full"
+                          placeholder="Opisz stan mechaniczny: przyciski, pokrętła, autofocus, stabilizacja, migawka..."
+                        />
                       </div>
                       <div class="checklist-item">
-                        <label :for="'shutter_' + product.id">Licznik zdjęć (opcjonalnie):</label>
+                        <label :for="'shutter_' + product.id">Przebieg migawki (opcjonalnie):</label>
                         <InputNumber v-model="verificationChecklists[product.id].shutterCount" :inputId="'shutter_' + product.id" placeholder="np. 12500" :min="0" class="checklist-item__input" />
-                      </div>
-                      <div class="checklist-item" :class="{ 'checklist-item--incomplete': !verificationChecklists[product.id].autofocusOk }">
-                        <Checkbox v-model="verificationChecklists[product.id].autofocusOk" :binary="true" :inputId="'af_' + product.id" />
-                        <label :for="'af_' + product.id">Autofocus / stabilizacja <span class="checklist-item__required">*</span></label>
                       </div>
                     </div>
                     <!-- Serial & firmware -->
@@ -1048,7 +1072,7 @@ const expiryUrgency = computed(() => {
                   :loading="detailStore.saving"
                 />
                 <Button
-                  label="Utwórz korektę"
+                  label="Edytuj"
                   icon="pi pi-pencil"
                   severity="warn"
                   @click="correctionDialogVisible = true"
@@ -1068,14 +1092,14 @@ const expiryUrgency = computed(() => {
         </Card>
 
         <!-- Correction dialog -->
-        <Dialog v-model:visible="correctionDialogVisible" header="Utwórz skorygowaną wersję" :style="{ width: '500px' }" modal>
+        <Dialog v-model:visible="correctionDialogVisible" header="Edytuj wycenę" :style="{ width: '500px' }" modal>
           <div class="field">
-            <label>Powód korekty:</label>
-            <Textarea v-model="correctionReason" rows="4" class="w-full" placeholder="Opisz powód utworzenia korekty..." />
+            <label>Powód edycji:</label>
+            <Textarea v-model="correctionReason" rows="4" class="w-full" placeholder="Opisz powód edycji wyceny..." />
           </div>
           <template #footer>
             <Button label="Anuluj" severity="secondary" text @click="correctionDialogVisible = false" />
-            <Button label="Utwórz korektę" icon="pi pi-pencil" severity="warn" @click="handleCreateCorrection" :disabled="!correctionReason.trim()" :loading="detailStore.saving" />
+            <Button label="Zapisz edycję" icon="pi pi-pencil" severity="warn" @click="handleCreateCorrection" :disabled="!correctionReason.trim()" :loading="detailStore.saving" />
           </template>
         </Dialog>
       </TabPanel>
@@ -1793,6 +1817,21 @@ const expiryUrgency = computed(() => {
 
     @media (max-width: 768px) {
       max-width: 200px;
+    }
+  }
+
+  &__sn {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--awu-gray-700);
+    background: var(--awu-gray-100);
+    padding: 0.125rem 0.5rem;
+    border-radius: 6px;
+    white-space: nowrap;
+
+    &--declared {
+      color: var(--awu-gray-500);
+      font-style: italic;
     }
   }
 

@@ -97,8 +97,10 @@ export interface AppraisalListItem {
   clientName: string
   clientEmail: string
   productCount: number
+  productSummary: string
   locationName: string
   assignedOperatorName: string | null
+  assignedOperatorId?: number
   totalPriceTransfer: number
   totalPriceGiftCard: number
   customerDecision: string | null

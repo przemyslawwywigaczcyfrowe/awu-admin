@@ -34,22 +34,24 @@ export const STATUS_CONFIG: Record<AppraisalStatus, StatusConfig> = {
     severity: 'success',
     icon: 'pi pi-check-circle'
   },
+  // SKORYGOWANA — backward compat alias, displays as "W trakcie weryfikacji"
   [AppraisalStatus.SKORYGOWANA]: {
     id: AppraisalStatus.SKORYGOWANA,
     key: 'skorygowana',
-    label: 'Skorygowana',
+    label: 'W trakcie weryfikacji',
     color: '#F59E0B',
     severity: 'warn',
-    icon: 'pi pi-pencil'
+    icon: 'pi pi-search'
   },
   [AppraisalStatus.OCZEKUJE_NA_DECYZJE]: {
     id: AppraisalStatus.OCZEKUJE_NA_DECYZJE,
     key: 'oczekuje_na_decyzje',
-    label: 'Oczekuje na decyzję klienta',
+    label: 'Oczekuje na decyzję',
     color: '#F59E0B',
     severity: 'warn',
     icon: 'pi pi-clock'
   },
+  // ZAAKCEPTOWANA — backward compat, no longer shown in transitions
   [AppraisalStatus.ZAAKCEPTOWANA]: {
     id: AppraisalStatus.ZAAKCEPTOWANA,
     key: 'zaakceptowana',
@@ -66,10 +68,11 @@ export const STATUS_CONFIG: Record<AppraisalStatus, StatusConfig> = {
     severity: 'danger',
     icon: 'pi pi-thumbs-down'
   },
+  // UMOWA_W_PRZYGOTOWANIU — backward compat alias, displays as "Umowa"
   [AppraisalStatus.UMOWA_W_PRZYGOTOWANIU]: {
     id: AppraisalStatus.UMOWA_W_PRZYGOTOWANIU,
     key: 'umowa_w_przygotowaniu',
-    label: 'Umowa w przygotowaniu',
+    label: 'Umowa',
     color: '#3B82F6',
     severity: 'info',
     icon: 'pi pi-file'
@@ -77,7 +80,7 @@ export const STATUS_CONFIG: Record<AppraisalStatus, StatusConfig> = {
   [AppraisalStatus.UMOWA_PODPISANA]: {
     id: AppraisalStatus.UMOWA_PODPISANA,
     key: 'umowa_podpisana',
-    label: 'Umowa podpisana',
+    label: 'Umowa',
     color: '#10B981',
     severity: 'success',
     icon: 'pi pi-file-check'
@@ -116,15 +119,16 @@ export const STATUS_CONFIG: Record<AppraisalStatus, StatusConfig> = {
   }
 }
 
+// Simplified transitions (reduced from 13 visible to 9 unique statuses)
 export const STATUS_TRANSITIONS: Record<AppraisalStatus, AppraisalStatus[]> = {
   [AppraisalStatus.NOWA]: [AppraisalStatus.W_TRAKCIE_WERYFIKACJI, AppraisalStatus.PRZEKAZANA_DO_CENTRALI],
-  [AppraisalStatus.W_TRAKCIE_WERYFIKACJI]: [AppraisalStatus.ZWERYFIKOWANA, AppraisalStatus.SKORYGOWANA],
-  [AppraisalStatus.ZWERYFIKOWANA]: [AppraisalStatus.OCZEKUJE_NA_DECYZJE, AppraisalStatus.UMOWA_W_PRZYGOTOWANIU],
-  [AppraisalStatus.SKORYGOWANA]: [AppraisalStatus.OCZEKUJE_NA_DECYZJE],
-  [AppraisalStatus.OCZEKUJE_NA_DECYZJE]: [AppraisalStatus.ZAAKCEPTOWANA, AppraisalStatus.ODRZUCONA],
-  [AppraisalStatus.ZAAKCEPTOWANA]: [AppraisalStatus.UMOWA_W_PRZYGOTOWANIU],
+  [AppraisalStatus.W_TRAKCIE_WERYFIKACJI]: [AppraisalStatus.ZWERYFIKOWANA],
+  [AppraisalStatus.ZWERYFIKOWANA]: [AppraisalStatus.OCZEKUJE_NA_DECYZJE, AppraisalStatus.UMOWA_PODPISANA],
+  [AppraisalStatus.SKORYGOWANA]: [AppraisalStatus.ZWERYFIKOWANA],  // backward compat
+  [AppraisalStatus.OCZEKUJE_NA_DECYZJE]: [AppraisalStatus.UMOWA_PODPISANA, AppraisalStatus.ODRZUCONA],
+  [AppraisalStatus.ZAAKCEPTOWANA]: [AppraisalStatus.UMOWA_PODPISANA],  // backward compat
   [AppraisalStatus.ODRZUCONA]: [AppraisalStatus.ZWROT_DO_KLIENTA],
-  [AppraisalStatus.UMOWA_W_PRZYGOTOWANIU]: [AppraisalStatus.UMOWA_PODPISANA],
+  [AppraisalStatus.UMOWA_W_PRZYGOTOWANIU]: [AppraisalStatus.UMOWA_PODPISANA],  // backward compat
   [AppraisalStatus.UMOWA_PODPISANA]: [AppraisalStatus.REALIZACJA_FINANSOWA],
   [AppraisalStatus.REALIZACJA_FINANSOWA]: [AppraisalStatus.ZAKONCZONA],
   [AppraisalStatus.ZAKONCZONA]: [],
@@ -132,7 +136,15 @@ export const STATUS_TRANSITIONS: Record<AppraisalStatus, AppraisalStatus[]> = {
   [AppraisalStatus.ZWROT_DO_KLIENTA]: []
 }
 
-export const getAllStatuses = (): StatusConfig[] => Object.values(STATUS_CONFIG)
+// Statuses hidden from filter dropdowns (backward compat only)
+const HIDDEN_STATUSES = new Set([
+  AppraisalStatus.SKORYGOWANA,
+  AppraisalStatus.ZAAKCEPTOWANA,
+  AppraisalStatus.UMOWA_W_PRZYGOTOWANIU,
+])
+
+export const getAllStatuses = (): StatusConfig[] =>
+  Object.values(STATUS_CONFIG).filter(s => !HIDDEN_STATUSES.has(s.id))
 
 export const getStatusConfig = (status: AppraisalStatus): StatusConfig => STATUS_CONFIG[status]
 

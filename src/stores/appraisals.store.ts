@@ -30,14 +30,15 @@ export const useAppraisalsStore = defineStore('appraisals', () => {
   const filteredAppraisals = computed(() => {
     let result = [...appraisals.value]
 
-    // Search filter (matches appraisalNumber, clientName, clientEmail)
+    // Search filter (matches appraisalNumber, clientName, clientEmail, productSummary)
     if (filters.value.search) {
       const searchLower = filters.value.search.toLowerCase()
       result = result.filter(
         (a) =>
           a.appraisalNumber.toLowerCase().includes(searchLower) ||
           a.clientName.toLowerCase().includes(searchLower) ||
-          a.clientEmail.toLowerCase().includes(searchLower)
+          a.clientEmail.toLowerCase().includes(searchLower) ||
+          (a.productSummary && a.productSummary.toLowerCase().includes(searchLower))
       )
     }
 

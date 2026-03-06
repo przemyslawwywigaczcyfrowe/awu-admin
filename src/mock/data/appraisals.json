@@ -12,7 +12,8 @@
     "assignedOperatorName": "Łukasz Skubek",
     "totalPriceTransfer": 702,
     "totalPriceGiftCard": 765,
-    "customerDecision": null
+    "customerDecision": null,
+    "productSummary": "Obiektyw Nikon 14-24 mm f2.8 G AF-S ED"
   },
   {
     "id": 2,
@@ -27,7 +28,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 397,
     "totalPriceGiftCard": 433,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 50D Body, Obiektyw Canon EF 50 mm f1.8 II"
   },
   {
     "id": 3,
@@ -42,7 +44,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1703,
     "totalPriceGiftCard": 1822,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D7200 + Obiektyw 18-105 mm VR"
   },
   {
     "id": 4,
@@ -57,7 +60,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 325,
     "totalPriceGiftCard": 354,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 50 mm f1.8"
   },
   {
     "id": 5,
@@ -72,7 +76,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 355,
     "totalPriceGiftCard": 387,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Samyang AF 24 mm f2.8 do Sony FE"
   },
   {
     "id": 6,
@@ -87,7 +92,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 422,
     "totalPriceGiftCard": 460,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Lampa błyskowa Quadralite Stroboss 36 Sony, Lampa reporterska Nissin Di700 Air do Nikon zestaw z wyzwalaczem, Lampa reporterska Sony HVL-F43M"
   },
   {
     "id": 7,
@@ -102,7 +108,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1203,
     "totalPriceGiftCard": 1287,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron SP 90 mm f/2.8 Di MACRO 1:1 VC USD / Nikon"
   },
   {
     "id": 8,
@@ -117,7 +124,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 10421,
     "totalPriceGiftCard": 11052,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Fujifilm X-H2 Body, Obiektyw Fujifilm XF 16-55 mm f2.8 R LM WR, Obiektyw Viltrox AF 13 mm f1.4 XF do Fujifilm X, Obiektyw Viltrox AF 27 mm f1.2 XF do Fujifilm X, Obiektyw Viltrox AF 75 mm f1.2 XF do Fujifilm X"
   },
   {
     "id": 9,
@@ -132,7 +140,8 @@
     "assignedOperatorName": "Maciej Barszcz",
     "totalPriceTransfer": 952,
     "totalPriceGiftCard": 1038,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon RF-S 18-150 mm f3.5-6.3 IS STM"
   },
   {
     "id": 10,
@@ -147,7 +156,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 2757,
     "totalPriceGiftCard": 3006,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 28-70 mm f3.5-5.6 OSS, Obiektyw Samyang AF 35 mm f2.8 do Sony FE, Obiektyw Sony FE 28-70 mm f3.5-5.6 OSS, Obiektyw Samyang AF 35 mm f2.8 do Sony FE, Obiektyw Sony FE 28-70 mm f3.5-5.6 OSS, Obiektyw Samyang AF 35 mm f2.8 do Sony FE"
   },
   {
     "id": 11,
@@ -162,7 +172,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 200,
     "totalPriceGiftCard": 218,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF-S 18-55 mm f4-5.6 IS STM"
   },
   {
     "id": 12,
@@ -177,7 +188,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 938,
     "totalPriceGiftCard": 1023,
-    "customerDecision": "Odrzucone przez Cyfrowe"
+    "customerDecision": "Odrzucone przez Cyfrowe",
+    "productSummary": "Obiektyw Canon EF-S 18-135 mm f3.5-5.6 IS STM, Obiektyw Canon EF 40 mm f2.8 STM"
   },
   {
     "id": 13,
@@ -192,7 +204,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2488,
     "totalPriceGiftCard": 2637,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon Z6 Body"
   },
   {
     "id": 14,
@@ -207,7 +220,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2221,
     "totalPriceGiftCard": 2421,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 70-300 mm f4-5.6 IS USM, Aparat Canon EOS 6D Body, Obiektyw Sigma 85 mm f1.4 EX DG HSM do Canon EF"
   },
   {
     "id": 15,
@@ -222,7 +236,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 4534,
     "totalPriceGiftCard": 4837,
-    "customerDecision": "Ponowiony"
+    "customerDecision": "Ponowiony",
+    "productSummary": "Obiektyw Nikon 35 mm f1.8 G AF-S DX, Adapter mocowania Nikon FTZ, Aparat Nikon Z6 II Body, Obiektyw Nikon Z 24-70 mm f4 S"
   },
   {
     "id": 16,
@@ -237,7 +252,8 @@
     "assignedOperatorName": "Rafał Grabarz",
     "totalPriceTransfer": 4873,
     "totalPriceGiftCard": 5117,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Fuji X-T4 + Obiektyw XF 16-80 mm f/4 OIS WR czarny, Obiektyw FujiFilm Fujinon XF 23 mm f/1.4 R LM WR"
   },
   {
     "id": 17,
@@ -252,7 +268,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 805,
     "totalPriceGiftCard": 877,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF-S 17-55 mm f2.8 IS USM"
   },
   {
     "id": 18,
@@ -267,7 +284,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 3121,
     "totalPriceGiftCard": 3308,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7 III Body"
   },
   {
     "id": 19,
@@ -282,7 +300,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1443,
     "totalPriceGiftCard": 1544,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 24-120 mm f4 G AF-S ED VR"
   },
   {
     "id": 20,
@@ -297,7 +316,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 4399,
     "totalPriceGiftCard": 4619,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 200-600 mm f5.6-6.3 G OSS"
   },
   {
     "id": 21,
@@ -312,7 +332,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 515,
     "totalPriceGiftCard": 562,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 18-125 mm f3.8-5.6 DC OS HSM do Canon, Obiektyw Canon EF-S 18-55 mm f3.5-5.6 IS STM OEM, Aparat Canon EOS 60D Body"
   },
   {
     "id": 22,
@@ -327,7 +348,8 @@
     "assignedOperatorName": "Tomasz Tokarczyk",
     "totalPriceTransfer": 394,
     "totalPriceGiftCard": 429,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 18-200 mm f3.5-5.6 G AF-S DX VR"
   },
   {
     "id": 23,
@@ -342,7 +364,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 970,
     "totalPriceGiftCard": 1057,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon Z 24-70 mm f4 S"
   },
   {
     "id": 24,
@@ -357,7 +380,8 @@
     "assignedOperatorName": "Magdalena Lasek",
     "totalPriceTransfer": 1791,
     "totalPriceGiftCard": 1926,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony Vlog ZV-1, Obiektyw Sigma 30 mm f1.4 DC DN Contemporary do M4/3"
   },
   {
     "id": 25,
@@ -372,7 +396,8 @@
     "assignedOperatorName": "Jakub Szproch",
     "totalPriceTransfer": 1652,
     "totalPriceGiftCard": 1777,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 70-300 mm f4-5.6 IS II USM, Aparat Canon EOS 60D Body"
   },
   {
     "id": 26,
@@ -387,7 +412,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 317,
     "totalPriceGiftCard": 346,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 35 mm f1.8 G AF-S DX"
   },
   {
     "id": 27,
@@ -402,7 +428,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2921,
     "totalPriceGiftCard": 3096,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon RF 24-105 mm f4L IS USM"
   },
   {
     "id": 28,
@@ -417,7 +444,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "go pro 8 black"
   },
   {
     "id": 29,
@@ -432,7 +460,8 @@
     "assignedOperatorName": "Damian Szabla",
     "totalPriceTransfer": 5564,
     "totalPriceGiftCard": 5990,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon Z50 + Obiektyw 16-50 mm DX, Obiektyw Nikon 35 mm f1.8 G AF-S DX, Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Nikon, Aparat Nikon Z50 + Obiektyw 16-50 mm DX, Obiektyw Nikon 35 mm f1.8 G AF-S DX, Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Nikon"
   },
   {
     "id": 30,
@@ -447,7 +476,8 @@
     "assignedOperatorName": null,
     "totalPriceTransfer": 612,
     "totalPriceGiftCard": 667,
-    "customerDecision": null
+    "customerDecision": null,
+    "productSummary": "Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Nikon"
   },
   {
     "id": 31,
@@ -462,7 +492,8 @@
     "assignedOperatorName": null,
     "totalPriceTransfer": 337,
     "totalPriceGiftCard": 367,
-    "customerDecision": null
+    "customerDecision": null,
+    "productSummary": "Obiektyw Nikon 35 mm f1.8 G AF-S DX"
   },
   {
     "id": 32,
@@ -477,7 +508,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 770,
     "totalPriceGiftCard": 839,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 70D Body"
   },
   {
     "id": 33,
@@ -492,7 +524,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1943,
     "totalPriceGiftCard": 2079,
-    "customerDecision": "Ponowiony"
+    "customerDecision": "Ponowiony",
+    "productSummary": "Obiektyw Tamron 50-400 mm f4.5-6.3 Di III VC VXD do Nikon Z, Obiektyw Nikon Z 24-120 mm f4 S"
   },
   {
     "id": 34,
@@ -507,7 +540,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1636,
     "totalPriceGiftCard": 1751,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7 II Body"
   },
   {
     "id": 35,
@@ -522,7 +556,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 3564,
     "totalPriceGiftCard": 3786,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS R Body, Adapter mocowania Canon EF-EOS R"
   },
   {
     "id": 36,
@@ -537,7 +572,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 4500,
     "totalPriceGiftCard": 4826,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 16-35 mm f4L IS USM, Adapter mocowania Canon EF-EOS R, Obiektyw Canon EF 16-35 mm f4L IS USM, Adapter mocowania Canon EF-EOS R"
   },
   {
     "id": 37,
@@ -552,7 +588,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2440,
     "totalPriceGiftCard": 2586,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 70-200 mm f2.8 Di VC USD G2 do Nikon F, telekonwerter tamron  1,4 TC-X14 Nikon"
   },
   {
     "id": 38,
@@ -567,7 +604,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 522,
     "totalPriceGiftCard": 570,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Lampa reporterska Canon Speedlite 580EX I, Lampa reporterska Canon Speedlite 430EX, Lampa reporterska Canon Speedlite 580EX I, Lampa reporterska Canon Speedlite 430EX"
   },
   {
     "id": 39,
@@ -582,7 +620,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1361,
     "totalPriceGiftCard": 1456,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7 II Body"
   },
   {
     "id": 40,
@@ -597,7 +636,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 30 mm f1.4 DC DN Contemporary do Canon EOS-M, Obiektyw Sigma 16 mm f1.4 DC DN Contemporary do Canon EOS-M, Aparat Canon EOS M50 Mark II czarny + Obiektyw 15-45 mm F3.5-6.3"
   },
   {
     "id": 41,
@@ -612,7 +652,8 @@
     "assignedOperatorName": "Łukasz Stępniewski",
     "totalPriceTransfer": 13766,
     "totalPriceGiftCard": 14686,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 24 mm f1.4L II USM, Obiektyw Canon EF 50 mm f1.2L USM, Obiektyw Canon EF 135 mm f2 L USM, Obiektyw Canon EF 35 mm f1.4 L USM, Obiektyw Canon EF 24 mm f1.4L II USM, Obiektyw Canon EF 50 mm f1.2L USM, Obiektyw Canon EF 135 mm f2 L USM, Obiektyw Canon EF 35 mm f1.4 L USM"
   },
   {
     "id": 42,
@@ -627,7 +668,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 972,
     "totalPriceGiftCard": 1059,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm XF 23 mm f2 R WR czarny"
   },
   {
     "id": 43,
@@ -642,7 +684,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 503,
     "totalPriceGiftCard": 548,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 85 mm f1.8 USM, Obiektyw Sigma 30 mm f1.4 DC HSM A do Canon"
   },
   {
     "id": 44,
@@ -657,7 +700,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 4691,
     "totalPriceGiftCard": 4992,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 150-600 mm f5-6.3 VC USD G2 do Canon EF, Aparat Canon EOS R7 Body"
   },
   {
     "id": 45,
@@ -672,7 +716,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 412,
     "totalPriceGiftCard": 449,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 17-70 mm f2.8-4 DC C Macro OS HSM do Canon"
   },
   {
     "id": 46,
@@ -687,7 +732,8 @@
     "assignedOperatorName": "Maciej Barszcz",
     "totalPriceTransfer": 1155,
     "totalPriceGiftCard": 1236,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Olympus M.Zuiko Digital ED 12-45 mm f4 PRO"
   },
   {
     "id": 47,
@@ -702,7 +748,8 @@
     "assignedOperatorName": "Mateusz Jakubowski",
     "totalPriceTransfer": 3980,
     "totalPriceGiftCard": 4265,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D7200 Body, Obiektyw Nikon 35 mm f1.8 G AF-S DX, Obiektyw Sigma 18-35 mm f1.8 DC HSM Art do Nikon, Obiektyw Nikon 70-300 mm f4.5-5.6 G AF-S VR IF-ED"
   },
   {
     "id": 48,
@@ -717,7 +764,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Venus Optics Laowa Probe 24 mm f/14 Macro 2:1 do Canon EF"
   },
   {
     "id": 49,
@@ -732,7 +780,8 @@
     "assignedOperatorName": "Łukasz Skubek",
     "totalPriceTransfer": 3746,
     "totalPriceGiftCard": 4034,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Adapter mocowania Nikon FTZ II, Obiektyw Nikon 24 mm f1.8G ED AF-S, Obiektyw Nikon 35 mm f1.8 G AF-S DX, Adapter mocowania Nikon FTZ II, Obiektyw Nikon 24 mm f1.8G ED AF-S, Obiektyw Nikon 35 mm f1.8 G AF-S DX"
   },
   {
     "id": 50,
@@ -747,7 +796,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 4655,
     "totalPriceGiftCard": 5007,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Nikon, Obiektyw Nikon 10-24 mm f3.5-4.5 G ED, Obiektyw Tamron 150-600 mm f5-6.3 SP Di VC USD do Nikon F, Aparat Nikon D7200 Body"
   },
   {
     "id": 51,
@@ -762,7 +812,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 5722,
     "totalPriceGiftCard": 6066,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 100-400 mm f4.5-5.6 L IS USM, Obiektyw Canon EF 70-200 mm f2.8 L IS II USM"
   },
   {
     "id": 52,
@@ -777,7 +828,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 202,
     "totalPriceGiftCard": 220,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Olympus 17 mm f2.8 M.ZUIKO Digital Pancake, Olympus M.Zuiko Digital 30 mm f/3.5 Macro"
   },
   {
     "id": 53,
@@ -792,7 +844,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 6930,
     "totalPriceGiftCard": 7297,
-    "customerDecision": "Ponowiony"
+    "customerDecision": "Ponowiony",
+    "productSummary": "Aparat Fuji X-T4 + Obiektyw XF 16-80 mm f/4 OIS WR czarny, Obiektyw Fujifilm XF 23 mm f1.4 R LM WR"
   },
   {
     "id": 54,
@@ -807,7 +860,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS M50 Mark II Body, Obiektyw Canon EF-M 22 mm f2 STM Pancake, TTartisan 35 mm f1.4 do Canon M"
   },
   {
     "id": 55,
@@ -822,7 +876,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1191,
     "totalPriceGiftCard": 1274,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 35 mm f1.4 DG HSM Art do Nikon F"
   },
   {
     "id": 56,
@@ -837,7 +892,8 @@
     "assignedOperatorName": "Łukasz Skubek",
     "totalPriceTransfer": 412,
     "totalPriceGiftCard": 449,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 10-20 mm f4-5.6 EX DC HSM do Nikon"
   },
   {
     "id": 57,
@@ -852,7 +908,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 525,
     "totalPriceGiftCard": 572,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 2000D Body"
   },
   {
     "id": 58,
@@ -867,7 +924,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 722,
     "totalPriceGiftCard": 787,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 16-85 mm f3.5-5.6G VR ED AF-S DX, Obiektyw Sigma 70-300 mm F4-5.6 APO DG MACRO /Nikon (silnik)"
   },
   {
     "id": 59,
@@ -882,7 +940,8 @@
     "assignedOperatorName": "Jakub Szproch",
     "totalPriceTransfer": 3764,
     "totalPriceGiftCard": 4056,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Panasonic LUMIX DMC-LX100 czarny, Aparat Canon EOS 250D Body czarny, Aparat Panasonic LUMIX DMC-LX100 czarny, Aparat Canon EOS 250D Body czarny"
   },
   {
     "id": 60,
@@ -897,7 +956,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2955,
     "totalPriceGiftCard": 3132,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 20-70 mm f4 G, Statyw Benro Slim TSL08CN00 carbon"
   },
   {
     "id": 61,
@@ -912,7 +972,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 825,
     "totalPriceGiftCard": 899,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF-S 17-55 mm f2.8 IS USM"
   },
   {
     "id": 62,
@@ -927,7 +988,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 10264,
     "totalPriceGiftCard": 10836,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Fujifilm X-T5 srebrny, Obiektyw Fujifilm XF 35 mm f2 R WR srebrny, Aparat Fujifilm X-T5 srebrny, Obiektyw Fujifilm XF 35 mm f2 R WR srebrny"
   },
   {
     "id": 63,
@@ -942,7 +1004,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 357,
     "totalPriceGiftCard": 389,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 75-300 mm f4-5.6 III, Obiektyw Sigma 18-200 mm f3.5-6.3 DC OS do Canon"
   },
   {
     "id": 64,
@@ -957,7 +1020,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 510,
     "totalPriceGiftCard": 556,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 7D Body"
   },
   {
     "id": 65,
@@ -972,7 +1036,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 1464,
     "totalPriceGiftCard": 1575,
-    "customerDecision": "Wycena odrzucona"
+    "customerDecision": "Wycena odrzucona",
+    "productSummary": "Aparat Fujifilm X-T2, Obiektyw Fujifilm XC 15-45 mm f3.5-5.6 OIS PZ czarny"
   },
   {
     "id": 66,
@@ -987,7 +1052,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 3604,
     "totalPriceGiftCard": 3928,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D7000 + Obiektyw 18-105 mm VR, Obiektyw Nikon 55-300 mm f4.5-5.6 G AF-S DX VR, Obiektyw Nikon 40 mm f2.8 G AF-S DX Micro, Obiektyw Samyang 16 mm f2 ED AS UMC CS do Nikon F, Aparat Nikon D7000 + Obiektyw 18-105 mm VR, Obiektyw Nikon 55-300 mm f4.5-5.6 G AF-S DX VR, Obiektyw Nikon 40 mm f2.8 G AF-S DX Micro, Obiektyw Samyang 16 mm f2 ED AS UMC CS do Nikon F"
   },
   {
     "id": 67,
@@ -1002,7 +1068,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 3781,
     "totalPriceGiftCard": 4051,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Olympus M.Zuiko Digital 45 mm f1.8 Digital czarny, Obiektyw Olympus 9 mm f8 Fisheye Body Cap czarny, Obiektyw Olympus 12-50 mm f3.5-6.3 M.ZUIKO Digital ED EZ czarny, Obiektyw Olympus M.Zuiko Digital ED 12-100 mm f4 IS PRO, Aparat Olympus OM-D E-M5 Body czarny"
   },
   {
     "id": 68,
@@ -1017,7 +1084,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw TTartisan 35 mm f/1,4 APS-C M43"
   },
   {
     "id": 69,
@@ -1032,7 +1100,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 6199,
     "totalPriceGiftCard": 6509,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS R5 Body"
   },
   {
     "id": 70,
@@ -1047,7 +1116,8 @@
     "assignedOperatorName": "Mateusz Celejewski",
     "totalPriceTransfer": 770,
     "totalPriceGiftCard": 839,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 85 mm f1.8 USM"
   },
   {
     "id": 71,
@@ -1062,7 +1132,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 2535,
     "totalPriceGiftCard": 2733,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 105 mm f2.8 G AF-S VR IF ED Micro Nikkor, Obiektyw Sigma 18-200 mm f3.5-6.3 DC do Nikon, Obiektyw Sigma 10-20 mm F3.5 EX DC HSM do Nikon, Aparat Sony Alpha NEX-5N Body czarny"
   },
   {
     "id": 72,
@@ -1077,7 +1148,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1957,
     "totalPriceGiftCard": 2094,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Panasonic Lumix GH5 Body"
   },
   {
     "id": 73,
@@ -1092,7 +1164,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1939,
     "totalPriceGiftCard": 2075,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon Z5 Body"
   },
   {
     "id": 74,
@@ -1107,7 +1180,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 3096,
     "totalPriceGiftCard": 3342,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 70-200 mm f4 L IS USM, Obiektyw Sigma 30 mm f1.4 DC EX do Canon, Lampa reporterska Canon Speedlite 580EX II, Lampa reporterska Canon Speedlite 430EX II, Lampa reporterska Canon Speedlite 430EX II, Obiektyw Canon RF 16 mm f2.8 STM"
   },
   {
     "id": 75,
@@ -1122,7 +1196,8 @@
     "assignedOperatorName": "Jakub Szproch",
     "totalPriceTransfer": 3804,
     "totalPriceGiftCard": 4057,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 11-18 mm f4.5-5.6 Di II LD do Canon, Obiektyw Tamron 20 mm f2.8 Di III OSD Macro do Sony FE, Aparat Sony A7R III Body"
   },
   {
     "id": 76,
@@ -1137,7 +1212,8 @@
     "assignedOperatorName": "Maciej Barszcz",
     "totalPriceTransfer": 1544,
     "totalPriceGiftCard": 1683,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 70-300 mm f4.5-5.6 G AF-S VR IF-ED, Obiektyw Nikon 50 mm f1.8 D AF, Obiektyw Nikon 18-200 mm f3.5-5.6 G AF-S DX VR, Obiektyw Nikon 35 mm f1.8 G AF-S DX"
   },
   {
     "id": 77,
@@ -1152,7 +1228,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2165,
     "totalPriceGiftCard": 2295,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 150-600 mm f5-6.3 VC USD G2 do Nikon F"
   },
   {
     "id": 78,
@@ -1167,7 +1244,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2337,
     "totalPriceGiftCard": 2516,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon RF 35 mm f1.8 IS Macro STM, Obiektyw Canon RF 24-240 mm f4-6.3 IS USM"
   },
   {
     "id": 79,
@@ -1182,7 +1260,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 4325,
     "totalPriceGiftCard": 4646,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 24-70 mm f2.8 L USM, Obiektyw Canon EF 20-35 mm f3.5-4.5 USM, Aparat Canon EOS 5D Mark II Body, Obiektyw Canon EF 16-35 mm f4L IS USM"
   },
   {
     "id": 80,
@@ -1197,7 +1276,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm GF 63 mm f2.8 R WR"
   },
   {
     "id": 81,
@@ -1212,7 +1292,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 634,
     "totalPriceGiftCard": 691,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Lampa reporterska Canon Speedlite 430EX II, Aparat Canon EOS 6D Body"
   },
   {
     "id": 82,
@@ -1227,7 +1308,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 1949,
     "totalPriceGiftCard": 2125,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D700 Body, Obiektyw Sigma 24-70 mm f2.8 EX DG Macro do Nikon F, Obiektyw Sigma 70-200 mm f2.8 EX DG APO Macro HSM do Nikon F, Obiektyw Sigma 17-35 mm f/2.8-4 EX DG HSM do Nikon F"
   },
   {
     "id": 83,
@@ -1242,7 +1324,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1844,
     "totalPriceGiftCard": 1973,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7 II Body"
   },
   {
     "id": 84,
@@ -1257,7 +1340,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 489,
     "totalPriceGiftCard": 533,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D3200 czarny + Obiektyw 18-55 mm VR II"
   },
   {
     "id": 85,
@@ -1272,7 +1356,8 @@
     "assignedOperatorName": "Damian Szabla",
     "totalPriceTransfer": 8441,
     "totalPriceGiftCard": 8916,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon Z7 II Body, Adapter mocowania Nikon FTZ, Obiektyw Nikon 24-70 mm f2.8E AF-S ED VR"
   },
   {
     "id": 86,
@@ -1287,7 +1372,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1841,
     "totalPriceGiftCard": 1971,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 90D Body, Obiektyw Canon EF-S 18-55 mm f3.5-5.6 IS STM"
   },
   {
     "id": 87,
@@ -1302,7 +1388,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 2592,
     "totalPriceGiftCard": 2748,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Olympus M.Zuiko Digital ED 12-100 mm f4 IS PRO"
   },
   {
     "id": 88,
@@ -1317,7 +1404,8 @@
     "assignedOperatorName": "Mateusz Jakubowski",
     "totalPriceTransfer": 5067,
     "totalPriceGiftCard": 5371,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 5D Mark IV Body, Obiektyw Canon EF 24-105 mm f4L IS II USM"
   },
   {
     "id": 89,
@@ -1332,7 +1420,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 2602,
     "totalPriceGiftCard": 2758,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS R Body"
   },
   {
     "id": 90,
@@ -1347,7 +1436,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1628,
     "totalPriceGiftCard": 1748,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon Z50 Body, Obiektyw Nikon 35 mm f1.8 G AF-S DX"
   },
   {
     "id": 91,
@@ -1362,7 +1452,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw TTArtisan 35 mm F1.4 APS-C Fuji FX"
   },
   {
     "id": 92,
@@ -1377,7 +1468,8 @@
     "assignedOperatorName": "Rafał Grabarz",
     "totalPriceTransfer": 949,
     "totalPriceGiftCard": 1034,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 18-50 mm f2.8 DC DN Contemporary do Sony E"
   },
   {
     "id": 93,
@@ -1392,7 +1484,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1589,
     "totalPriceGiftCard": 1707,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D810 Body, Obiektyw Nikon 50 mm f1.8 G AF-S"
   },
   {
     "id": 94,
@@ -1407,7 +1500,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1524,
     "totalPriceGiftCard": 1661,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon MP-E 65 mm f2.8 1-5x Macro, Lampa pierścieniowa Canon MR-14EX II Macrolite, Telekonwerter Canon EF 1.4x III Extender"
   },
   {
     "id": 95,
@@ -1422,7 +1516,8 @@
     "assignedOperatorName": "Damian Szabla",
     "totalPriceTransfer": 1597,
     "totalPriceGiftCard": 1709,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Fujifilm X-S10"
   },
   {
     "id": 96,
@@ -1437,7 +1532,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1625,
     "totalPriceGiftCard": 1771,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 10-24 mm f3.5-4.5 G ED, Obiektyw Nikon 35 mm f1.8 G AF-S DX, Obiektyw Nikon 18-200 mm f3.5-5.6 G AF-S DX VR"
   },
   {
     "id": 97,
@@ -1452,7 +1548,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1340,
     "totalPriceGiftCard": 1434,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 35 mm f1.4 DG HSM Art do Canon EF"
   },
   {
     "id": 98,
@@ -1467,7 +1564,8 @@
     "assignedOperatorName": "Robert Zawadzki",
     "totalPriceTransfer": 1856,
     "totalPriceGiftCard": 1986,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 100 mm f2.8L Macro IS USM"
   },
   {
     "id": 99,
@@ -1482,7 +1580,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1231,
     "totalPriceGiftCard": 1317,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 70-210 mm f4 Di VC USD do Canon EF"
   },
   {
     "id": 100,
@@ -1497,7 +1596,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 7125,
     "totalPriceGiftCard": 7637,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Fujifilm X-H1 Body, Obiektyw Fujifilm XF 10-24 mm f4 R OIS WR, Obiektyw Fujifilm XF 55-200 mm f3.5-4.8 R LM OIS, Obiektyw Sigma 30 mm f1.4 DC DN Contemporary do Fujifilm X, Aparat Fujifilm X-Pro2"
   },
   {
     "id": 101,
@@ -1512,7 +1612,8 @@
     "assignedOperatorName": "Mateusz Celejewski",
     "totalPriceTransfer": 1052,
     "totalPriceGiftCard": 1126,
-    "customerDecision": null
+    "customerDecision": null,
+    "productSummary": "Obiektyw Canon EF 17-40 mm f4 L USM"
   },
   {
     "id": 102,
@@ -1527,7 +1628,8 @@
     "assignedOperatorName": "Magdalena Lasek",
     "totalPriceTransfer": 707,
     "totalPriceGiftCard": 771,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D7100 Body"
   },
   {
     "id": 103,
@@ -1542,7 +1644,8 @@
     "assignedOperatorName": "Rafał Grabarz",
     "totalPriceTransfer": 1527,
     "totalPriceGiftCard": 1665,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 760D Body, Obiektyw Canon EF-S 60 mm f2.8 USM Macro"
   },
   {
     "id": 104,
@@ -1557,7 +1660,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 4873,
     "totalPriceGiftCard": 5117,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Fuji X-T4 + Obiektyw XF 16-80 mm f/4 OIS WR czarny"
   },
   {
     "id": 105,
@@ -1572,7 +1676,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2057,
     "totalPriceGiftCard": 2180,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm XF 23 mm f1.4 R LM WR"
   },
   {
     "id": 106,
@@ -1587,7 +1692,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 3744,
     "totalPriceGiftCard": 4006,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 100-400 mm f5-6.3 Contemporary DG DN OS do Sony E, Aparat Sony A6400 Body"
   },
   {
     "id": 107,
@@ -1602,7 +1708,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 367,
     "totalPriceGiftCard": 400,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 1000D Body, Obiektyw Canon EF-S 18-55 mm f/3.5-5.6 DC III OEM"
   },
   {
     "id": 108,
@@ -1617,7 +1724,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2825,
     "totalPriceGiftCard": 3031,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Olympus OM-D E-M10 Mark IV srebrny, Obiektyw Panasonic 100-300 mm f4.0-5.6 II LUMIX G Vario, Obiektyw Olympus M.Zuiko Digital ED 14-42 mm f3.5-5.6 EZ srebrny"
   },
   {
     "id": 109,
@@ -1632,7 +1740,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 647,
     "totalPriceGiftCard": 705,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 2000D + Obiektyw 18-55 mm IS II"
   },
   {
     "id": 110,
@@ -1647,7 +1756,8 @@
     "assignedOperatorName": "Jakub Szproch",
     "totalPriceTransfer": 1527,
     "totalPriceGiftCard": 1643,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tokina 12-28 mm f4 AF AT-X PRO DX do Nikon, Aparat Nikon D7200 Body"
   },
   {
     "id": 111,
@@ -1662,7 +1772,8 @@
     "assignedOperatorName": "Mateusz Celejewski",
     "totalPriceTransfer": 3731,
     "totalPriceGiftCard": 3955,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7C Body srebrny"
   },
   {
     "id": 112,
@@ -1677,7 +1788,8 @@
     "assignedOperatorName": "Rafał Grabarz",
     "totalPriceTransfer": 1334,
     "totalPriceGiftCard": 1455,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon RF 50 mm f1.8 STM, Obiektyw Canon RF 35 mm f1.8 IS Macro STM"
   },
   {
     "id": 113,
@@ -1692,7 +1804,8 @@
     "assignedOperatorName": null,
     "totalPriceTransfer": 812,
     "totalPriceGiftCard": 886,
-    "customerDecision": null
+    "customerDecision": null,
+    "productSummary": "Obiektyw Sony FE 50 mm f1.8, Obiektyw Sony FE 50 mm f1.8"
   },
   {
     "id": 114,
@@ -1707,7 +1820,8 @@
     "assignedOperatorName": "Łukasz Słowiński",
     "totalPriceTransfer": 484,
     "totalPriceGiftCard": 527,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 50 mm f1.8 STM, Obiektyw Canon EF 75-300 mm f4-5.6 III"
   },
   {
     "id": 115,
@@ -1722,7 +1836,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "samyang 8  mm f/2.8 UMC II Fisheye sony E, samyang 8  mm f/2.8 UMC II Fisheye sony E"
   },
   {
     "id": 116,
@@ -1737,7 +1852,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1874,
     "totalPriceGiftCard": 2022,
-    "customerDecision": "Odrzucone przez Cyfrowe"
+    "customerDecision": "Odrzucone przez Cyfrowe",
+    "productSummary": "Obiektyw Nikon 70-300 mm f4.5-6.3 G ED DX AF-P Nikkor, Obiektyw Nikon 18-300 mm f3.5-6.3 G ED VR AF-S DX, Obiektyw Nikon 10-20 mm f4.5-5.6 G AF-P DX VR Nikkor"
   },
   {
     "id": 117,
@@ -1752,7 +1868,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2674,
     "totalPriceGiftCard": 2834,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 135 mm f1.8 DG HSM do Canon EF"
   },
   {
     "id": 118,
@@ -1767,7 +1884,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 702,
     "totalPriceGiftCard": 765,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Panasonic 45-200 mm f4.0-5.6 II LUMIX G VARIO POWER O.I.S."
   },
   {
     "id": 119,
@@ -1782,7 +1900,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 605,
     "totalPriceGiftCard": 659,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Panasonic 42.5 mm f1.7 LUMIX G ASPH POWER OIS czarny"
   },
   {
     "id": 120,
@@ -1797,7 +1916,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 30 mm f1.4 DC DN Contemporary do Canon EOS-M, Aparat Canon EOS M50 + Obiektyw EF-M 15-45 mm czarny, Obiektyw Canon EF-M 22 mm f2 STM Pancake"
   },
   {
     "id": 121,
@@ -1812,7 +1932,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Voigtlander 15 mm f4.5 III Super Wide Heliar do Sony FE"
   },
   {
     "id": 122,
@@ -1827,7 +1948,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 3866,
     "totalPriceGiftCard": 4098,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 16-35 mm f2.8 G Master"
   },
   {
     "id": 123,
@@ -1842,7 +1964,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 2207,
     "totalPriceGiftCard": 2339,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 50 mm f1.4 ZA Planar T*"
   },
   {
     "id": 124,
@@ -1857,7 +1980,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 469,
     "totalPriceGiftCard": 511,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Panasonic Lumix S5 II Body, Obiektyw Panasonic LUMIX S 20-60 mm f/3,5-5,6 OEM"
   },
   {
     "id": 125,
@@ -1872,7 +1996,8 @@
     "assignedOperatorName": "Łukasz Stępniewski",
     "totalPriceTransfer": 8003,
     "totalPriceGiftCard": 8499,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon Z 85 mm f1.8 S, Obiektyw Nikon 200-500 mm f5.6E ED VR AF-S, Aparat Nikon Z7 z adapterem"
   },
   {
     "id": 126,
@@ -1887,7 +2012,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 7822,
     "totalPriceGiftCard": 8462,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A6400 + Obiektyw 16-50 mm, Obiektyw Sony E 50 mm f1.8 OSS czarny, Obiektyw Sony E 35 mm f1.8 OSS, Obiektyw Sony E 18-105 mm f4 G OSS, Obiektyw Sigma 16 mm f1.4 DC DN Contemporary do Sony E, Aparat Sony A6400 + Obiektyw 16-50 mm, Obiektyw Sony E 50 mm f1.8 OSS czarny, Obiektyw Sony E 35 mm f1.8 OSS, Obiektyw Sony E 18-105 mm f4 G OSS, Obiektyw Sigma 16 mm f1.4 DC DN Contemporary do Sony E"
   },
   {
     "id": 127,
@@ -1902,7 +2028,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1142,
     "totalPriceGiftCard": 1244,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 7D Body, Obiektyw Canon EF 50 mm f1.4 USM, Aparat Canon EOS M100 Body czarny, Obiektyw Canon EF-M 15-45 mm f3.5-6.3 IS STM czarny, Obiektyw Canon EF 75-300 mm f4-5.6 III"
   },
   {
     "id": 128,
@@ -1917,7 +2044,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1077,
     "totalPriceGiftCard": 1174,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 5D Mark III Body, Obiektyw Canon EF 50 mm f1.4 USM"
   },
   {
     "id": 129,
@@ -1932,7 +2060,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1323,
     "totalPriceGiftCard": 1442,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony E 50 mm f1.8 OSS czarny, Aparat Sony A6000 + Obiektyw 16-50 mm czarny"
   },
   {
     "id": 130,
@@ -1947,7 +2076,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1057,
     "totalPriceGiftCard": 1152,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Samyang AF 35 mm f1.8 do Sony FE, Obiektyw Samyang AF 75 mm f1.8 do Sony FE"
   },
   {
     "id": 131,
@@ -1962,7 +2092,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 3328,
     "totalPriceGiftCard": 3528,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS R Body"
   },
   {
     "id": 132,
@@ -1977,7 +2108,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 3923,
     "totalPriceGiftCard": 4247,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF-S 24 mm f2.8 STM Pancake, Aparat Canon EOS 90D Body, Obiektyw Canon EF 40 mm f2.8 STM, Obiektyw Canon EF-S 55-250 mm f4-5.6 IS STM, Obiektyw Canon EF-S 35 mm f2.8 Macro IS STM, Obiektyw Canon EF 50 mm f1.8 STM, Obiektyw Canon EF-S 10-18 mm f4.5-5.6 IS STM"
   },
   {
     "id": 133,
@@ -1992,7 +2124,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 2581,
     "totalPriceGiftCard": 2762,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS RP Body, Obiektyw Canon 24-105 mm F4.0 EF L IS USM"
   },
   {
     "id": 134,
@@ -2007,7 +2140,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2681,
     "totalPriceGiftCard": 2894,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 50 mm f1.8 D AF, Aparat Nikon D800 Body, Obiektyw Sigma 105 mm f2.8 Macro EX DG OS HSM do Nikon F, Lampa reporterska Nikon SB-800"
   },
   {
     "id": 135,
@@ -2022,7 +2156,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 19509,
     "totalPriceGiftCard": 20778,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Fuji X-T4 + Obiektyw XF 16-80 mm f/4 OIS WR czarny, Obiektyw Fujifilm XF 70-300 mm f4-5.6 R LM OIS WR, Obiektyw Fujifilm XF 50 mm f2 R WR czarny, Obiektyw Fujifilm XF 18-55 mm f2.8-4 R LM OIS, Aparat Fujifilm X-T30 srebrny, Aparat Fuji X-T4 + Obiektyw XF 16-80 mm f/4 OIS WR czarny, Obiektyw Fujifilm XF 70-300 mm f4-5.6 R LM OIS WR, Obiektyw Fujifilm XF 50 mm f2 R WR czarny, Obiektyw Fujifilm XF 18-55 mm f2.8-4 R LM OIS, Aparat Fujifilm X-T30 srebrny"
   },
   {
     "id": 136,
@@ -2037,7 +2172,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 691,
     "totalPriceGiftCard": 753,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 85 mm f1.8 G AF-S"
   },
   {
     "id": 137,
@@ -2052,7 +2188,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 859,
     "totalPriceGiftCard": 936,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 250D + Obiektyw EF-S 18-55 mm f/4-5.6 IS STM"
   },
   {
     "id": 138,
@@ -2067,7 +2204,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2310,
     "totalPriceGiftCard": 2449,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS RP + Obiektyw RF 24-105 mm f/4-7.1 IS STM"
   },
   {
     "id": 139,
@@ -2082,7 +2220,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 50-400 mm f4.5-6.3 Di III VC VXD do Nikon Z"
   },
   {
     "id": 140,
@@ -2097,7 +2236,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2318,
     "totalPriceGiftCard": 2492,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon Z50 + Obiektyw 16-50 mm DX, Obiektyw Nikon Z 50-250 mm f4.5-6.3 DX VR"
   },
   {
     "id": 141,
@@ -2112,7 +2252,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 1367,
     "totalPriceGiftCard": 1463,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 24-105 mm f4 G OSS"
   },
   {
     "id": 142,
@@ -2127,7 +2268,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 1237,
     "totalPriceGiftCard": 1324,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 70-300 mm f4.5-6.3 Di III RXD do Nikon Z"
   },
   {
     "id": 143,
@@ -2142,7 +2284,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 1498,
     "totalPriceGiftCard": 1603,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon Z 24-200 mm f4-6.3 VR"
   },
   {
     "id": 144,
@@ -2157,7 +2300,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 361,
     "totalPriceGiftCard": 393,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Canon, Obiektyw Sigma 18-125 mm f3.8-5.6 DC OS HSM do Canon"
   },
   {
     "id": 145,
@@ -2172,7 +2316,8 @@
     "assignedOperatorName": "Michał Kołodziejczyk",
     "totalPriceTransfer": 313,
     "totalPriceGiftCard": 341,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Adapter mocowania Canon Control Ring EF-EOS R"
   },
   {
     "id": 146,
@@ -2187,7 +2332,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 1952,
     "totalPriceGiftCard": 2089,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A6400 Body"
   },
   {
     "id": 147,
@@ -2202,7 +2348,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1609,
     "totalPriceGiftCard": 1729,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Olympus M.Zuiko Digital 45 mm f1.8 Digital czarny, Aparat Olympus OM-D E-M10 Mark IV srebrny"
   },
   {
     "id": 148,
@@ -2217,7 +2364,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 314,
     "totalPriceGiftCard": 342,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Pentax K-5 body czarny, Obiektyw Pentax 55-300 mm F4-5.8 SMC DA ED, Telekonwerter Pentax 1.4 DA HD AW, Obiektyw Pentax-DA* smc 300 mm f4 ED (IF) SDM"
   },
   {
     "id": 149,
@@ -2232,7 +2380,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 500,
     "totalPriceGiftCard": 545,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Samyang AF 75 mm f1.8 do Sony FE"
   },
   {
     "id": 150,
@@ -2247,7 +2396,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 2288,
     "totalPriceGiftCard": 2425,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS R Body"
   },
   {
     "id": 151,
@@ -2262,7 +2412,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 557,
     "totalPriceGiftCard": 607,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 50 mm f1.4 USM"
   },
   {
     "id": 152,
@@ -2277,7 +2428,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 5319,
     "totalPriceGiftCard": 5585,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7R III Body"
   },
   {
     "id": 153,
@@ -2292,7 +2444,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 876,
     "totalPriceGiftCard": 955,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 6D Body"
   },
   {
     "id": 154,
@@ -2307,7 +2460,8 @@
     "assignedOperatorName": "Donata Sołecka",
     "totalPriceTransfer": 632,
     "totalPriceGiftCard": 688,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Canon, Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Canon"
   },
   {
     "id": 155,
@@ -2322,7 +2476,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 311,
     "totalPriceGiftCard": 339,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Hasselblad X1D II 50C, Hasselblad XCD 3,5-4,5/35–75, Adapter mocowania Hasselblad XH, Obiektyw Hasselblad HC 120 F/4.0 macro II, Obiektyw Hasselblad XCD 65 mm F/2.8, Obiektyw Hasselblad XCD 90 mm F/3.2, Obiektyw Hasselblad XCD 45 mm F/4.0, Obiektyw Hasselblad XCD 30 mm F/3.5, Obiektyw Hasselblad XCD 21 mm F/4, Lampa reporterska Nikon SB-900, Lampa Nikon SB-28"
   },
   {
     "id": 156,
@@ -2337,7 +2492,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 3377,
     "totalPriceGiftCard": 3622,
-    "customerDecision": "Wycena odrzucona"
+    "customerDecision": "Wycena odrzucona",
+    "productSummary": "Obiektyw Sigma 18-200 mm f3.5-6.3 DC Macro C OS HSM do Nikon, Tamron 11-18 mm Sony A, Tamron 28-75mm F2.8 Nikon, Obiektyw Tamron 90 mm F2.8 SP Di /SONY, Sigma 18-200mm f3.5-6.3 Sony A, Obiektyw Tamron 150-600 mm f5-6.3 SP Di VC USD do Nikon F, Tamron 11-18 mm Sony A, Tamron 28-75mm F2.8 Nikon, Obiektyw Tamron 90 mm F2.8 SP Di /SONY, Sigma 18-200mm f3.5-6.3 Sony A, Obiektyw Tamron 150-600 mm f5-6.3 SP Di VC USD do Nikon F"
   },
   {
     "id": 157,
@@ -2352,7 +2508,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 10906,
     "totalPriceGiftCard": 11525,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7R IV Body, Obiektyw Sony FE 24-70 mm f2.8 G Master, Obiektyw Sony FE 90 mm f2.8 Macro G OSS"
   },
   {
     "id": 158,
@@ -2367,7 +2524,8 @@
     "assignedOperatorName": "Rafał Grabarz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Zeiss 85 mm f1.8 Batis do Sony FE, Obiektyw Zeiss 85 mm f1.8 Batis do Sony FE"
   },
   {
     "id": 159,
@@ -2382,7 +2540,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 4652,
     "totalPriceGiftCard": 5000,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 50 mm f1.8 STM, Obiektyw Sigma 24-70 mm F2.8 DG OS HSM Art do Canon EF, Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Canon, Obiektyw Canon RF 24-105 mm F4-7.1 IS STM OEM, Canon 28-80mm  F3.5-5.6, Obiektyw Canon EF 75-300 mm f4-5.6 III, Aparat Canon EOS 250D + Obiektyw EF-S 18-55 mm f/3.5-5.6 III"
   },
   {
     "id": 160,
@@ -2397,7 +2556,8 @@
     "assignedOperatorName": "Robert Zawadzki",
     "totalPriceTransfer": 2321,
     "totalPriceGiftCard": 2494,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm 50-230 mm f4.5-6.7 XC OIS srebrny, Aparat Fuji X-T30 II + Obiektyw XC 15-45 mm f/3.5-5.6 OIS PZ srebrny"
   },
   {
     "id": 161,
@@ -2412,7 +2572,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1026,
     "totalPriceGiftCard": 1118,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF-S 24 mm f2.8 STM Pancake, Aparat Canon EOS 70D Body"
   },
   {
     "id": 162,
@@ -2427,7 +2588,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 18605,
     "totalPriceGiftCard": 19895,
-    "customerDecision": "Wycena odrzucona"
+    "customerDecision": "Wycena odrzucona",
+    "productSummary": "Obiektyw Sigma 12-24 mm f4 Art DG HSM do Canon EF, Obiektyw Canon EF 85 mm f1.8 USM, Obiektyw Canon EF 50 mm f1.4 USM, Obiektyw Sigma 12-24 mm f4 Art DG HSM do Canon EF, Obiektyw Canon EF 85 mm f1.8 USM, Obiektyw Canon EF 50 mm f1.4 USM, Obiektyw Sigma 12-24 mm f4 Art DG HSM do Canon EF, Obiektyw Canon EF 85 mm f1.8 USM, Obiektyw Canon EF 50 mm f1.4 USM, Obiektyw Sigma 12-24 mm f4 Art DG HSM do Canon EF, Obiektyw Canon EF 85 mm f1.8 USM, Obiektyw Canon EF 50 mm f1.4 USM, Obiektyw Sigma 12-24 mm f4 Art DG HSM do Canon EF, Obiektyw Canon EF 85 mm f1.8 USM, Obiektyw Canon EF 50 mm f1.4 USM"
   },
   {
     "id": 163,
@@ -2442,7 +2604,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 5926,
     "totalPriceGiftCard": 6299,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm XF 16-55 mm f2.8 R LM WR, Obiektyw Fujifilm XF 18-120 mm f4 LM PZ WR, Obiektyw Fujifilm XF 70-300 mm f4-5.6 R LM OIS WR"
   },
   {
     "id": 164,
@@ -2457,7 +2620,8 @@
     "assignedOperatorName": "Maciej Barszcz",
     "totalPriceTransfer": 1407,
     "totalPriceGiftCard": 1505,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 24-105 mm f4 G OSS"
   },
   {
     "id": 165,
@@ -2472,7 +2636,8 @@
     "assignedOperatorName": "Łukasz Słowiński",
     "totalPriceTransfer": 3369,
     "totalPriceGiftCard": 3582,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 24-105 mm f4 DG OS HSM do Canon EF, Obiektyw Sigma 85 mm f1.4 Art DG HSM do Canon EF"
   },
   {
     "id": 166,
@@ -2487,7 +2652,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1198,
     "totalPriceGiftCard": 1306,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF-S 24 mm f2.8 STM Pancake, Obiektyw Canon EF-S 18-55 mm f4-5.6 IS STM, Obiektyw Canon EF-S 24 mm f2.8 STM Pancake, Obiektyw Canon EF-S 18-55 mm f4-5.6 IS STM"
   },
   {
     "id": 167,
@@ -2502,7 +2668,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 931,
     "totalPriceGiftCard": 1015,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon 24-105 mm F4.0 EF L IS USM"
   },
   {
     "id": 168,
@@ -2517,7 +2684,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 1238,
     "totalPriceGiftCard": 1325,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 77D Body"
   },
   {
     "id": 169,
@@ -2532,7 +2700,8 @@
     "assignedOperatorName": "Rafał Kulwiec",
     "totalPriceTransfer": 19865,
     "totalPriceGiftCard": 21144,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony E 18-105 mm f4 G OSS, Obiektyw Sony FE 85 mm f1.8 Prime, Obiektyw Sony FE 50 mm f2.8 Macro, Obiektyw Sony E 11 mm f1.8, Obiektyw Sony FE 35 mm f1.8, Lampa reporterska Sony HVL-F46RM, Aparat Canon EOS R5 Body, Obiektyw Canon RF 100 mm f2.8 L Macro IS USM, Obiektyw Canon RF 70-200 mm f4L IS USM, Obiektyw Canon RF 85 mm f2 IS Macro STM, Obiektyw Canon RF 35 mm f1.8 IS Macro STM"
   },
   {
     "id": 170,
@@ -2547,7 +2716,8 @@
     "assignedOperatorName": "Rafał Kulwiec",
     "totalPriceTransfer": 6408,
     "totalPriceGiftCard": 6816,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon RF 24-105 mm f4L IS USM, Obiektyw Canon RF 50 mm f1.8 STM, Obiektyw Canon RF 24-105 mm f4L IS USM, Obiektyw Canon RF 50 mm f1.8 STM"
   },
   {
     "id": 171,
@@ -2562,7 +2732,8 @@
     "assignedOperatorName": "Magdalena Lasek",
     "totalPriceTransfer": 557,
     "totalPriceGiftCard": 607,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 15 mm f2.8 EX DG Fisheye do Nikon F"
   },
   {
     "id": 172,
@@ -2577,7 +2748,8 @@
     "assignedOperatorName": "Magdalena Lasek",
     "totalPriceTransfer": 5598,
     "totalPriceGiftCard": 5934,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Olympus OM-D E-M1 Mark III Body, Aparat Olympus OM-D E-M1 Mark III Body"
   },
   {
     "id": 173,
@@ -2592,7 +2764,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Hasselblad X1D II 50C"
   },
   {
     "id": 174,
@@ -2607,7 +2780,8 @@
     "assignedOperatorName": "Robert Zawadzki",
     "totalPriceTransfer": 599,
     "totalPriceGiftCard": 653,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon RF 24-105 mm F4-7.1 IS STM OEM"
   },
   {
     "id": 175,
@@ -2622,7 +2796,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1787,
     "totalPriceGiftCard": 1912,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 35 mm f1.4 DG HSM Art do Canon EF"
   },
   {
     "id": 176,
@@ -2637,7 +2812,8 @@
     "assignedOperatorName": "Robert Zawadzki",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Smc pentax da 1.8 50mm"
   },
   {
     "id": 177,
@@ -2652,7 +2828,8 @@
     "assignedOperatorName": "Robert Zawadzki",
     "totalPriceTransfer": 1291,
     "totalPriceGiftCard": 1381,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Pentax K-70 Body"
   },
   {
     "id": 178,
@@ -2667,7 +2844,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 908,
     "totalPriceGiftCard": 990,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm XF 50 mm f2 R WR czarny"
   },
   {
     "id": 179,
@@ -2682,7 +2860,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 802,
     "totalPriceGiftCard": 874,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 85 mm f1.8 Prime"
   },
   {
     "id": 180,
@@ -2697,7 +2876,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 557,
     "totalPriceGiftCard": 607,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Laowa 25 mm f2.8 2.5-5X Ultra-Macro do Canon EF, Obiektyw Canon EF 50 mm f1.4 USM, Telekonwerter Sigma 2x TC -2001 do Canon, Stacja dokująca Sigma USB Dock do Canon EF"
   },
   {
     "id": 181,
@@ -2712,7 +2892,8 @@
     "assignedOperatorName": null,
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": null
+    "customerDecision": null,
+    "productSummary": "Obiektyw Panasonic LUMIX S 70-300 mm f4.5-5.6 Macro OIS"
   },
   {
     "id": 182,
@@ -2727,7 +2908,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2357,
     "totalPriceGiftCard": 2498,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D7500 + Obiektyw 18-140 mm VR"
   },
   {
     "id": 183,
@@ -2742,7 +2924,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 1737,
     "totalPriceGiftCard": 1894,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A6000 + Obiektyw 16-50 mm czarny, Obiektyw Sony E 30 mm f3.5 Macro, Obiektyw Sony E 35 mm f1.8 OSS"
   },
   {
     "id": 184,
@@ -2757,7 +2940,8 @@
     "assignedOperatorName": "Robert Zawadzki",
     "totalPriceTransfer": 2667,
     "totalPriceGiftCard": 2827,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS R Body"
   },
   {
     "id": 185,
@@ -2772,7 +2956,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 2355,
     "totalPriceGiftCard": 2496,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 6D Mark II Body"
   },
   {
     "id": 186,
@@ -2787,7 +2972,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 5018,
     "totalPriceGiftCard": 5339,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 70-200 mm f4 L IS II USM, Obiektyw Canon EF 16-35 mm f4L IS USM"
   },
   {
     "id": 187,
@@ -2802,7 +2988,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1368,
     "totalPriceGiftCard": 1464,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon Z 24-200 mm f4-6.3 VR"
   },
   {
     "id": 188,
@@ -2817,7 +3004,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS M50 + Obiektyw EF-M 15-45 mm + EF-M 55-200 mm czarny"
   },
   {
     "id": 189,
@@ -2832,7 +3020,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Statyw Manfrotto Element MKELES5RD-BH"
   },
   {
     "id": 190,
@@ -2847,7 +3036,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Samyang 21 mm f/1.4 ED AS UMC CS do Sony E"
   },
   {
     "id": 191,
@@ -2862,7 +3052,8 @@
     "assignedOperatorName": "Damian Szabla",
     "totalPriceTransfer": 1299,
     "totalPriceGiftCard": 1390,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw OM SYSTEM M.Zuiko Digital ED 20 mm f1.4 PRO"
   },
   {
     "id": 192,
@@ -2877,7 +3068,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1326,
     "totalPriceGiftCard": 1419,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 80D Body"
   },
   {
     "id": 193,
@@ -2892,7 +3084,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 3741,
     "totalPriceGiftCard": 3989,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon RF 24-105 mm f4-7.1 IS STM, Aparat Canon EOS R Body"
   },
   {
     "id": 194,
@@ -2907,7 +3100,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2592,
     "totalPriceGiftCard": 2748,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Olympus M.Zuiko Digital ED 12-100 mm f4 IS PRO"
   },
   {
     "id": 195,
@@ -2922,7 +3116,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 334,
     "totalPriceGiftCard": 364,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Voigtlander 17.5 mm f0.95 Nokton do M4/3, Obiektyw Panasonic 45-150 mm f4.0-5.6 ASPH OIS czarny"
   },
   {
     "id": 196,
@@ -2937,7 +3132,8 @@
     "assignedOperatorName": "Michał Kołodziejczyk",
     "totalPriceTransfer": 8550,
     "totalPriceGiftCard": 9027,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon RF 100-500 mm f4.5-7.1L IS USM, Obiektyw Canon RF 16 mm f2.8 STM, Obiektyw Canon RF 24-105 mm f4L IS USM"
   },
   {
     "id": 197,
@@ -2952,7 +3148,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 247,
     "totalPriceGiftCard": 269,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 50 mm f1.8 STM, Aparat Canon EOS M50 + Obiektyw EF-M 15-45 mm czarny"
   },
   {
     "id": 198,
@@ -2967,7 +3164,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 4828,
     "totalPriceGiftCard": 5135,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D850 Body, Obiektyw Nikon 24-70 mm f2.8 G AF-S ED"
   },
   {
     "id": 199,
@@ -2982,7 +3180,8 @@
     "assignedOperatorName": "Radosław Kolasa",
     "totalPriceTransfer": 7053,
     "totalPriceGiftCard": 7533,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Panasonic 12 mm f1.4 ASPH LEICA DG SU mmILUX, Obiektyw Panasonic 9 mm f1.7 LUMIX G LEICA DG VARIO-SU mmILUX ASPH, Lampa reporterska Godox TT350O do Olympus / Panasonic, Aparat Panasonic Lumix G9 II Body, Obiektyw Panasonic 14-42 mm F3.5-5.6 II HD LUMIX G VARIO ASPH. MEGA O.I.S czarny"
   },
   {
     "id": 200,
@@ -2997,7 +3196,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 4070,
     "totalPriceGiftCard": 4436,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Telekonwerter Nikon TC-20E AF-S II, Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Nikon, Obiektyw Tamron 90 mm F2.8 SP DI Macro do Nikon F, Obiektyw Nikon 50 mm f1.8 D AF, Aparat Nikon D90 + Obiektyw 18-105 mm VR, Telekonwerter Nikon TC-20E AF-S II, Obiektyw Sigma 17-50 mm f2.8 EX DC OS HSM do Nikon, Obiektyw Tamron 90 mm F2.8 SP DI Macro do Nikon F, Obiektyw Nikon 50 mm f1.8 D AF, Aparat Nikon D90 + Obiektyw 18-105 mm VR"
   },
   {
     "id": 201,
@@ -3012,7 +3212,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 90 mm F2.8 SP Di /SONY, Obiektyw Laowa 90mm macro Sony E"
   },
   {
     "id": 202,
@@ -3027,7 +3228,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 4606,
     "totalPriceGiftCard": 4882,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7R II Body, Obiektyw Sigma 24-70 mm f2.8 AF DG DN Art do Sony E"
   },
   {
     "id": 203,
@@ -3042,7 +3244,8 @@
     "assignedOperatorName": "Łukasz Skubek",
     "totalPriceTransfer": 2715,
     "totalPriceGiftCard": 2878,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 200-500 mm f5.6E ED VR AF-S"
   },
   {
     "id": 204,
@@ -3057,7 +3260,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1512,
     "totalPriceGiftCard": 1618,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 18-35 mm f1.8 DC Art HSM do Canon"
   },
   {
     "id": 205,
@@ -3072,7 +3276,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1092,
     "totalPriceGiftCard": 1190,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Tamron 10-24 mm f3.5-4.5 Di II LD AF SP Aspherical (IF) do Canon, Aparat Canon EOS 60D Body, Obiektyw Tamron 17-50 mm F2.8 XR Di II VC do Canon"
   },
   {
     "id": 206,
@@ -3087,7 +3292,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1749,
     "totalPriceGiftCard": 1907,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm XC 35 mm f2, Obiektyw Samyang AF 12 mm f2 do Fujifilm X, obiektyw ttartisan AF 56mm f1.8, Obiektyw Fujifilm XF 18 mm f2 R"
   },
   {
     "id": 207,
@@ -3102,7 +3308,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 5063,
     "totalPriceGiftCard": 5426,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon Z5 Body, Obiektyw Nikon Z 85 mm f1.8 S, Obiektyw Nikon Z 50 mm f1.8 S, Lampa błyskowa Quadralite Stroboss V1 N"
   },
   {
     "id": 208,
@@ -3117,7 +3324,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Samyang 300 mm f6.3 Reflex ED UMC CS Fujifilm, Obiektyw TTArtisan 17mm F1.4 Fujifilm"
   },
   {
     "id": 209,
@@ -3132,7 +3340,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 378,
     "totalPriceGiftCard": 412,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 50 mm f1.8 G AF-S"
   },
   {
     "id": 210,
@@ -3147,7 +3356,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 5910,
     "totalPriceGiftCard": 6323,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 18-35 mm f1.8 DC Art HSM do Canon, Obiektyw Sigma 50 mm f1.4 DG HSM Art do Canon EF, Obiektyw Canon EF 24-70 mm f4 L IS USM, Obiektyw Canon EF 135 mm f2 L USM"
   },
   {
     "id": 211,
@@ -3162,7 +3372,8 @@
     "assignedOperatorName": "Robert Zawadzki",
     "totalPriceTransfer": 1501,
     "totalPriceGiftCard": 1614,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 35 mm f1.4 DG HSM Art do Canon EF, Obiektyw Canon EF 50 mm f1.4 USM"
   },
   {
     "id": 212,
@@ -3177,7 +3388,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 3526,
     "totalPriceGiftCard": 3772,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 16-35 mm f4L IS USM, Obiektyw Canon EF 16-35 mm f4L IS USM"
   },
   {
     "id": 213,
@@ -3192,7 +3404,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "sony nex-3 + sony 18-55 (3.5-5.6)"
   },
   {
     "id": 214,
@@ -3207,7 +3420,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1406,
     "totalPriceGiftCard": 1504,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 77D + Obiektyw 18-55 mm IS STM"
   },
   {
     "id": 215,
@@ -3222,7 +3436,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 3825,
     "totalPriceGiftCard": 4055,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS R6 Body"
   },
   {
     "id": 216,
@@ -3237,7 +3452,8 @@
     "assignedOperatorName": "Łukasz Skubek",
     "totalPriceTransfer": 986,
     "totalPriceGiftCard": 1075,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 18-50 mm f2.8 DC DN Contemporary do Fujifilm X"
   },
   {
     "id": 217,
@@ -3252,7 +3468,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Laowa 65 mm f2.8 2X Ultra Macro do Sony FE, Obiektyw Laowa 25 mm f2.8 2.5-5X Ultra-Macro do Sony FE, Sirui 50mm 1.8 Anamorphic, Sirui 35mm T2.9 Anamorphic, Zhiyun Crane 4, Laowa FFII 58mm RF"
   },
   {
     "id": 218,
@@ -3267,7 +3484,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 598,
     "totalPriceGiftCard": 652,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 5D Mark II Body"
   },
   {
     "id": 219,
@@ -3282,7 +3500,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 4837,
     "totalPriceGiftCard": 5145,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony Cyber-Shot RX100 VII, Aparat Sony Cyber-shot RX100 Mark V"
   },
   {
     "id": 220,
@@ -3297,7 +3516,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 50-100 mm f1.8 DC HSM Art do Canon"
   },
   {
     "id": 221,
@@ -3312,7 +3532,8 @@
     "assignedOperatorName": "Łukasz Kruszewski",
     "totalPriceTransfer": 1381,
     "totalPriceGiftCard": 1478,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony A7 II Body"
   },
   {
     "id": 222,
@@ -3327,7 +3548,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1577,
     "totalPriceGiftCard": 1687,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony FE 24-105 mm f4 G OSS"
   },
   {
     "id": 223,
@@ -3342,7 +3564,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 4087,
     "totalPriceGiftCard": 4385,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 6D Mark II Body, Obiektyw Canon EF 24-70 mm f4 L IS USM, Obiektyw Canon EF 50 mm f1.4 USM"
   },
   {
     "id": 224,
@@ -3357,7 +3580,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 697,
     "totalPriceGiftCard": 760,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 35 mm f1.8 G AF-S DX, Obiektyw Sigma 17-70 mm f2.8-4.0 DC Macro OS HSM do Nikon"
   },
   {
     "id": 225,
@@ -3372,7 +3596,8 @@
     "assignedOperatorName": null,
     "totalPriceTransfer": 1546,
     "totalPriceGiftCard": 1654,
-    "customerDecision": null
+    "customerDecision": null,
+    "productSummary": "Obiektyw Tamron 150-600 mm f5-6.3 SP Di VC USD do Canon EF"
   },
   {
     "id": 226,
@@ -3387,7 +3612,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 6810,
     "totalPriceGiftCard": 7180,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 100 mm f2.8L Macro IS USM, Obiektyw Canon EF 100-400 mm f4.5-5.6L IS II USM, Adapter mocowania Canon EF-EOS R"
   },
   {
     "id": 227,
@@ -3402,7 +3628,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1826,
     "totalPriceGiftCard": 1954,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 80D + Obiektyw 18-135 mm IS USM Nano"
   },
   {
     "id": 228,
@@ -3417,7 +3644,8 @@
     "assignedOperatorName": "Mateusz Jakubowski",
     "totalPriceTransfer": 2751,
     "totalPriceGiftCard": 2944,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 20 mm f1.4 DG HSM Art do Canon EF, Obiektyw Sigma 24-35 mm f2 DG HSM Art do Canon EF"
   },
   {
     "id": 229,
@@ -3432,7 +3660,8 @@
     "assignedOperatorName": "Damian Szabla",
     "totalPriceTransfer": 309,
     "totalPriceGiftCard": 337,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 50 mm f1.8 G AF-S"
   },
   {
     "id": 230,
@@ -3447,7 +3676,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 3828,
     "totalPriceGiftCard": 4068,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Sony Alpha A6300 Body, Aparat Sony Cyber-Shot RX100 VII"
   },
   {
     "id": 231,
@@ -3462,7 +3692,8 @@
     "assignedOperatorName": "Magdalena Lasek",
     "totalPriceTransfer": 197,
     "totalPriceGiftCard": 215,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 550D Body"
   },
   {
     "id": 232,
@@ -3477,7 +3708,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 1470,
     "totalPriceGiftCard": 1573,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS RP Body"
   },
   {
     "id": 233,
@@ -3492,7 +3724,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1950,
     "totalPriceGiftCard": 2102,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 28 mm f2.8 IS USM, Obiektyw Canon EF 20 mm f2.8 USM, Aparat Canon EOS 6D Mark II Body"
   },
   {
     "id": 234,
@@ -3507,7 +3740,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 2326,
     "totalPriceGiftCard": 2489,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 70-200 mm f4 L USM, Obiektyw Canon 24-105 mm F4.0 EF L IS USM"
   },
   {
     "id": 235,
@@ -3522,7 +3756,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 895,
     "totalPriceGiftCard": 976,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm XF 18-55 mm f2.8-4 R LM OIS"
   },
   {
     "id": 236,
@@ -3537,7 +3772,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1368,
     "totalPriceGiftCard": 1464,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sigma 35 mm f1.4 DG HSM Art do Nikon F"
   },
   {
     "id": 237,
@@ -3552,7 +3788,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "statyw benro hydra 2"
   },
   {
     "id": 238,
@@ -3567,7 +3804,8 @@
     "assignedOperatorName": "Kamila Markiewicz",
     "totalPriceTransfer": 630,
     "totalPriceGiftCard": 687,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Nikon 85 mm f1.8 G AF-S"
   },
   {
     "id": 239,
@@ -3582,7 +3820,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 845,
     "totalPriceGiftCard": 921,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony E 18-105 mm f4 G OSS"
   },
   {
     "id": 240,
@@ -3597,7 +3836,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 3404,
     "totalPriceGiftCard": 3608,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Canon EOS 5D Mark IV Body"
   },
   {
     "id": 241,
@@ -3612,7 +3852,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 720,
     "totalPriceGiftCard": 785,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Sony E 35 mm f1.8 OSS"
   },
   {
     "id": 242,
@@ -3627,7 +3868,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 0,
     "totalPriceGiftCard": 0,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Ultra Wide Converter SONY SEL075UWC, Gimbal FelyuTech AK4000, Gimbal DJI Ronin SC"
   },
   {
     "id": 243,
@@ -3642,7 +3884,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 816,
     "totalPriceGiftCard": 889,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Olympus OM-D E-M5 Mark II Body czarny"
   },
   {
     "id": 244,
@@ -3657,7 +3900,8 @@
     "assignedOperatorName": "Łukasz Miłański",
     "totalPriceTransfer": 2041,
     "totalPriceGiftCard": 2163,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Canon EF 100 mm f2.8L Macro IS USM"
   },
   {
     "id": 245,
@@ -3672,7 +3916,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1787,
     "totalPriceGiftCard": 1912,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Fujifilm XF 90 mm f2 R LM WR"
   },
   {
     "id": 246,
@@ -3687,7 +3932,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 3383,
     "totalPriceGiftCard": 3632,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D7100 Body, Aparat Nikon D750 Body, Obiektyw Tamron 24-70 mm f2.8 Di VC USD G2 do Nikon F"
   },
   {
     "id": 247,
@@ -3702,7 +3948,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 20268,
     "totalPriceGiftCard": 21390,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw Olympus M.Zuiko Digital ED 300 mm f4 IS PRO, Aparat Olympus OM-D E-M1 Mark III Body, Aparat Olympus OM-D E-M1 Mark III Body, Obiektyw Olympus M.Zuiko Digital ED 300 mm f4 IS PRO, Aparat Olympus OM-D E-M1 Mark III Body, Aparat Olympus OM-D E-M1 Mark III Body"
   },
   {
     "id": 248,
@@ -3717,7 +3964,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 1485,
     "totalPriceGiftCard": 1589,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Obiektyw OM SYSTEM M.Zuiko 40-150 mm f4 PRO"
   },
   {
     "id": 249,
@@ -3732,7 +3980,8 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 9466,
     "totalPriceGiftCard": 10130,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon Z50 Body, Obiektyw Nikon 105 mm f2.8 G AF-S VR IF ED Micro Nikkor, Obiektyw Nikon 14-24 mm f2.8 G AF-S ED, Aparat Nikon Z50 Body, Obiektyw Nikon 105 mm f2.8 G AF-S VR IF ED Micro Nikkor, Obiektyw Nikon 14-24 mm f2.8 G AF-S ED"
   },
   {
     "id": 250,
@@ -3747,6 +3996,7 @@
     "assignedOperatorName": "Marcin Nasierowski",
     "totalPriceTransfer": 851,
     "totalPriceGiftCard": 928,
-    "customerDecision": "Wycena zaakceptowana"
+    "customerDecision": "Wycena zaakceptowana",
+    "productSummary": "Aparat Nikon D3100 Body, Obiektyw Tamron 70-300 mm F4-5.6 SP DI VC USD do Nikon F, Obiektyw Nikon 18-105 mm F3.5-5.6 ED AF-S VR DX wersja OEM"
   }
 ]

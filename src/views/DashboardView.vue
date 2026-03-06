@@ -1108,7 +1108,7 @@ function getStatusIcon(status: AppraisalStatus) {
   &__number {
     font-weight: 600;
     font-size: 0.85rem;
-    color: var(--awu-blue);
+    color: var(--awu-blue-text);
     font-variant-numeric: tabular-nums;
   }
 

@@ -45,7 +45,7 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
     const authStore = useAuthStore()
     const editableStatuses: AppraisalStatus[] = [
       AppraisalStatus.W_TRAKCIE_WERYFIKACJI,
-      AppraisalStatus.SKORYGOWANA
+      AppraisalStatus.SKORYGOWANA  // backward compat
     ]
     const hasEditableStatus = editableStatuses.includes(appraisal.value.status)
     return hasEditableStatus && (authStore.canManualPrice || authStore.isAdmin)
@@ -139,7 +139,7 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
       }
 
       appraisal.value.versions.push(newVersion)
-      appraisal.value.status = AppraisalStatus.SKORYGOWANA
+      appraisal.value.status = AppraisalStatus.W_TRAKCIE_WERYFIKACJI
 
       appraisal.value.auditLog.push({
         id: Date.now(),
@@ -147,7 +147,7 @@ export const useAppraisalDetailStore = defineStore('appraisalDetail', () => {
         operatorId: authStore.user?.id ?? 0,
         operatorName: authStore.user?.name ?? 'System',
         locationName: authStore.user?.locationName ?? '',
-        action: 'Utworzono skorygowaną wersję',
+        action: 'Edycja wyceny',
         details: `Wersja ${newVersionNumber}: ${reason}`
       })
 

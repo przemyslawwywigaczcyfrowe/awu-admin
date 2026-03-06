@@ -133,7 +133,14 @@ function exportCSV() {
           <small class="text-muted">{{ data.clientEmail }}</small>
         </template>
       </Column>
-      <Column field="productCount" header="Produkty" sortable style="width: 100px" />
+      <Column field="productSummary" header="Produkty" sortable style="min-width: 220px; max-width: 360px">
+        <template #body="{ data }">
+          <div class="product-summary-cell">
+            <span>{{ data.productSummary || '—' }}</span>
+            <small class="text-muted" v-if="data.productCount > 1">({{ data.productCount }} szt.)</small>
+          </div>
+        </template>
+      </Column>
       <Column field="status" header="Status" sortable style="width: 240px">
         <template #body="{ data }">
           <Tag :value="getStatusLabel(data.status)" :severity="getStatusSeverity(data.status)" />
@@ -202,6 +209,17 @@ function exportCSV() {
 .text-muted {
   color: var(--awu-gray-500);
   font-size: 0.8rem;
+}
+
+.product-summary-cell {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .cursor-pointer :deep(tr) { cursor: pointer; }

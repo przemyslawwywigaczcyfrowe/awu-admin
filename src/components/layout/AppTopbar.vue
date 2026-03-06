@@ -176,7 +176,7 @@ async function logout() {
   gap: 4px;
   padding: 6px 12px;
   background: var(--awu-gray-50);
-  color: var(--awu-blue);
+  color: var(--awu-blue-text);
   border-radius: 30px;
   font-size: 12px;
   font-weight: 600;

@@ -8,6 +8,7 @@
 :root {
   // ---- Brand / Primary (Horizon brand.500 = #422AFB) ----
   --awu-blue: #422AFB;
+  --awu-blue-text: #2B3674;  // Readable dark blue for text (navy.700)
   --awu-blue-light: #7551FF;
   --awu-blue-dark: #3311DB;
   --awu-blue-bg: #F4F7FE;
@@ -118,7 +119,7 @@ body {
 }
 
 a {
-  color: var(--awu-blue);
+  color: var(--awu-blue-text);
   text-decoration: none;
 
   &:hover {
