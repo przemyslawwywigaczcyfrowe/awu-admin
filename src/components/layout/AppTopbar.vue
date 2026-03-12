@@ -62,7 +62,7 @@ async function logout() {
         <div class="topbar-search">
           <i class="pi pi-search topbar-search__icon" />
           <InputText
-            placeholder="Szukaj..."
+            placeholder="Szukaj wyceny, klienta..."
             class="topbar-search__input"
             @keydown="handleScan"
           />
@@ -94,18 +94,19 @@ async function logout() {
 
 <style scoped lang="scss">
 .topbar-wrapper {
-  padding: 12px 20px 0;
+  padding: 16px 24px 0;
 }
 
 .topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 10px;
+  padding: 8px 16px;
   background: #fff;
-  border-radius: 30px;
-  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.18);
-  gap: 8px;
+  border-radius: var(--awu-border-radius);
+  border: 1px solid var(--awu-gray-200);
+  box-shadow: var(--awu-shadow-sm);
+  gap: 12px;
 }
 
 .topbar-left {
@@ -115,11 +116,12 @@ async function logout() {
 .topbar-burger {
   width: 36px;
   height: 36px;
+  color: var(--awu-gray-700) !important;
 }
 
 .topbar-center {
   flex: 1;
-  max-width: 320px;
+  max-width: 360px;
 }
 
 .topbar-search {
@@ -141,8 +143,8 @@ async function logout() {
     width: 100%;
     padding: 8px 12px 8px 34px !important;
     background: var(--awu-gray-50) !important;
-    border: none !important;
-    border-radius: 30px !important;
+    border: 1px solid var(--awu-gray-200) !important;
+    border-radius: var(--awu-border-radius-sm) !important;
     font-size: 13px;
     color: var(--awu-gray-800);
 
@@ -151,8 +153,9 @@ async function logout() {
     }
 
     &:focus {
-      background: var(--awu-gray-100) !important;
-      box-shadow: none !important;
+      background: #fff !important;
+      border-color: var(--awu-red) !important;
+      box-shadow: 0 0 0 3px rgba(227, 6, 19, 0.08) !important;
     }
   }
 }
@@ -167,19 +170,29 @@ async function logout() {
 .topbar-icon-btn {
   width: 36px;
   height: 36px;
-  color: var(--awu-gray-400) !important;
+  color: var(--awu-gray-500) !important;
+
+  &:hover {
+    color: var(--awu-gray-800) !important;
+  }
 }
 
 .location-badge {
   display: flex;
   align-items: center;
-  gap: 4px;
-  padding: 6px 12px;
+  gap: 6px;
+  padding: 6px 14px;
   background: var(--awu-gray-50);
-  color: var(--awu-blue-text);
-  border-radius: 30px;
+  color: var(--awu-gray-700);
+  border: 1px solid var(--awu-gray-200);
+  border-radius: var(--awu-border-radius-sm);
   font-size: 12px;
   font-weight: 600;
+
+  i {
+    color: var(--awu-red);
+    font-size: 0.75rem;
+  }
 }
 
 .location-name {
@@ -187,21 +200,22 @@ async function logout() {
 }
 
 .user-avatar {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
-  background: #11047A;
+  background: var(--awu-red);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   cursor: pointer;
-  transition: opacity 0.15s;
+  transition: all 0.15s;
 
   &:hover {
-    opacity: 0.85;
+    background: var(--awu-red-dark);
+    transform: scale(1.05);
   }
 }
 
