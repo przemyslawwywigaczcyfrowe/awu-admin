@@ -753,24 +753,24 @@ function getStatusIcon(status: AppraisalStatus) {
 
   &__title {
     margin: 0;
-    font-size: 2.143rem; // ~30px — Horizon page heading
+    font-size: 1.75rem;
     font-weight: 700;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--awu-gray-800); // #1B2559
+    color: var(--awu-gray-900);
     letter-spacing: -0.02em;
   }
 
   &__title-icon {
-    color: var(--awu-blue);
+    color: var(--awu-red);
     font-size: 1.25rem;
   }
 
   &__welcome {
     margin: 0.25rem 0 0;
     font-size: 0.9rem;
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-500);
     display: flex;
     align-items: center;
     gap: 0.375rem;
@@ -786,11 +786,12 @@ function getStatusIcon(status: AppraisalStatus) {
     align-items: center;
     gap: 0.5rem;
     font-size: 0.857rem;
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-600);
     background: #fff;
     padding: 0.5rem 1rem;
-    border-radius: 30px;
-    box-shadow: var(--awu-card-shadow);
+    border-radius: var(--awu-border-radius-sm);
+    border: 1px solid var(--awu-gray-200);
+    box-shadow: var(--awu-shadow-sm);
     font-variant-numeric: tabular-nums;
     font-weight: 500;
   }
@@ -810,14 +811,14 @@ function getStatusIcon(status: AppraisalStatus) {
   &__kpis {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.25rem;
+    gap: 1rem;
   }
 
   // ---- Queue columns ----
   &__queues {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem;
+    gap: 1rem;
     align-items: start;
   }
 
@@ -835,7 +836,8 @@ function getStatusIcon(status: AppraisalStatus) {
     gap: 1.5rem;
     background: #fff;
     border-radius: var(--awu-border-radius);
-    box-shadow: var(--awu-card-shadow);
+    border: 1px solid var(--awu-gray-200);
+    box-shadow: var(--awu-shadow-sm);
     padding: 1.25rem 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
@@ -851,10 +853,10 @@ function getStatusIcon(status: AppraisalStatus) {
   gap: 1.25rem;
 
   &__icon-wrapper {
-    width: 52px;
-    height: 52px;
-    border-radius: var(--awu-border-radius);
-    background: linear-gradient(135deg, rgba(67, 24, 255, 0.08) 0%, rgba(117, 81, 255, 0.06) 100%);
+    width: 48px;
+    height: 48px;
+    border-radius: var(--awu-border-radius-sm);
+    background: var(--awu-red-bg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -862,8 +864,8 @@ function getStatusIcon(status: AppraisalStatus) {
   }
 
   &__icon {
-    font-size: 1.5rem;
-    color: var(--awu-blue);
+    font-size: 1.4rem;
+    color: var(--awu-red);
   }
 
   &__content {
@@ -873,12 +875,12 @@ function getStatusIcon(status: AppraisalStatus) {
   &__label {
     font-size: 1rem;
     font-weight: 700;
-    color: var(--awu-gray-800);
+    color: var(--awu-gray-900);
   }
 
   &__sublabel {
     font-size: 0.78rem;
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-500);
     margin-top: 0.125rem;
   }
 
@@ -910,23 +912,25 @@ function getStatusIcon(status: AppraisalStatus) {
   padding: 1.25rem;
   border-radius: var(--awu-border-radius);
   background: #fff;
-  box-shadow: var(--awu-card-shadow);
+  border: 1px solid var(--awu-gray-200);
+  box-shadow: var(--awu-shadow-sm);
   cursor: pointer;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  transition: all 0.2s ease;
 
   &:hover {
     box-shadow: var(--awu-shadow-hover);
-    transform: translateY(-2px);
+    transform: translateY(-1px);
+    border-color: var(--awu-gray-300);
   }
 
   &__icon-area {
-    width: 52px;
-    height: 52px;
-    border-radius: var(--awu-border-radius);
+    width: 48px;
+    height: 48px;
+    border-radius: var(--awu-border-radius-sm);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     flex-shrink: 0;
   }
 
@@ -935,16 +939,16 @@ function getStatusIcon(status: AppraisalStatus) {
   }
 
   &__value {
-    font-size: 1.714rem; // ~24px at 14px base — Horizon exact
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: 1;
     font-variant-numeric: tabular-nums;
-    color: var(--awu-gray-800); // #1B2559
+    color: var(--awu-gray-900);
   }
 
   &__label {
-    font-size: 0.857rem; // ~12px at 14px base — Horizon exact
-    color: var(--awu-gray-400); // #A3AED0 — Horizon secondaryGray.600
+    font-size: 0.8rem;
+    color: var(--awu-gray-500);
     margin-top: 0.25rem;
     white-space: nowrap;
     overflow: hidden;
@@ -952,31 +956,31 @@ function getStatusIcon(status: AppraisalStatus) {
     font-weight: 500;
   }
 
-  // Variants — no border-left, just icon bg + softer value color
+  // Variants
   &--blue {
     .kpi-card__icon-area {
-      background: rgba(57, 101, 255, 0.1);
+      background: rgba(25, 113, 194, 0.08);
       color: var(--awu-accent-blue);
     }
   }
 
   &--orange {
     .kpi-card__icon-area {
-      background: rgba(255, 181, 71, 0.12);
+      background: rgba(232, 146, 11, 0.08);
       color: var(--awu-accent-amber);
     }
   }
 
   &--purple {
     .kpi-card__icon-area {
-      background: rgba(117, 81, 255, 0.1);
+      background: rgba(112, 72, 232, 0.08);
       color: var(--awu-accent-violet);
     }
   }
 
   &--green {
     .kpi-card__icon-area {
-      background: rgba(1, 181, 116, 0.1);
+      background: rgba(43, 147, 72, 0.08);
       color: var(--awu-accent-emerald);
     }
   }
@@ -1005,35 +1009,35 @@ function getStatusIcon(status: AppraisalStatus) {
   }
 
   &__icon-badge {
-    width: 34px;
-    height: 34px;
-    border-radius: var(--awu-border-radius-sm);
+    width: 32px;
+    height: 32px;
+    border-radius: var(--awu-border-radius-xs);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 
     &--blue {
-      background: rgba(57, 101, 255, 0.1);
+      background: rgba(25, 113, 194, 0.08);
       color: var(--awu-accent-blue);
     }
 
     &--orange {
-      background: rgba(255, 181, 71, 0.12);
+      background: rgba(232, 146, 11, 0.08);
       color: var(--awu-accent-amber);
     }
 
     &--green {
-      background: rgba(1, 181, 116, 0.1);
+      background: rgba(43, 147, 72, 0.08);
       color: var(--awu-accent-emerald);
     }
   }
 
   &__title {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 0.03em;
-    color: var(--awu-gray-800);
+    color: var(--awu-gray-900);
   }
 
   &__badge {
@@ -1043,7 +1047,7 @@ function getStatusIcon(status: AppraisalStatus) {
   &__subtitle {
     margin: 0.375rem 0 0;
     font-size: 0.78rem;
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-500);
     font-weight: 400;
   }
 
@@ -1053,7 +1057,7 @@ function getStatusIcon(status: AppraisalStatus) {
     align-items: center;
     gap: 0.5rem;
     padding: 2rem 1rem;
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-500);
     font-size: 0.85rem;
 
     i {
@@ -1073,8 +1077,6 @@ function getStatusIcon(status: AppraisalStatus) {
     justify-content: center;
     padding-bottom: 0.25rem;
   }
-
-  // No more heavy border-top accents — clean card style
 }
 
 // ---------------------------------------------------------------------------
@@ -1108,7 +1110,7 @@ function getStatusIcon(status: AppraisalStatus) {
   &__number {
     font-weight: 600;
     font-size: 0.85rem;
-    color: var(--awu-blue-text);
+    color: var(--awu-text-primary);
     font-variant-numeric: tabular-nums;
   }
 
@@ -1135,7 +1137,7 @@ function getStatusIcon(status: AppraisalStatus) {
 
   &__location {
     font-size: 0.78rem;
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-500);
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -1199,7 +1201,7 @@ function getStatusIcon(status: AppraisalStatus) {
   }
 
   &__icon {
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-500);
   }
 }
 
@@ -1211,7 +1213,7 @@ function getStatusIcon(status: AppraisalStatus) {
 
 .cell-number {
   font-weight: 600;
-  color: var(--awu-blue);
+  color: var(--awu-red);
   font-variant-numeric: tabular-nums;
 }
 
@@ -1270,32 +1272,32 @@ function getStatusIcon(status: AppraisalStatus) {
   gap: 0.75rem;
 
   &__icon {
-    width: 42px;
-    height: 42px;
-    border-radius: var(--awu-border-radius-sm);
+    width: 40px;
+    height: 40px;
+    border-radius: var(--awu-border-radius-xs);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     flex-shrink: 0;
 
     &--green {
-      background: rgba(1, 181, 116, 0.1);
+      background: rgba(43, 147, 72, 0.08);
       color: var(--awu-accent-emerald);
     }
 
     &--blue {
-      background: rgba(57, 101, 255, 0.1);
+      background: rgba(25, 113, 194, 0.08);
       color: var(--awu-accent-blue);
     }
 
     &--orange {
-      background: rgba(255, 181, 71, 0.12);
+      background: rgba(232, 146, 11, 0.08);
       color: var(--awu-accent-amber);
     }
 
     &--purple {
-      background: rgba(117, 81, 255, 0.1);
+      background: rgba(112, 72, 232, 0.08);
       color: var(--awu-accent-violet);
     }
   }
@@ -1309,12 +1311,12 @@ function getStatusIcon(status: AppraisalStatus) {
     font-weight: 700;
     line-height: 1.2;
     font-variant-numeric: tabular-nums;
-    color: var(--awu-gray-800);
+    color: var(--awu-gray-900);
   }
 
   &__label {
     font-size: 0.75rem;
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-500);
     margin-top: 0.125rem;
     white-space: nowrap;
   }
@@ -1338,13 +1340,13 @@ function getStatusIcon(status: AppraisalStatus) {
 
   &__content {
     text-align: center;
-    color: var(--awu-gray-400);
+    color: var(--awu-gray-500);
   }
 
   &__spinner {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: var(--awu-blue);
+    color: var(--awu-red);
   }
 }
 

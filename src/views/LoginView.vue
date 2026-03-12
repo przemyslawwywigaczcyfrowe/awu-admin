@@ -40,6 +40,10 @@ function handleLogin() {
   <div class="login-page">
     <div class="login-card">
       <div class="login-header">
+        <div class="login-logo">
+          <div class="login-logo__mark">C</div>
+          <span class="login-logo__text">cyfrowe<span class="login-logo__accent">.pl</span></span>
+        </div>
         <h1 class="login-title">Panel Operatora AWU</h1>
         <p class="login-subtitle">Zaloguj się, aby kontynuować</p>
       </div>
@@ -79,10 +83,14 @@ function handleLogin() {
           type="submit"
           label="Zaloguj się"
           icon="pi pi-sign-in"
-          class="w-full"
+          class="w-full login-btn"
           :loading="loading"
         />
       </form>
+
+      <div class="login-footer">
+        <span>&copy; {{ new Date().getFullYear() }} Cyfrowe.pl</span>
+      </div>
     </div>
   </div>
 </template>
@@ -93,17 +101,40 @@ function handleLogin() {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #1A202C 0%, #2D3748 50%, #4318FF 100%);
+  background: var(--awu-sidebar-bg);
   padding: 1rem;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(135deg, #1A1A2E 0%, #16213E 100%);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: var(--awu-sidebar-bg);
+  }
 }
 
 .login-card {
   background: #fff;
-  border-radius: 20px;
+  border-radius: var(--awu-border-radius);
   padding: 2.5rem;
   width: 100%;
   max-width: 420px;
-  box-shadow: var(--awu-shadow-lg);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
 }
 
 .login-header {
@@ -111,16 +142,49 @@ function handleLogin() {
   margin-bottom: 2rem;
 }
 
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+
+  &__mark {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: var(--awu-red);
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--awu-gray-900);
+    letter-spacing: -0.02em;
+  }
+
+  &__accent {
+    color: var(--awu-red);
+  }
+}
+
 .login-title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--awu-gray-800);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--awu-gray-900);
   margin-bottom: 0.25rem;
   letter-spacing: -0.02em;
 }
 
 .login-subtitle {
-  color: var(--awu-gray-400);
+  color: var(--awu-gray-500);
   font-size: 0.9rem;
 }
 
@@ -138,7 +202,20 @@ function handleLogin() {
   label {
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--awu-gray-600);
+    color: var(--awu-gray-700);
   }
+}
+
+.login-btn {
+  margin-top: 0.5rem;
+}
+
+.login-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--awu-gray-200);
+  font-size: 0.78rem;
+  color: var(--awu-gray-400);
 }
 </style>

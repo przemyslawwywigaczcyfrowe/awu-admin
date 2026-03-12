@@ -1,95 +1,111 @@
 // ==============================================
-// AWU Admin — Horizon-inspired Design System
+// AWU Admin — Cyfrowe.pl Design System
 // ==============================================
 
 // ---------------------------------------------
 // 1. CSS Custom Properties
 // ---------------------------------------------
 :root {
-  // ---- Brand / Primary (Horizon brand.500 = #422AFB) ----
-  --awu-blue: #422AFB;
-  --awu-blue-text: #2B3674;  // Readable dark blue for text (navy.700)
-  --awu-blue-light: #7551FF;
-  --awu-blue-dark: #3311DB;
-  --awu-blue-bg: #F4F7FE;
+  // ---- Brand / Primary (Cyfrowe.pl Red) ----
+  --awu-red: #E30613;
+  --awu-red-light: #FF2D3B;
+  --awu-red-dark: #C00510;
+  --awu-red-bg: #FFF5F5;
 
-  // ---- Horizon secondaryGray scale ----
-  --awu-gray-50: #F4F7FE;
-  --awu-gray-100: #E9EDF7;
-  --awu-gray-200: #E1E9F8;
-  --awu-gray-300: #E0E5F2;
-  --awu-gray-400: #A3AED0;
-  --awu-gray-500: #8F9BBA;
-  --awu-gray-600: #A3AED0;
-  --awu-gray-700: #707EAE;
-  --awu-gray-800: #1B2559;
-  --awu-gray-900: #1B2559;
+  // ---- Text colors ----
+  --awu-text-primary: #1A1A2E;
+  --awu-text-secondary: #4A4A68;
 
-  // ---- Accent palette (Horizon exact) ----
-  --awu-success: #01B574;
-  --awu-warning: #FFB547;
-  --awu-danger: #EE5D50;
-  --awu-info: #422AFB;
+  // ---- Gray scale (Neutral, professional) ----
+  --awu-gray-50: #F8F9FA;
+  --awu-gray-100: #F1F3F5;
+  --awu-gray-200: #E9ECEF;
+  --awu-gray-300: #DEE2E6;
+  --awu-gray-400: #ADB5BD;
+  --awu-gray-500: #868E96;
+  --awu-gray-600: #6C757D;
+  --awu-gray-700: #495057;
+  --awu-gray-800: #343A40;
+  --awu-gray-900: #212529;
+
+  // ---- Accent palette ----
+  --awu-success: #2B9348;
+  --awu-warning: #E8920B;
+  --awu-danger: #E30613;
+  --awu-info: #1971C2;
 
   // ---- Semantic accents ----
-  --awu-accent-blue: #3965FF;
-  --awu-accent-amber: #FFB547;
-  --awu-accent-emerald: #01B574;
-  --awu-accent-violet: #7551FF;
-  --awu-accent-red: #EE5D50;
+  --awu-accent-blue: #1971C2;
+  --awu-accent-amber: #E8920B;
+  --awu-accent-emerald: #2B9348;
+  --awu-accent-violet: #7048E8;
+  --awu-accent-red: #E30613;
+
+  // ---- Legacy aliases (backward compat with existing views) ----
+  --awu-blue: #E30613;
+  --awu-blue-text: #1A1A2E;
+  --awu-blue-light: #FF2D3B;
+  --awu-blue-dark: #C00510;
+  --awu-blue-bg: #F8F9FA;
+
+  // ---- Sidebar (dark theme) ----
+  --awu-sidebar-bg: #1A1A2E;
+  --awu-sidebar-text: #B8BCC8;
+  --awu-sidebar-text-active: #FFFFFF;
+  --awu-sidebar-hover: rgba(255, 255, 255, 0.06);
 
   // ---- Layout ----
-  --awu-sidebar-width: 290px;
+  --awu-sidebar-width: 260px;
   --awu-sidebar-collapsed-width: 0px;
   --awu-topbar-height: 0px;
 
   // ---- Typography ----
-  --awu-font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto,
+  --awu-font-family: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
 
-  // ---- Border Radius (Horizon card = 20px) ----
-  --awu-border-radius: 20px;
-  --awu-border-radius-sm: 12px;
-  --awu-border-radius-xs: 8px;
+  // ---- Border Radius (Clean, modern) ----
+  --awu-border-radius: 12px;
+  --awu-border-radius-sm: 8px;
+  --awu-border-radius-xs: 6px;
 
-  // ---- Shadows (Horizon 3xl = 14px 17px 40px 4px) ----
-  --awu-shadow-sm: 0 2px 8px rgba(112, 144, 176, 0.06);
-  --awu-shadow-md: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
-  --awu-shadow-lg: 14px 17px 40px 4px rgba(112, 144, 176, 0.12);
-  --awu-shadow-hover: 14px 17px 40px 4px rgba(112, 144, 176, 0.18);
+  // ---- Shadows (Subtle, professional) ----
+  --awu-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --awu-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --awu-shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+  --awu-shadow-hover: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
-  // ---- Card (Horizon exact) ----
+  // ---- Card ----
   --awu-card-padding: 20px;
-  --awu-card-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+  --awu-card-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
 
   // ---- Transition ----
   --awu-transition-speed: 0.2s;
 
   // ---- PrimeVue CSS Variable Overrides ----
-  --p-primary-color: #422AFB;
+  --p-primary-color: #E30613;
   --p-primary-contrast-color: #ffffff;
-  --p-primary-50: #E9E3FF;
-  --p-primary-100: #E9E3FF;
-  --p-primary-200: #B8A3FF;
-  --p-primary-300: #7551FF;
-  --p-primary-400: #7551FF;
-  --p-primary-500: #422AFB;
-  --p-primary-600: #3311DB;
-  --p-primary-700: #02044A;
-  --p-primary-800: #190793;
-  --p-primary-900: #11047A;
+  --p-primary-50: #FFF5F5;
+  --p-primary-100: #FFE0E0;
+  --p-primary-200: #FFB3B3;
+  --p-primary-300: #FF6B6B;
+  --p-primary-400: #FF2D3B;
+  --p-primary-500: #E30613;
+  --p-primary-600: #C00510;
+  --p-primary-700: #9B030D;
+  --p-primary-800: #7A0209;
+  --p-primary-900: #590106;
 
   --p-surface-0: #ffffff;
-  --p-surface-50: #FAFCFE;
-  --p-surface-100: #F4F7FE;
-  --p-surface-200: #E9EDF7;
-  --p-surface-300: #E0E5F2;
-  --p-surface-400: #A3AED0;
-  --p-surface-500: #8F9BBA;
-  --p-surface-600: #A3AED0;
-  --p-surface-700: #707EAE;
-  --p-surface-800: #1B2559;
-  --p-surface-900: #1B2559;
+  --p-surface-50: #F8F9FA;
+  --p-surface-100: #F1F3F5;
+  --p-surface-200: #E9ECEF;
+  --p-surface-300: #DEE2E6;
+  --p-surface-400: #ADB5BD;
+  --p-surface-500: #868E96;
+  --p-surface-600: #6C757D;
+  --p-surface-700: #495057;
+  --p-surface-800: #343A40;
+  --p-surface-900: #212529;
 }
 
 // ---------------------------------------------
@@ -111,19 +127,19 @@ html {
 body {
   font-family: var(--awu-font-family);
   color: var(--awu-gray-700);
-  background-color: var(--awu-blue-bg);
+  background-color: var(--awu-gray-50);
   line-height: 1.6;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  color: var(--awu-blue-text);
+  color: var(--awu-text-primary);
   text-decoration: none;
 
   &:hover {
-    color: var(--awu-blue-dark);
+    color: var(--awu-red);
     text-decoration: underline;
   }
 }
@@ -154,6 +170,7 @@ a {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  background: var(--awu-gray-50);
 }
 
 .layout-topbar {
@@ -199,7 +216,7 @@ a {
 .p-card {
   border-radius: var(--awu-border-radius) !important;
   box-shadow: var(--awu-card-shadow) !important;
-  border: none !important;
+  border: 1px solid var(--awu-gray-200) !important;
   background: #fff;
   overflow: hidden;
   transition: box-shadow var(--awu-transition-speed) ease;
@@ -216,7 +233,7 @@ a {
   .p-card-title {
     font-size: 1rem;
     font-weight: 700;
-    color: var(--awu-gray-800);
+    color: var(--awu-gray-900);
     margin-bottom: 0.5rem;
   }
 }
@@ -229,13 +246,13 @@ a {
   overflow-x: auto;
 
   .p-datatable-thead > tr > th {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--awu-gray-400);
-    background: transparent;
-    border-bottom: 1px solid var(--awu-gray-100);
+    letter-spacing: 0.05em;
+    color: var(--awu-gray-500);
+    background: var(--awu-gray-50);
+    border-bottom: 2px solid var(--awu-gray-200);
     padding: 0.75rem 1rem;
   }
 
@@ -255,7 +272,7 @@ a {
 
   // Zebra rows
   .p-datatable-tbody > tr:nth-child(even) {
-    background: rgba(244, 247, 254, 0.4);
+    background: rgba(248, 249, 250, 0.5);
   }
 }
 
@@ -263,7 +280,7 @@ a {
 // 7. PrimeVue Global Overrides — Tags / Badges
 // ---------------------------------------------
 .p-tag {
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: 600;
   font-size: 0.75rem;
   padding: 0.25rem 0.625rem;
@@ -282,8 +299,8 @@ a {
 
   &:focus,
   &.p-focus {
-    box-shadow: 0 0 0 2px rgba(67, 24, 255, 0.15) !important;
-    border-color: var(--awu-blue) !important;
+    box-shadow: 0 0 0 3px rgba(227, 6, 19, 0.12) !important;
+    border-color: var(--awu-red) !important;
   }
 }
 
@@ -315,11 +332,11 @@ a {
   overflow: hidden;
 
   .p-dialog-header {
-    border-bottom: 1px solid var(--awu-gray-100);
+    border-bottom: 1px solid var(--awu-gray-200);
   }
 
   .p-dialog-footer {
-    border-top: 1px solid var(--awu-gray-100);
+    border-top: 1px solid var(--awu-gray-200);
   }
 }
 
